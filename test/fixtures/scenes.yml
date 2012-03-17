@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  schematic: MyText
+
+two:
+  schematic: MyText
+
+# == Schema Information
+#
+# Table name: scenes
+#
+#  id         :integer         not null, primary key
+#  schematic  :text
+#  created_at :datetime
+#  updated_at :datetime
+#  image      :string(255)
+#
+

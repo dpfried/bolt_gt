@@ -1,0 +1,23 @@
+<h1>Listing annotation_tasks</h1>
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @annotation_tasks.each do |annotation_task| %>
+  <tr>
+    <td><%= annotation_task.question %></td>
+    <td><%= link_to 'Show', annotation_task %></td>
+    <td><%= link_to 'Edit', edit_annotation_task_path(annotation_task) %></td>
+    <td><%= link_to 'Destroy', annotation_task, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Annotation task', new_annotation_task_path %>

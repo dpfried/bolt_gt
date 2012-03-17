@@ -1,0 +1,18 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  question: MyString
+
+two:
+  question: MyString
+
+# == Schema Information
+#
+# Table name: annotation_tasks
+#
+#  id         :integer         not null, primary key
+#  question   :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+

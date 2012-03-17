@@ -1,4 +1,10 @@
 BoltGt::Application.routes.draw do
+  resources :users
+
+  resources :annotation_tasks
+
+  resources :responses
+
   resources :scenes
 
   resources :images

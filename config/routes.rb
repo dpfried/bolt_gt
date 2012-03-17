@@ -1,4 +1,7 @@
 BoltGt::Application.routes.draw do
+  match '/home', :to => 'pages#home'
+  get "pages/home"
+
   resources :users
 
   resources :annotation_tasks

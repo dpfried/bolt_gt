@@ -1,4 +1,5 @@
 CarrierWave.configure do |config|
+  if Rails.env.production?
     config.root = Rails.root.join('tmp')
     config.cache_dir = 'carrierwave'
 
@@ -8,6 +9,8 @@ CarrierWave.configure do |config|
       :aws_secret_access_key  => ENV['S3_SECRET'],
     }
     config.fog_directory  = 'boltgt'                    
-    config.fog_host       = 'https:/boltgt.s3.amazonaws.com'
- 
+    config.fog_host       = 'https://boltgt.s3.amazonaws.com'
+  else
+    config.storage = :file
+  end
 end

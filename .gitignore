@@ -4,4 +4,4 @@ log/*.log
 tmp/
 *.log
 doc/
-config/initializers/aws_pass.rb
+public/uploads

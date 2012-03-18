@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:edit, :update]
+  before_filter :authenticate_admin, :only => [:index, :destroy]
+  before_filter :authenticate, :only => [:show, :edit, :update]
+  before_filter :correct_user, :only => [:show, :edit, :update]
   # GET /users
   # GET /users.xml
   def index
@@ -82,4 +84,11 @@ class UsersController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  private
+    def correct_user
+      @user = User.find(params[:id])
+      redirect_to(home_path) unless current_user?(@user)
+    end
+     
 end

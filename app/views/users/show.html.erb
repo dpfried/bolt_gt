@@ -4,6 +4,10 @@
   <b>Username:</b>
   <%= @user.username %>
 </p>
+<p>
+  <b>Number of Tasks Completed:</b>
+  <%= @user.tasks_completed%>
+</p>
 
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

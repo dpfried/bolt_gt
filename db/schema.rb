@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120318000037) do
+ActiveRecord::Schema.define(:version => 20120318052006) do
 
   create_table "annotation_tasks", :force => true do |t|
     t.string   "question"
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(:version => 20120318000037) do
     t.string   "encrypted_password"
     t.string   "salt"
     t.boolean  "admin",              :default => false
+    t.integer  "tasks_completed",    :default => 0
   end
 
 end

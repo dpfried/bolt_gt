@@ -20,7 +20,7 @@
   </tr>
 <% @scene.annotation_tasks.each do |at| %>
   <tr>
-    <td><%= at.question %></td>
+    <td><%= link_to at.question, at %></td>
     <td><%= at.responses.length %></td>
   </tr>
 <% end %>

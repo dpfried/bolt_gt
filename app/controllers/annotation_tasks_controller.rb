@@ -16,6 +16,8 @@ class AnnotationTasksController < ApplicationController
   # GET /annotation_tasks/1.xml
   def show
     @annotation_task = AnnotationTask.find(params[:id])
+    @scene = @annotation_task.scene
+    @responses = @annotation_task.responses
 
     respond_to do |format|
       format.html # show.html.erb

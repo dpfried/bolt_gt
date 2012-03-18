@@ -2,9 +2,9 @@
 
 <table>
   <tr>
+    <th>Annotation task</th>
     <th>Answer</th>
     <th>User</th>
-    <th>Annotation task</th>
     <th></th>
     <th></th>
     <th></th>
@@ -12,9 +12,9 @@
 
 <% @responses.each do |response| %>
   <tr>
+    <td><%= response.annotation_task.question %></td>
     <td><%= response.answer %></td>
-    <td><%= response.user_id %></td>
-    <td><%= response.annotation_task_id %></td>
+    <td><%= response.user.username %></td>
     <td><%= link_to 'Show', response %></td>
     <td><%= link_to 'Edit', edit_response_path(response) %></td>
     <td><%= link_to 'Destroy', response, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -9,7 +9,11 @@ BoltGt::Application.routes.draw do
 
   resources :responses
 
-  resources :scenes
+  resources :scenes do
+    resources :annotation_tasks do
+      resources :responses
+    end
+  end
 
   resources :images
 
@@ -68,7 +72,7 @@ BoltGt::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  #root :to => "home"
+  root :to => redirect("/home")
 
   # See how all your routes lay out with "rake routes"
 

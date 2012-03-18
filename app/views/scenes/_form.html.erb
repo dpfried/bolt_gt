@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+  <div class="image">
+  <% if @scene.image_url(:thumb).to_s != "" %>
+    <%= image_tag @scene.image_url(:thumb).to_s %>
+  <% end %>
+  </div>
+
   <div class="field">
     <%= f.file_field :image %>
   </div>

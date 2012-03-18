@@ -1,31 +1,29 @@
 <h1>Answer the question about the image:</h1>
 <p>
-  <%= image_tag @scene.image_url.to_s %>
+<%= image_tag @scene.image_url.to_s %>
 </p>
 
 <p>
-  <%= @annotation_task.question %>
+<%= @annotation_task.question %>
 </p>
 
-<%= form_for(@response) do |f| %>
+<% form_tag do %>
   <% if @response.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@response.errors.count, "error") %> prohibited this response from being saved:</h2>
 
       <ul>
-      <% @response.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
+        <% @response.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="field">
-    <%= f.label :answer %><br />
-    <%= f.text_area :answer %>
+    <b> answer </b><br />
+    <%= text_field_tag :answer %>
   </div>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= submit_tag 'next', :disable_with => "...", :id => 'submit' %>
 <% end %>

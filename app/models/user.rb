@@ -9,7 +9,6 @@
 #  encrypted_password :string(255)
 #  salt               :string(255)
 #  admin              :boolean         default(FALSE)
-#  tasks_completed    :integer         default(0)
 #
 
 require 'digest'

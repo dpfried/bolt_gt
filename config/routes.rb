@@ -1,12 +1,7 @@
 BoltGt::Application.routes.draw do
-  get "groundtruth/answer"
-
-  get "sessions/new"
 
   match '/home', :to => 'pages#home'
   match '/signup', :to => 'users#new'
-
-  get "pages/home"
 
   resources :users
 

@@ -20,7 +20,6 @@ class AnnotationTask < ActiveRecord::Base
       not task.responses.index {|response| response.user == user}
     end
     return uncompleted[0] if not uncompleted.empty?
-    return tasks[0] if not tasks.empty?
   end
 
 end

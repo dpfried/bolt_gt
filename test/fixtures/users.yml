@@ -1,13 +1,3 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  username: MyString
-
-two:
-  username: MyString
-
-
-
 # == Schema Information
 #
 # Table name: users
@@ -19,6 +9,15 @@ two:
 #  encrypted_password :string(255)
 #  salt               :string(255)
 #  admin              :boolean         default(FALSE)
-#  tasks_completed    :integer         default(0)
 #
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  username: MyString
+
+two:
+  username: MyString
+
+
 

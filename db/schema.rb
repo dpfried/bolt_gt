@@ -11,12 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120318052006) do
+ActiveRecord::Schema.define(:version => 20120318055825) do
 
   create_table "annotation_tasks", :force => true do |t|
     t.string   "question"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "scene_id"
   end
 
   create_table "images", :force => true do |t|

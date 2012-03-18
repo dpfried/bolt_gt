@@ -1,8 +1,3 @@
-class Response < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :annotation_task
-end
-
 # == Schema Information
 #
 # Table name: responses
@@ -15,3 +10,7 @@ end
 #  updated_at         :datetime
 #
 
+class Response < ActiveRecord::Base
+  belongs_to :user
+  belongs_to :annotation_task
+end

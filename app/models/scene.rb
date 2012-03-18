@@ -1,8 +1,3 @@
-class Scene < ActiveRecord::Base
-  attr_accessible :schematic, :image
-  mount_uploader :image, ImageUploader
-end
-
 # == Schema Information
 #
 # Table name: scenes
@@ -14,3 +9,8 @@ end
 #  image      :string(255)
 #
 
+class Scene < ActiveRecord::Base
+  attr_accessible :schematic, :image
+  mount_uploader :image, ImageUploader
+  has_many :annotation_tasks, :dependent => :destroy
+end

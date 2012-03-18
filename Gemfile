@@ -10,6 +10,7 @@ gem 'carrierwave'
 gem 'annotate'
 gem 'rmagick'
 gem 'fog'
+gem 'will_paginate'
 
 # Use unicorn as the web server
 # gem 'unicorn'

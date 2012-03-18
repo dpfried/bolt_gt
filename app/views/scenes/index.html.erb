@@ -4,6 +4,7 @@
   <tr>
     <th>Thumb</th>
     <th>Schematic</th>
+    <th>Total Responses</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,6 +14,7 @@
   <tr>
     <td><%= image_tag scene.image_url(:thumb).to_s %></td>
     <td><%= scene.schematic %></td>
+    <td><%= scene.annotation_tasks.inject(0) {|sum, at| sum + at.responses.length } %></td>
     <td><%= link_to 'Show', scene %></td>
     <td><%= link_to 'Edit', edit_scene_path(scene) %></td>
     <td><%= link_to 'Destroy', scene, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -20,11 +20,15 @@
     <%= f.text_area :schematic %>
   </div>
 
-  <%= f.fields_for :annotation_tasks do |at| %>
-    <%= at.text_field :question %>
-    <%= at.link_to_remove "remove" %>
-  <% end %>>
-  <p><%= f.link_to_add "add an annotation_task", :annotation_tasks %></p>
+  <div class="tasks">
+    <%= f.fields_for :annotation_tasks do |at| %>
+      <tr>
+        <td><%= at.text_field :question %></td>
+        <td><%= at.link_to_remove "remove" %></td>
+      </tr>
+    <% end %>
+    <p><%= f.link_to_add "add a task", :annotation_tasks %></p>
+  </div>
 
   <div class="actions">
     <%= f.submit %>

@@ -26,7 +26,6 @@ class ScenesController < ApplicationController
   # GET /scenes/new.xml
   def new
     @scene = Scene.new
-    3.times { @scene.annotation_tasks.build }
 
     respond_to do |format|
       format.html # new.html.erb

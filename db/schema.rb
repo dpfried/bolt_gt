@@ -50,7 +50,6 @@ ActiveRecord::Schema.define(:version => 20120318055825) do
     t.string   "encrypted_password"
     t.string   "salt"
     t.boolean  "admin",              :default => false
-    t.integer  "tasks_completed",    :default => 0
   end
 
 end

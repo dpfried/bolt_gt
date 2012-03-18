@@ -1,4 +1,4 @@
-<%= form_for @scene, :html => {:multipart => true} do |f| %>
+<%= nested_form_for @scene, :html => {:multipart => true} do |f| %>
   <% if @scene.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@scene.errors.count, "error") %> prohibited this scene from being saved:</h2>
@@ -19,6 +19,12 @@
     <%= f.label :schematic %><br />
     <%= f.text_area :schematic %>
   </div>
+
+  <%= f.fields_for :annotation_tasks do |at| %>
+    <%= at.text_field :question %>
+    <%= at.link_to_remove "remove" %>
+  <% end %>>
+  <p><%= f.link_to_add "add an annotation_task", :annotation_tasks %></p>
 
   <div class="actions">
     <%= f.submit %>

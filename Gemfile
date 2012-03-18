@@ -10,7 +10,8 @@ gem 'carrierwave'
 gem 'annotate'
 gem 'rmagick'
 gem 'fog'
-gem 'will_paginate'
+gem 'jquery-rails'
+gem 'nested_form'
 
 # Use unicorn as the web server
 # gem 'unicorn'

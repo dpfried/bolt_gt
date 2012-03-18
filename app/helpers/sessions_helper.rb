@@ -39,7 +39,7 @@ module SessionsHelper
     end
 
     def authenticate_admin
-      deny_access unless signed_in_admin?
+      redirct_to home_path unless signed_in_admin?
     end
 
     def user_from_remember_token

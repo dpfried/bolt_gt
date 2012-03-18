@@ -1,5 +1,11 @@
 <header>
   <nav class="round" align="right">
-      <%= link_to "home", home_path %>
+  <% if signed_in? %>
+    (<%= current_user.username %>)
+    <%= link_to "signout", signout_path, :method => :delete %>
+  <% else %>
+    <%= link_to "signin", signin_path %>
+  <% end %>
+  | <%= link_to "home", home_path %>
   </nav>
 </header>

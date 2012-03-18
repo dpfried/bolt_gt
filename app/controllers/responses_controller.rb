@@ -1,4 +1,5 @@
 class ResponsesController < ApplicationController
+  before_filter :authenticate_admin
   # GET /responses
   # GET /responses.xml
   def index

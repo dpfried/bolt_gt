@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120317211139) do
+ActiveRecord::Schema.define(:version => 20120318000037) do
 
   create_table "annotation_tasks", :force => true do |t|
     t.string   "question"
@@ -46,6 +46,9 @@ ActiveRecord::Schema.define(:version => 20120317211139) do
     t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "encrypted_password"
+    t.string   "salt"
+    t.boolean  "admin",              :default => false
   end
 
 end

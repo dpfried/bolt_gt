@@ -1,4 +1,6 @@
 class AnnotationTasksController < ApplicationController
+  before_filter :authenticate_admin
+
   # GET /annotation_tasks
   # GET /annotation_tasks.xml
   def index

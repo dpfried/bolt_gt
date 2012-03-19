@@ -15,7 +15,7 @@ require 'digest'
 class User < ActiveRecord::Base
   attr_accessor :password
   attr_accessible :username, :password, :password_confirmation
-  has_many :responses
+  has_many :responses, :dependent => :destroy
 
   validates :username, :presence => true,
     :uniqueness => {:case_sensitive => false}

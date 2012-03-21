@@ -1,4 +1,4 @@
-<h1>Answer the question about the image:</h1>
+<h1>Please look at this image, and answer the question below:</h1>
 <p>
 <%= image_tag @scene.image_url.to_s %>
 </p>
@@ -20,7 +20,7 @@
     </div>
   <% end %>
   <div class="field">
-    <b> answer </b><br />
+    <b> Please answer with a complete sentence: </b><br />
     <%= text_field_tag :answer %>
   </div>
 

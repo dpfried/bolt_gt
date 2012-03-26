@@ -12,6 +12,7 @@ gem 'rmagick'
 gem 'fog'
 gem 'jquery-rails'
 gem 'nested_form'
+gem 'taps'
 
 # Use unicorn as the web server
 # gem 'unicorn'

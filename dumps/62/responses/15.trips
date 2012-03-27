@@ -1,0 +1,12 @@
+the dark red block is the farthest right item.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ FARTHEST)) (N1 (N RIGHT)))
+             (ADVBL (ADV ITEM))))))))
+       (PUNC PUNC-PERIOD))

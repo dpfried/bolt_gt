@@ -1,0 +1,13 @@
+The light blue cylinder is in front of the green disk. 
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))
+            (VP- (V (V DISK))))))))
+       (PUNC PUNC-PERIOD))

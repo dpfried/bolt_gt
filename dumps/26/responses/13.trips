@@ -1,0 +1,11 @@
+The smallest square block is behind the orange cylinder and to the right of the grey cylinder.
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ SMALLEST)) (N1 (ADJP (ADJ SQUARE)) (N1 (N BLOCK)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))))))))

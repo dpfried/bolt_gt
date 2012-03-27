@@ -1,0 +1,7 @@
+Where is the yellow ball?
+(UTT
+       (UTT
+        (S (ADVBL (ADV WHERE))
+         (S (AUX (V IS)) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW)))
+          (VP- (V (V BALL))))))
+       (PUNC PUNC-QUESTION-MARK))

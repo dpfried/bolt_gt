@@ -1,0 +1,8 @@
+Where is the light grey cylinder?
+(UTT
+       (UTT
+        (S (PRED (ADVBL (ADV WHERE)))
+         (S (V IS)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREY)) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-QUESTION-MARK))

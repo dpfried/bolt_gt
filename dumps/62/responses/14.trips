@@ -1,0 +1,5 @@
+The dark red block is to the right of the large tan block and small lihgt green block.
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK)))))
+       (VP (VP- (V IS))))

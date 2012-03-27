@@ -1,0 +1,5 @@
+The light green block is in the center to the left of the light grey tall block.
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK)))))
+       (VP (VP- (V IS))))

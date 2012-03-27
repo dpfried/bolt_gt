@@ -1,0 +1,12 @@
+The white rod is to the left of th green disk. 
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ WHITE)) (N1 (N ROD))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT) (PP (PREP OF) (NP (N1 (N TH)))))))
+            (VP- (V GREEN) (NP (N1 (V DISK)))))))))
+       (PUNC PUNC-PERIOD))

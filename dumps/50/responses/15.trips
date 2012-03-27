@@ -1,0 +1,12 @@
+the blue box is behind the grey rectangle.
+(UTT
+       (UTT
+        (S (ADVBL (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))
+         (S (NP (VP (VP- (V BOX))))
+          (VP
+           (VP- (V IS)
+            (PRED
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ GREY)) (N1 (N RECTANGLE)))))))))))
+       (PUNC PUNC-PERIOD))

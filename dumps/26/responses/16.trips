@@ -1,0 +1,20 @@
+The smallest square block is behind the orange and purple cylinders and in front of the green cylinder.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SMALLEST)) (N1 (ADJP (ADJ SQUARE)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJP (ADJ ORANGE)) (CONJ AND) (ADJP (ADJ PURPLE)))
+                (N1 (N CYLINDERS)))))
+             (CONJ AND)
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))))))
+       (PUNC PUNC-PERIOD))

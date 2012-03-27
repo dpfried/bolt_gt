@@ -1,0 +1,11 @@
+the blue cylinder is behind the teal block.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ TEAL)) (N1 (N BLOCK))))))))))
+       (PUNC PUNC-PERIOD))

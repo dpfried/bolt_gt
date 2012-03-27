@@ -1,0 +1,11 @@
+The dark blue box is the rear-most object and right of the loight blue block.
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ REAR)) (N1 (ADJP (ADJ MOST)) (N1 (N OBJECT))))))
+          (CONJ AND) (VP- (V RIGHT))))))

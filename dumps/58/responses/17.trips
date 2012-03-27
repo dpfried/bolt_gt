@@ -1,0 +1,12 @@
+The tallest cylinder is all the way to the right.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ TALLEST)) (N1 (N CYLINDER))))
+         (VP
+          (VP-
+           (VP- (V IS) (ADVBL (ADV ALL))
+            (NP (SPEC (DET (ART THE))) (N1 (N WAY))))
+           (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))))))
+       (PUNC PUNC-PERIOD))

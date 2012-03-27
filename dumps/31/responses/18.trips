@@ -1,0 +1,11 @@
+The tan cylinder is behind the pink cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ TAN)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD))

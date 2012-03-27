@@ -1,0 +1,18 @@
+The dark red block is on right behind the tan and blue block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP
+              (VP
+               (VP- (VP- (V RIGHT))
+                (ADVBL (ADV BEHIND)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJP (ADJ TAN)) (CONJ AND) (ADJP (ADJ BLUE)))
+                   (N1 (N BLOCK))))))))))))))
+       (PUNC PUNC-PERIOD))

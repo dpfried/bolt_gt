@@ -1,0 +1,12 @@
+The white rod is immediately to the left of the flat grey block.
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ WHITE)) (N1 (N ROD))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (ADVBL (ADV IMMEDIATELY))
+           (VP-
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N FLAT)))))))
+            (VP- (V GREY) (NP (N1 (N BLOCK))))))))))

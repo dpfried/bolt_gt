@@ -1,0 +1,5 @@
+The purple retangular block is in fron the reddish block and to the left of the gray rectangular blocl.
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N RETANGULAR))) (N1 (N BLOCK))))
+       (VP (VP- (V IS))))

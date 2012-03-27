@@ -1,0 +1,12 @@
+the flat blue block is the farthest right item.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ FARTHEST)) (N1 (N RIGHT)))
+             (ADVBL (ADV ITEM))))))))
+       (PUNC PUNC-PERIOD))

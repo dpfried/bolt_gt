@@ -1,0 +1,3 @@
+The purple cylinder is inbetween the round dark large cylinder, light grey cylinder and orange rectangular cube.
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+       (VP (VP- (V IS))))

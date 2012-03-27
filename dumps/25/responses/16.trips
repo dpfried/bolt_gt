@@ -1,0 +1,10 @@
+The orange cylinder is the nearest object.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NEAREST)) (N1 (N OBJECT))))))))
+       (PUNC PUNC-PERIOD))

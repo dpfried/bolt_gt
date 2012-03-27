@@ -1,0 +1,10 @@
+the tan cylinder is the farthest left item.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ TAN)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ FARTHEST)) (N1 (N LEFT)))
+             (ADVBL (ADV ITEM))))))))
+       (PUNC PUNC-PERIOD))

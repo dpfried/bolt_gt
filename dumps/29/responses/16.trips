@@ -1,0 +1,11 @@
+the flat blue block is the right-most object.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ RIGHT)) (N1 (ADJP (ADJ MOST)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD))

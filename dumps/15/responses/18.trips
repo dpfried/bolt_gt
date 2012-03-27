@@ -1,0 +1,15 @@
+The purple cylinder is to the right of the orange cylinder.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N RIGHT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER)))))))))))))
+       (PUNC PUNC-PERIOD))

@@ -1,0 +1,12 @@
+The purple block is in front of the red block.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ RED)) (N1 (N BLOCK)))))))))))
+       (PUNC PUNC-PERIOD))

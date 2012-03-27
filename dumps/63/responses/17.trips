@@ -1,0 +1,16 @@
+The red cylinder is in the front in front of the tall blue cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N FRONT))
+               (ADVBL (ADV (WORD IN) (WORD FRONT))
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ TALL))
+                   (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))))))))))
+       (PUNC PUNC-PERIOD))

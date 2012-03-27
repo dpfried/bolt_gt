@@ -1,0 +1,8 @@
+Where is the light blue box?
+(UTT
+       (UTT
+        (S (ADVBL (ADV WHERE))
+         (S (AUX (V IS))
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ LIGHT)) (N1 (N BLUE))))
+          (VP- (V (V BOX))))))
+       (PUNC PUNC-QUESTION-MARK))

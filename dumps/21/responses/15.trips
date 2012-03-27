@@ -1,0 +1,13 @@
+the light grey cylinder is below the green block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREY)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))))))))
+       (PUNC PUNC-PERIOD))

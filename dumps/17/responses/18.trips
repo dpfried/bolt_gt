@@ -1,0 +1,11 @@
+The red cylinder is behind the orange cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD))

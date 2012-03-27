@@ -1,0 +1,14 @@
+the red block is on top of the orange cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP
+              (N1 (V TOP)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER)))))))))))))
+       (PUNC PUNC-PERIOD))

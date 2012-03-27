@@ -1,0 +1,21 @@
+The purple rectangular block is in front of the dark grey cylinder and the reddish brown block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ PURPLE))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ DARK))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N CYLINDER)))))
+               (CONJ AND)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ REDDISH))
+                 (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK)))))))))))))
+       (PUNC PUNC-PERIOD))

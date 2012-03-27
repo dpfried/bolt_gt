@@ -1,0 +1,5 @@
+The smallest purple cylinder is to the left of the large purple cylinder?
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ SMALLEST)) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))
+       (VP (VP- (V IS))))

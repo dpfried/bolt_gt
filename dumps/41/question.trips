@@ -1,0 +1,8 @@
+Where is the reddish brown box?
+(UTT
+       (UTT
+        (S (ADVBL (ADV WHERE))
+         (S (AUX (V IS))
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ REDDISH)) (N1 (N BROWN))))
+          (VP- (V (V BOX))))))
+       (PUNC PUNC-QUESTION-MARK))

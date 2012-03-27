@@ -1,0 +1,13 @@
+The purple cylinder is in the back behind the orange cylinder but in front of the yellow orange block.
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N BACK))
+              (ADVBL (ADV BEHIND)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER)))))))))))))

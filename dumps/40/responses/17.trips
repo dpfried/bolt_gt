@@ -1,0 +1,9 @@
+The blue cylinder is in the back right.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACK))))
+            (VP- (V (V RIGHT))))))))
+       (PUNC PUNC-PERIOD))

@@ -1,0 +1,16 @@
+The smallest ball is in the front and to the right of the olive cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ SMALLEST)) (N1 (N BALL))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N FRONT))))
+             (CONJ AND)
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N RIGHT)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ OLIVE)) (N1 (N CYLINDER))))))))))))))
+       (PUNC PUNC-PERIOD))

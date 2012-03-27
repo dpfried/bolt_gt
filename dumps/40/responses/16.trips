@@ -1,0 +1,17 @@
+The blue cylinder is behind the light grey block and the light blue rectangular block.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK)))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ LIGHT))
+                (N1 (ADJP (ADJ BLUE))
+                 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))))))))
+       (PUNC PUNC-PERIOD))

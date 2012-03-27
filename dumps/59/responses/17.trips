@@ -1,0 +1,13 @@
+The blue block is behind the green blocks on the right.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCKS)))
+               (ADVBL (ADV ON)
+                (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))))))))))
+       (PUNC PUNC-PERIOD))

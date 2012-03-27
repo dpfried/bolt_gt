@@ -1,0 +1,9 @@
+The smallest ball is the nearest object.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ SMALLEST)) (N1 (N BALL))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NEAREST)) (N1 (N OBJECT))))))))
+       (PUNC PUNC-PERIOD))

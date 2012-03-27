@@ -1,0 +1,2 @@
+the grey block is to the right of the light blue block.
+(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK))))

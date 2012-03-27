@@ -1,0 +1,11 @@
+the purple block is behind the red cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD))

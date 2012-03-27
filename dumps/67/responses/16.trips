@@ -1,0 +1,19 @@
+The flat grey block is between the blue cylinder and the dark blue rectangular block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BETWEEN)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ DARK))
+                (N1 (ADJP (ADJ BLUE))
+                 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))))))))
+       (PUNC PUNC-PERIOD))

@@ -1,0 +1,12 @@
+The yellow ball is right in front of the grey ball.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BALL))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADVBL (ADV RIGHT))
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREY))))))
+            (VP- (V (V BALL))))))))
+       (PUNC PUNC-PERIOD))

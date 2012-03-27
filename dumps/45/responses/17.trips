@@ -1,0 +1,18 @@
+The tall green cylinder is in the back behind the rest of the shapes.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N BACK))
+               (ADVBL (ADV BEHIND)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (N REST)
+                  (PP (PREP OF)
+                   (NP (SPEC (DET (ART THE))) (N1 (N SHAPES)))))))))))))))
+       (PUNC PUNC-PERIOD))

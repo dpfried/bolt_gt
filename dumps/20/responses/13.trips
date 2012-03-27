@@ -1,0 +1,14 @@
+The blue block is partially on top of the grey disc.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS) (ADVBL (ADV PARTIALLY))
+           (PRED
+            (ADVBL (ADV ON)
+             (NP
+              (N1 (V TOP)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N DISC)))))))))))))
+       (PUNC PUNC-PERIOD))

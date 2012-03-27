@@ -1,0 +1,5 @@
+The flat blue block is to the rightof the green blocks.
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))
+       (VP (VP- (V IS))))

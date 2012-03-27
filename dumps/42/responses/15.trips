@@ -1,0 +1,11 @@
+The shortest cylinder is the closest item.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SHORTEST)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ CLOSEST)) (N1 (N ITEM))))))))
+       (PUNC PUNC-PERIOD))

@@ -1,0 +1,13 @@
+The blue cylinder is behind the green and turquoise blocks.
+(UTT
+       (UTT
+        (S
+         (S
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+          (VP
+           (VP- (V IS)
+            (PRED
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))))))
+         (CONJ AND) (S (NP (N1 (N TURQUOISE))) (VP (VP- (V BLOCKS))))))
+       (PUNC PUNC-PERIOD))

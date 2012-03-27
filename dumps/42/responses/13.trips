@@ -1,0 +1,6 @@
+The shortest cylinder is in the very front; the shortest cylinder is directly in front of me.
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ SHORTEST)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V IS))))))

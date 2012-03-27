@@ -1,0 +1,11 @@
+The light green block in front of the large purple cylinder.
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))
+          (ADVBL (ADV (WORD IN) (WORD FRONT))
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LARGE))
+              (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD))

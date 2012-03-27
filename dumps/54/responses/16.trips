@@ -1,0 +1,21 @@
+The dark blue box is behind the flat grey block and in front of the reddish brown rectangular block. 
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK))))))
+             (CONJ AND)
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ REDDISH))
+                 (N1 (ADJP (ADJ BROWN))
+                  (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK))))))))))))))
+       (PUNC PUNC-PERIOD))

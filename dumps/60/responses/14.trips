@@ -1,0 +1,3 @@
+The purple disc is to the right of the blue-green disc.
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N DISC))))
+       (VP (VP- (V IS))))

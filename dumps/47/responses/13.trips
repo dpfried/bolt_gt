@@ -1,0 +1,18 @@
+The dark green rectangular block is on top of the grey block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK))
+           (N1 (ADJP (ADJ GREEN))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK))))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP
+              (N1 (V TOP)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK)))))))))))))
+       (PUNC PUNC-PERIOD))

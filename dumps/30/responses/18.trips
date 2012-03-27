@@ -1,0 +1,3 @@
+The purple ball is to the right of the green block.
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BALL))))
+       (VP (VP- (V IS))))

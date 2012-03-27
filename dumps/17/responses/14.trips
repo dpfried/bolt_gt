@@ -1,0 +1,14 @@
+The red cylinder is in front of the medium brown octagon cylinder.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ MEDIUM))
+                (N1 (ADJP (ADJ BROWN))
+                 (N1 (N1 (N OCTAGON)) (N1 (N CYLINDER)))))))))))))
+       (PUNC PUNC-PERIOD))

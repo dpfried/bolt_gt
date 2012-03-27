@@ -1,0 +1,18 @@
+The light green block is in front of the dark green block and the purple cylinder.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK)))))
+               (CONJ AND)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))))))))
+       (PUNC PUNC-PERIOD))

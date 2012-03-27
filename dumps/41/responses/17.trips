@@ -1,0 +1,5 @@
+The reddish brown box is in the back on top of the dark grey cylinder in between the tanish block and purple block.
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ REDDISH)) (N1 (ADJP (ADJ BROWN)) (N1 (N BOX)))))
+       (VP (VP- (V IS))))

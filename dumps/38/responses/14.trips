@@ -1,0 +1,11 @@
+The rectangular green block in front of the dark blue cylinder.
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N GREEN))) (N1 (N BLOCK)))
+          (ADVBL (ADV (WORD IN) (WORD FRONT))
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ DARK))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD))

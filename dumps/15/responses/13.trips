@@ -1,0 +1,15 @@
+The purple cylinder is immediately to the left of the brown block.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS) (ADVBL (ADV IMMEDIATELY))
+           (PRED
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK)))))))))))))
+       (PUNC PUNC-PERIOD))

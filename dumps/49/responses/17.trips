@@ -1,0 +1,13 @@
+The red bloc is behind the teal block on the right.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N BLOC))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (ADJP (ADJ TEAL)) (N1 (N BLOCK)))
+               (ADVBL (ADV ON)
+                (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))))))))))
+       (PUNC PUNC-PERIOD))

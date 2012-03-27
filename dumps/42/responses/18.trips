@@ -1,0 +1,15 @@
+The shortest cylinder is in the front of the image.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SHORTEST)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N FRONT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N IMAGE))))))))))))
+       (PUNC PUNC-PERIOD))

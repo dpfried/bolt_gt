@@ -1,0 +1,4 @@
+the blue cylinder is the farthest away item.
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V IS))))))

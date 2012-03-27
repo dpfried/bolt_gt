@@ -1,0 +1,16 @@
+The dark grey block is behind all of the other image shapes.
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (QUAN ALL))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (N1 (ADJP (ADJ OTHER)) (N1 (N IMAGE)))
+                 (N1 (N SHAPES))))))))))))
+       (PUNC PUNC-PERIOD))

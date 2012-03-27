@@ -1,0 +1,4 @@
+the blue block isresting on top of the silver block.
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))) (N1 (N ISRESTING)))))

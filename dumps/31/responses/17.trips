@@ -1,0 +1,11 @@
+The tan cylinder is the cylinder farthest to the left.
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ TAN)) (N1 (N CYLINDER))))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N CYLINDER)) (ADVBL (ADV FARTHEST)))))
+           (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N LEFT))))))))
+       (PUNC PUNC-PERIOD))

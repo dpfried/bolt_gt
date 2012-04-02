@@ -1,5 +1,7 @@
 BoltGt::Application.routes.draw do
 
+  resources :sequences
+
   match '/home', :to => 'pages#home'
   match '/signup', :to => 'users#new'
 

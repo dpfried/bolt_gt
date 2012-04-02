@@ -12,20 +12,6 @@
 </p>
 
 <p>
-<b>Tasks:</b>
-<table>
-  <tr>
-    <th>Question</th>
-    <th># Responses</th>
-  </tr>
-<% @scene.annotation_tasks.each do |at| %>
-  <tr>
-    <td><%= link_to at.question, at %></td>
-    <td><%= at.responses.length %></td>
-  </tr>
-<% end %>
-</table>
-
 
 <%= link_to 'Edit', edit_scene_path(@scene) %> |
 <%= link_to 'Back', scenes_path %>

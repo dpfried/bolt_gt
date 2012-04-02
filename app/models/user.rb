@@ -1,16 +1,3 @@
-# == Schema Information
-#
-# Table name: users
-#
-#  id                 :integer         primary key
-#  username           :string(255)
-#  created_at         :timestamp
-#  updated_at         :timestamp
-#  encrypted_password :string(255)
-#  salt               :string(255)
-#  admin              :boolean         default(FALSE)
-#
-
 require 'digest'
 class User < ActiveRecord::Base
   attr_accessor :password
@@ -37,6 +24,10 @@ class User < ActiveRecord::Base
     (user && user.salt == cookie_salt) ? user : nil
   end
 
+  def get_needy_scene
+    Sequence.get_needy_sequence(self).get_needy_scene(self)
+  end
+
   private
     def encrypt_password
       self.salt = make_salt if new_record?
@@ -55,3 +46,17 @@ class User < ActiveRecord::Base
       Digest::SHA2.hexdigest(string)
     end
 end
+
+# == Schema Information
+#
+# Table name: users
+#
+#  id                 :integer         not null, primary key
+#  username           :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
+#  admin              :boolean         default(FALSE)
+#
+

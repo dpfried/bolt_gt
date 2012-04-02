@@ -1,31 +1,33 @@
 class GroundtruthController < ApplicationController
   def answer
     puts request.to_s
-    puts "is get #{request.get?}"
-    puts "is put #{request.put?}"
-    puts "is post #{request.post?}"
     if request.get?
       @user = current_user
+      # check to store if the current scene is stored in the session
       if session[:groundtruthing_response].nil?
-        # find a task that needs doing
-        @annotation_task = AnnotationTask.get_needy_annotation_task(@user)
-        if not @annotation_task.nil? # any need to be done?
-          @scene = @annotation_task.scene
+        # find a scene that needs annotating
+        @scene = @user.get_needy_scene
+        if not @scene.nil? # any need to be done?
           # Don't actually generate the reponse, but store the annotation task id and user id
-          session[:groundtruthing_response] = {:annotation_task => @annotation_task.id, :user => @user.id}
+          session[:groundtruthing_response] = {:scene => @scene.id, :user => @user.id}
         else # no annotation task found
           render :action => 'complete'
         end
-      else # session contains info about response that needs completing
-        @annotation_task = AnnotationTask.find_by_id(session[:groundtruthing_response][:annotation_task])
-        @scene = @annotation_task.scene
+      else # session contains info about scene that needs annotating
+        @scene = Scene.find_by_id(session[:groundtruthing_response][:scene])
         @user = User.find_by_id(session[:groundtruthing_response][:user])
+      end
+      sequence = @scene.sequence
+      index_of_scene_in_sequence = sequence.scenes.index(@scene)
+      @is_first_scene_in_sequence = (index_of_scene_in_sequence == 0)
+      if not @is_first_scene_in_sequence
+        @past_scene = sequence.scenes.fetch(index_of_scene_in_sequence - 1)
       end
     else
       # posting the response
       @annotation_task = AnnotationTask.find_by_id(session[:groundtruthing_response][:annotation_task])
-      @scene = @annotation_task.scene
-      @response = @annotation_task.responses.build
+      @scene = Scene.find_by_id(session[:groundtruthing_response][:scene])
+      @response = @scene.responses.build
       @response.user = User.find_by_id(session[:groundtruthing_response][:user])
       @response.answer = params[:answer]
       if @response.save

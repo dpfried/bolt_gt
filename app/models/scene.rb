@@ -2,10 +2,10 @@
 #
 # Table name: scenes
 #
-#  id         :integer         not null, primary key
+#  id         :integer         primary key
 #  schematic  :text
-#  created_at :datetime
-#  updated_at :datetime
+#  created_at :timestamp
+#  updated_at :timestamp
 #  image      :string(255)
 #
 

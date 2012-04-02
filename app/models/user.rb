@@ -2,10 +2,10 @@
 #
 # Table name: users
 #
-#  id                 :integer         not null, primary key
+#  id                 :integer         primary key
 #  username           :string(255)
-#  created_at         :datetime
-#  updated_at         :datetime
+#  created_at         :timestamp
+#  updated_at         :timestamp
 #  encrypted_password :string(255)
 #  salt               :string(255)
 #  admin              :boolean         default(FALSE)

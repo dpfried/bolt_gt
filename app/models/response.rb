@@ -2,12 +2,12 @@
 #
 # Table name: responses
 #
-#  id                 :integer         not null, primary key
+#  id                 :integer         primary key
 #  answer             :text
 #  user_id            :integer
 #  annotation_task_id :integer
-#  created_at         :datetime
-#  updated_at         :datetime
+#  created_at         :timestamp
+#  updated_at         :timestamp
 #
 
 class Response < ActiveRecord::Base

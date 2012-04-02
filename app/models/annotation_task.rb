@@ -2,10 +2,10 @@
 #
 # Table name: annotation_tasks
 #
-#  id         :integer         not null, primary key
+#  id         :integer         primary key
 #  question   :string(255)
-#  created_at :datetime
-#  updated_at :datetime
+#  created_at :timestamp
+#  updated_at :timestamp
 #  scene_id   :integer
 #
 

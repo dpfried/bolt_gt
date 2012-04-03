@@ -18,10 +18,11 @@ class GroundtruthController < ApplicationController
         @user = User.find_by_id(session[:groundtruthing_response][:user])
       end
       sequence = @scene.sequence
-      index_of_scene_in_sequence = sequence.scenes.sort{|a,b| a.id <=> b.id}.index(@scene)
+      sorted_scenes = scenes.sort{|a,b| a.id <=> b.id}.
+      index_of_scene_in_sequence = sequence.sorted_scenes.index(@scene)
       @is_first_scene_in_sequence = (index_of_scene_in_sequence == 0)
       if not @is_first_scene_in_sequence
-        @past_scene = sequence.scenes.fetch(index_of_scene_in_sequence - 1)
+        @past_scene = sorted_scenes.fetch(index_of_scene_in_sequence - 1)
       end
     else
       # posting the response

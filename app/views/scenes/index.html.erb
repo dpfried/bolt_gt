@@ -2,7 +2,9 @@
 
 <table>
   <tr>
+    <th>Sequence</th>
     <th>Thumb</th>
+    <th>Responses</th>
     <th></th>
     <th></th>
     <th></th>
@@ -10,7 +12,9 @@
 
 <% @scenes.each do |scene| %>
   <tr>
+    <td><%= link_to scene.sequence.id, scene.sequence %></td>
     <td><%= image_tag scene.image_url(:thumb).to_s %></td>
+    <td><%= link_to scene.responses.length, scene %></td>
     <td><%= link_to 'Show', scene %></td>
     <td><%= link_to 'Edit', edit_scene_path(scene) %></td>
     <td><%= link_to 'Destroy', scene, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -1,13 +1,20 @@
 <p id="notice"><%= notice %></p>
 
+<table>
+  <tr>
+    <th>Scene</th>
+    <th>Responses</th>
+  </tr>
 <% @sequence.scenes.each_with_index do |scene, i| %>
-  <p>
-  <b>Image <%= i %>:</b>
-    <br>
-    <%= image_tag scene.image_url.to_s %>
-  </p>
+  <tr>
+    <td>
+      <%= image_tag scene.image_url(:thumb).to_s %>
+    </td>
+    <td>
+      <%= link_to scene.responses.length.to_s, scene %>
+    </td>
+  </tr>
 <% end %>
-
 
 <%= link_to 'Edit', edit_sequence_path(@sequence) %> |
 <%= link_to 'Back', sequences_path %>

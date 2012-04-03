@@ -7,22 +7,24 @@ class GroundtruthController < ApplicationController
       if session[:groundtruthing_response].nil?
         # find a scene that needs annotating
         @scene = @user.get_needy_scene
-        if not @scene.nil? # any need to be done?
+        if not @scene.nil? and not @scene.sequence.nil? # any need to be done?
           # Don't actually generate the reponse, but store the annotation task id and user id
           session[:groundtruthing_response] = {:scene => @scene.id, :user => @user.id}
-        else # no annotation task found
-          render :action => 'complete'
         end
       else # session contains info about scene that needs annotating
         @scene = Scene.find_by_id(session[:groundtruthing_response][:scene])
         @user = User.find_by_id(session[:groundtruthing_response][:user])
       end
-      sequence = @scene.sequence
-      sorted_scenes = sequence.scenes.sort{|a,b| a.id <=> b.id}
-      index_of_scene_in_sequence = sorted_scenes.index(@scene)
-      @is_first_scene_in_sequence = (index_of_scene_in_sequence == 0)
-      if not @is_first_scene_in_sequence
-        @past_scene = sorted_scenes.fetch(index_of_scene_in_sequence - 1)
+      if not @scene.nil? and not @scene.sequence.nil? # any need to be done?
+        sequence = @scene.sequence
+        sorted_scenes = sequence.scenes.sort{|a,b| a.id <=> b.id}
+        index_of_scene_in_sequence = sorted_scenes.index(@scene)
+        @is_first_scene_in_sequence = (index_of_scene_in_sequence == 0)
+        if not @is_first_scene_in_sequence
+          @past_scene = sorted_scenes.fetch(index_of_scene_in_sequence - 1)
+        end
+      else # no annotation task found
+        render :action => 'complete'
       end
     else
       # posting the response

@@ -25,7 +25,12 @@ class User < ActiveRecord::Base
   end
 
   def get_needy_scene
-    Sequence.get_needy_sequence(self).get_needy_scene(self)
+    seq = Sequence.get_needy_sequence(self)
+    if not seq.nil?
+      seq.get_needy_scene(self)
+    else
+      nil
+    end
   end
 
   private

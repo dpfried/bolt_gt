@@ -2,12 +2,25 @@
 
 <p>
   <b>Image:</b>
-  <br>
-  <%= image_tag @scene.image_url.to_s %>
+  <br/>
+  <%= image_tag @scene.image_url(:thumb).to_s %>
 </p>
 <p>
+  <b>Responses:</b>
+  <br/>
+  <table>
+    <tr>
+      <th>User:</th>
+      <th>Response:</th>
+    </tr>
+  <% @scene.responses.each do |response| %>
+    <td><%= response.user.username %></td>
+    <td><%= response.answer %></td>
+  <% end %>
+</table>
+<p>
   <b>Schematic:</b>
-  <br>
+  <br/>
   <%= @scene.schematic %>
 </p>
 

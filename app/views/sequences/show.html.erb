@@ -5,16 +5,30 @@
     <th>Scene</th>
     <th>Responses</th>
   </tr>
-<% @sequence.scenes.each_with_index do |scene, i| %>
-  <tr>
-    <td>
-      <%= image_tag scene.image_url(:thumb).to_s %>
-    </td>
-    <td>
-      <%= link_to scene.responses.length.to_s, scene %>
-    </td>
-  </tr>
-<% end %>
+  <% @sequence.scenes.each_with_index do |scene, i| %>
+    <tr>
+      <td>
+        <%= image_tag scene.image_url(:thumb).to_s %>
+      </td>
+      <td>
+        <% scenes_to_show = 5 %>
+        <ul>
+          <% scene.responses[0..scenes_to_show - 1].each do |response| %>
+            <li><%= link_to response.answer, response %></li>
+            <br/>
+          <% end %>
+        </ul>
+        <%= link_to "All responses (" + scene.responses.length.to_s + ")" , scene %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= link_to 'Show', scene %> |
+        <%= link_to 'Edit', edit_scene_path(scene) %> |
+        <%= link_to 'Destroy', scene, :confirm => 'Are you sure?', :method => :delete %>
+      </td>
+    </tr>
+  <% end %>
 
-<%= link_to 'Edit', edit_sequence_path(@sequence) %> |
-<%= link_to 'Back', sequences_path %>
+  <%= link_to 'Edit', edit_sequence_path(@sequence) %> |
+  <%= link_to 'Back', sequences_path %>

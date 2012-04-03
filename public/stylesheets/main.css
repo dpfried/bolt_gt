@@ -14,4 +14,7 @@
   max-width :60%;
 }
 
-
+table {
+  border-collapse:separate;
+  border-spacing:8px;
+}

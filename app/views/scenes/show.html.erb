@@ -1,27 +1,29 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Image:</b>
-  <br/>
-  <%= image_tag @scene.image_url(:thumb).to_s %>
+<b>Image:</b>
+<br/>
+<%= image_tag @scene.image_url(:thumb).to_s %>
 </p>
 <p>
-  <b>Responses:</b>
-  <br/>
-  <table>
-    <tr>
-      <th>User:</th>
-      <th>Response:</th>
-    </tr>
+<b>Responses:</b>
+<br/>
+<table>
+  <tr>
+    <th>User:</th>
+    <th>Response:</th>
+  </tr>
   <% @scene.responses.each do |response| %>
-    <td><%= response.user.username %></td>
-    <td><%= response.answer %></td>
+    <tr>
+      <td><%= response.user.username %></td>
+      <td><%= response.answer %></td>
+    </tr>
   <% end %>
 </table>
 <p>
-  <b>Schematic:</b>
-  <br/>
-  <%= @scene.schematic %>
+<b>Schematic:</b>
+<br/>
+<%= @scene.schematic %>
 </p>
 
 <p>

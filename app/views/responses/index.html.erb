@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-    <th>Sequence</th>
-    <th>Scene</th>
-    <th>User</th>
-    <th>Answer</th>
+    <th><%= link_to "Sequences", sequences_path %></th>
+    <th><%= link_to "Scenes", scenes_path %> </th>
+    <th><%= link_to "User", users_path %></th>
+    <th><%= link_to "Responses", responses_path %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,8 +16,7 @@
     <td><%= link_to response.scene.sequence.id.to_s, response.scene.sequence %></td>
     <td><%= link_to response.scene.id.to_s, response.scene %></td>
     <td><%= response.user.username %></td>
-    <td><%= response.answer %></td>
-    <td><%= link_to 'Show', response %></td>
+    <td><%= link_to response.answer, response %></td>
     <td><%= link_to 'Edit', edit_response_path(response) %></td>
     <td><%= link_to 'Destroy', response, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

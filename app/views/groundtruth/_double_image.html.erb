@@ -1,14 +1,13 @@
-<table width="100%">
-  <tr>
-    <td width=50%>
-      <%= image_tag @past_scene.image_url(:thumb).to_s %>
-    </td>
-    <td width=50%>
-      <%= image_tag @scene.image_url(:thumb).to_s %>
-    </td>
-  </tr>
-</table>
+<h1>Please look at these images, and answer the question below:</h1>
+<div class="float-double">
+<p>Original:</p>
+      <%= image_tag @past_scene.image_url.to_s %>
+</div>
+<div class="float-double">
+<p>New:</p>
+      <%= image_tag @scene.image_url.to_s %>
+</div>
 
 <p>
-Describe the appearance and location of the object that was added in the picture on the right.
+<b>Describe the appearance and location of the object that was added in the new picture.</b>
 </p>

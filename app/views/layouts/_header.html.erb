@@ -1,7 +1,7 @@
 <header>
   <nav class="round" align="right">
   <% if signed_in? %>
-      <%= current_user.responses.length %> / <%= AnnotationTask.all.length %> completed | 
+      <%= current_user.responses.length %> / <%= Scene.all.length %> completed | 
     (<%= link_to current_user.username, current_user %>)
     <%= link_to "signout", signout_path, :method => :delete %>
     |

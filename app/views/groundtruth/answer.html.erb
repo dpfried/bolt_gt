@@ -1,4 +1,3 @@
-<h1>Please look at this image, and answer the question below:</h1>
 <% if @is_first_scene_in_sequence %>
   <%= render :partial => 'single_image' %>
 <% else %>
@@ -18,9 +17,8 @@
     </div>
   <% end %>
   <div class="field">
-    <b> Please answer with a complete sentence. </b><br />
+    Please answer with a complete sentence. <br />
     Avoid prepositions like "it". <br />
-    If you're not sure of your answer or the question is ambiguous, place a question mark at the end of your answer.<br />
     <br />
     <b> Answer: </b> <br />
     <%= text_field_tag :answer %>

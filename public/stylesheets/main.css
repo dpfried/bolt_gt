@@ -1,4 +1,17 @@
-img {
-  max-width: 100%;
-  max-height: 100%;
+.float-single {
+  float: left;
 }
+
+.float-single img {
+  max-width: 40%;
+}
+
+.float-double {
+  float: left;
+}
+
+.float-double img {
+  max-width:50%;
+}
+
+

@@ -17,11 +17,11 @@
     </div>
   <% end %>
   <div class="field">
-    Please answer with a complete sentence. <br />
+    Please answer with a complete sentence, or sentences. <br />
     Avoid prepositions like "it". <br />
     <br />
     <b> Answer: </b> <br />
-    <%= text_field_tag :answer %>
+    <%= text_field_tag :answer, nil, :size => 90, :maxlength => 255%>
   </div>
 
   <%= submit_tag 'next', :disable_with => "...", :id => 'submit' %>

@@ -18,7 +18,7 @@ class GroundtruthController < ApplicationController
         @user = User.find_by_id(session[:groundtruthing_response][:user])
       end
       sequence = @scene.sequence
-      sorted_scenes = sequence.scenes.sort{|a,b| a.id <=> b.id}.
+      sorted_scenes = sequence.scenes.sort{|a,b| a.id <=> b.id}
       index_of_scene_in_sequence = sorted_scenes.index(@scene)
       @is_first_scene_in_sequence = (index_of_scene_in_sequence == 0)
       if not @is_first_scene_in_sequence

@@ -1,0 +1,1 @@
+cardir_ne(perspective_camera0, cylinder1).

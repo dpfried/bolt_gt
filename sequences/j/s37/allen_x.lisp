@@ -1,0 +1,1 @@
+((CUBE1 o CUBE2) (CUBE1 b CUBE3) (CUBE2 di CUBE3) )

@@ -1,0 +1,10 @@
+dcc_3_7(cube4, perspective_camera0, cylinder3).
+dcc_3_7(cube4, perspective_camera0, sphere1).
+dcc_3_7(cube4, perspective_camera0, cylinder2).
+dcc_1_5(cube4, cylinder3, sphere1).
+dcc_1_5(cube4, cylinder3, cylinder2).
+dcc_7_3(cube4, sphere1, cylinder2).
+dcc_1_5(perspective_camera0, cylinder3, sphere1).
+dcc_7_3(perspective_camera0, cylinder3, cylinder2).
+dcc_7_3(perspective_camera0, sphere1, cylinder2).
+dcc_7_3(cylinder3, sphere1, cylinder2).

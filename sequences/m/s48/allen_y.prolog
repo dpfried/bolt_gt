@@ -1,0 +1,1 @@
+allen_di(cube1, cube2).

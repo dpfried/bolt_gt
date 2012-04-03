@@ -1,0 +1,1 @@
+((CUBE1 b CUBE2) )

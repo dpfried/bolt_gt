@@ -1,0 +1,1 @@
+allen_bi(cube1, cube2).

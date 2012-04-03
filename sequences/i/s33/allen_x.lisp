@@ -1,0 +1,1 @@
+((CUBE2 b SPHERE1) )

@@ -1,0 +1,1 @@
+ffc_l(cube1, cube2, perspective_camera0).

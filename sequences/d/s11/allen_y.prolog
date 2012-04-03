@@ -1,0 +1,1 @@
+allen_oi(cube1, cube2).

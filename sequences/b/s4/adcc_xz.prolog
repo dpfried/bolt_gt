@@ -1,0 +1,1 @@
+adcc_5_3(cube1, perspective_camera0, cylinder2).

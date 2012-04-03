@@ -1,0 +1,1 @@
+allen_di(cube2, sphere1).

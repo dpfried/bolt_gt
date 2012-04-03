@@ -1,0 +1,10 @@
+allen_b(cube1, cube2).
+allen_bi(cube1, cube3).
+allen_bi(cube1, cylinder5).
+allen_bi(cube1, cylinder4).
+allen_bi(cube2, cube3).
+allen_bi(cube2, cylinder5).
+allen_bi(cube2, cylinder4).
+allen_oi(cube3, cylinder5).
+allen_o(cube3, cylinder4).
+allen_b(cylinder5, cylinder4).

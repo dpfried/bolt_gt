@@ -1,0 +1,1 @@
+reldistcalculus_closer(cube1, cube2, perspective_camera0).

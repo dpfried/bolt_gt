@@ -1,0 +1,1 @@
+dcc_1_5(sphere2, cube1, perspective_camera0).

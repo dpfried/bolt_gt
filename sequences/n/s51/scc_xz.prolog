@@ -1,0 +1,1 @@
+scc_5(cube1, perspective_camera0, cylinder2).

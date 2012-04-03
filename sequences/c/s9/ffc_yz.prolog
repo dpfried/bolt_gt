@@ -1,0 +1,10 @@
+ffc_r(cube4, perspective_camera0, cylinder3).
+ffc_r(cube4, perspective_camera0, sphere1).
+ffc_r(cube4, perspective_camera0, cylinder2).
+ffc_l(cube4, cylinder3, sphere1).
+ffc_l(cube4, cylinder3, cylinder2).
+ffc_r(cube4, sphere1, cylinder2).
+ffc_l(perspective_camera0, cylinder3, sphere1).
+ffc_l(perspective_camera0, cylinder3, cylinder2).
+ffc_l(perspective_camera0, sphere1, cylinder2).
+ffc_r(cylinder3, sphere1, cylinder2).

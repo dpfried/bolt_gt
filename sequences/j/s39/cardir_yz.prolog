@@ -1,0 +1,15 @@
+cardir_ne(cube1, cube2).
+cardir_sw(cube1, cube3).
+cardir_se(cube1, cube5).
+cardir_sw(cube1, perspective_camera0).
+cardir_ne(cube1, cylinder4).
+cardir_sw(cube2, cube3).
+cardir_se(cube2, cube5).
+cardir_sw(cube2, perspective_camera0).
+cardir_sw(cube2, cylinder4).
+cardir_ne(cube3, cube5).
+cardir_sw(cube3, perspective_camera0).
+cardir_ne(cube3, cylinder4).
+cardir_sw(cube5, perspective_camera0).
+cardir_nw(cube5, cylinder4).
+cardir_ne(perspective_camera0, cylinder4).

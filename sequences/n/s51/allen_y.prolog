@@ -1,0 +1,1 @@
+allen_d(cube1, cylinder2).

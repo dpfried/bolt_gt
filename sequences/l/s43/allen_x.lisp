@@ -1,0 +1,1 @@
+((CUBE1 o CUBE2) )

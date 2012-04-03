@@ -1,0 +1,1 @@
+cardir_sw(cube1, perspective_camera0).

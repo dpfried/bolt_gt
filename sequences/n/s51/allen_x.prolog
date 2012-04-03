@@ -1,0 +1,1 @@
+allen_o(cube1, cylinder2).

@@ -1,0 +1,1 @@
+allen_b(cube2, sphere1).

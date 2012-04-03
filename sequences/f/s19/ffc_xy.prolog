@@ -1,0 +1,1 @@
+ffc_r(sphere2, perspective_camera0, sphere1).

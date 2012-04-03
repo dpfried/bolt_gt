@@ -1,0 +1,1 @@
+dcc_3_7(cube1, cube2, perspective_camera0).

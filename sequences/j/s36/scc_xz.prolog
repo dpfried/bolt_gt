@@ -1,0 +1,1 @@
+scc_3(cube1, cube2, perspective_camera0).

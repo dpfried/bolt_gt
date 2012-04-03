@@ -1,0 +1,1 @@
+reldistcalculus_closer(perspective_camera0, sphere1, cylinder2).

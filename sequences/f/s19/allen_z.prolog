@@ -1,0 +1,1 @@
+allen_bi(sphere2, sphere1).

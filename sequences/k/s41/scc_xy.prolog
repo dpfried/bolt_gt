@@ -1,0 +1,1 @@
+scc_7(perspective_camera0, cylinder2, cylinder1).

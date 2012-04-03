@@ -1,0 +1,10 @@
+allen_d(cube1, cylinder5).
+allen_d(cube1, cube3).
+allen_d(cube1, cube4).
+allen_d(cube1, cylinder2).
+allen_o(cylinder5, cube3).
+allen_o(cylinder5, cube4).
+allen_o(cylinder5, cylinder2).
+allen_di(cube3, cube4).
+allen_o(cube3, cylinder2).
+allen_d(cube4, cylinder2).

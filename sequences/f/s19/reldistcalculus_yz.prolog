@@ -1,0 +1,1 @@
+reldistcalculus_farther(sphere2, perspective_camera0, sphere1).

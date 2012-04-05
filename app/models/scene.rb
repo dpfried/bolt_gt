@@ -2,6 +2,10 @@ class Scene < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   has_many :responses, :dependent => :destroy
   belongs_to :sequence
+
+  def user_completed?(user)
+    not responses.detect {|response| response.user == user}.nil?
+  end
 end
 
 

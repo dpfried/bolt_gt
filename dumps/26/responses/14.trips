@@ -1,4 +1,0 @@
-The smallest block is light blue and is in front of the large oragne cylinder and to the right of the long skinny gray cylinder. 
-(UTT
-       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ SMALLEST)) (N1 (N BLOCK))))
-        (VP (VP- (AUX (V IS)) (VP- (ADVBL (ADV LIGHT)) (VP- (V (V BLUE))))))))

@@ -1,4 +1,0 @@
-The red block is behind and slightly to the right from the large teal block.
-(UTT
-       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK))))
-        (VP (VP- (V IS) (PRED (ADJP (ADJ BEHIND)))))))

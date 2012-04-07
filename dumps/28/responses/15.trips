@@ -1,6 +1,0 @@
-the small purple cylinder is left of the silver block.
-(UTT
-       (S
-        (NP (SPEC (DET (ART THE)))
-         (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))
-        (VP (VP- (V IS) (PRED (ADJP (ADJ LEFT)))))))

@@ -1,7 +1,0 @@
-the orange cylinder is to the left of of the purple cylinder?
-(UTT
-       (S
-        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))
-        (VP
-         (VP- (V IS)
-          (PRED (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N LEFT)))))))))

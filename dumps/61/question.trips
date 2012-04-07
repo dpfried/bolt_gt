@@ -1,8 +1,0 @@
-Where is the dark green block?
-(UTT
-       (UTT
-        (S (PRED (ADVBL (ADV WHERE)))
-         (S (V IS)
-          (NP (SPEC (DET (ART THE)))
-           (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))))))
-       (PUNC PUNC-QUESTION-MARK))

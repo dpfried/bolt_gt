@@ -1,4 +1,0 @@
-The grey rectangular block is the righ-most object.
-(UTT
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ GREY)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK))))))

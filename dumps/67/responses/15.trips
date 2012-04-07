@@ -1,6 +1,0 @@
-the flat grey block is behind and to the left of the blue cylinder.
-(UTT
-       (S
-        (NP (SPEC (DET (ART THE)))
-         (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK)))))
-        (VP (VP- (V IS) (PRED (ADJP (ADJ BEHIND)))))))

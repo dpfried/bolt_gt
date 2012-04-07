@@ -1,4 +1,0 @@
-The yellow ball is in fromt of the grey (or white?) ball.
-(UTT
-       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BALL))))
-        (VP (VP- (V IS) (PRED (ADVBL (ADV IN) (NP (N1 (N FROMT)))))))))

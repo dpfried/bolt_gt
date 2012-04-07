@@ -1,3 +1,0 @@
-The green block is to the left of the light blue block. 
-(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))
-       (VP (VP- (V IS))))

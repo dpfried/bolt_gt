@@ -1,3 +1,0 @@
-The purple cylinder is to the right of the green block.
-(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
-       (VP (VP- (V IS))))

@@ -1,5 +1,0 @@
-The rectangular blue block is to the right of the big brown square block.
-(S
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ RECTANGULAR)) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))
-       (VP (VP- (V IS))))

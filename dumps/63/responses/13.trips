@@ -1,3 +1,0 @@
-The red cylinder is to the right of the purple flat block.
-(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
-       (VP (VP- (V IS))))

@@ -1,9 +1,0 @@
-the dark blue box behind the grey block.
-(UTT
-       (UTT
-        (NP (SPEC (DET (ART THE)))
-         (N1 (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))
-          (ADVBL (ADV BEHIND)
-           (NP (SPEC (DET (ART THE)))
-            (N1 (ADJP (ADJ GREY)) (N1 (N BLOCK))))))))
-       (PUNC PUNC-PERIOD))

@@ -1,3 +1,0 @@
-the smallest ball is to the right of the tan cylinder.
-(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ SMALLEST)) (N1 (N BALL))))
-       (VP (VP- (V IS))))

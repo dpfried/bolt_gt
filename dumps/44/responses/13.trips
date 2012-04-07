@@ -1,5 +1,0 @@
-The green rectangular block is to the right of the tall grey cylinder.
-(S
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))
-       (VP (VP- (V IS))))

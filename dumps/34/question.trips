@@ -1,8 +1,0 @@
-Where is the blue cylinder?
-(UTT
-       (UTT
-        (S (PRED (ADVBL (ADV WHERE)))
-         (S (V IS)
-          (NP (SPEC (DET (ART THE)))
-           (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))
-       (PUNC PUNC-QUESTION-MARK))

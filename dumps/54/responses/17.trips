@@ -1,5 +1,0 @@
-The dark blue box is towards the front behind the tanish grey flat block.
-(S
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
-       (VP (VP- (V IS))))

@@ -1,9 +1,0 @@
-The red cylinder is in the front. 
-(UTT
-       (UTT
-        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
-         (VP
-          (VP- (V IS)
-           (PRED
-            (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N FRONT)))))))))
-       (PUNC PUNC-PERIOD))

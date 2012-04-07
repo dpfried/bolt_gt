@@ -1,5 +1,0 @@
-The dark red block is on top of the orange cylinder in the middle.
-(S
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK)))))
-       (VP (VP- (V IS))))

@@ -1,9 +1,0 @@
-Where is the rectangular green block?
-(UTT
-       (UTT
-        (S (PRED (ADVBL (ADV WHERE)))
-         (S (V IS)
-          (NP (SPEC (DET (ART THE)))
-           (N1 (ADJP (ADJ RECTANGULAR))
-            (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))))))
-       (PUNC PUNC-QUESTION-MARK))

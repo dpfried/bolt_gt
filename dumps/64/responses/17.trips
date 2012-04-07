@@ -1,5 +1,0 @@
-The light blue cylinder is in the back right in front of the green cylinder on top of the grey flat cylinder.
-(S
-       (NP (SPEC (DET (ART THE)))
-        (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
-       (VP (VP- (V IS))))

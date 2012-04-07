@@ -1,5 +1,0 @@
-The purple cylinder is behind and slightly to the right of the large light green block.
-(UTT
-       (S
-        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
-        (VP (VP- (V IS) (PRED (ADJP (ADJ BEHIND)))))))

@@ -1,8 +1,0 @@
-Where is the smallest ball?
-(UTT
-       (UTT
-        (S (PRED (ADVBL (ADV WHERE)))
-         (S (V IS)
-          (NP (SPEC (DET (ART THE)))
-           (N1 (ADJP (ADJ SMALLEST)) (N1 (N BALL)))))))
-       (PUNC PUNC-QUESTION-MARK))

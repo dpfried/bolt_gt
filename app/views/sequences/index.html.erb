@@ -14,8 +14,9 @@
 <% @sequences.each do |sequence| %>
   <tr>
     <td><%= link_to sequence.id, sequence %></td>
-    <td><%= image_tag sequence.scenes.first.image_url(:thumb).to_s %></td>
-    <td><%= image_tag sequence.scenes.last.image_url(:thumb).to_s %></td>
+    <% sorted_scenes = sequence.scenes.sort {|a,b| a.id <=> b.id } %>
+    <td><%= image_tag sorted_scenes.first.image_url(:thumb).to_s %></td>
+    <td><%= image_tag sorted_scenes.last.image_url(:thumb).to_s %></td>
     <td><%= link_to sequence.scenes.length.to_s + " scenes", sequence %></td>
     <td><%= link_to 'Show', sequence %></td>
     <td><%= link_to 'Edit', edit_sequence_path(sequence) %></td>

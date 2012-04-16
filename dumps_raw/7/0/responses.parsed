@@ -1,0 +1,233 @@
+(
+("A tiny pink cylinder is near the left edge of the table"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ TINY)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFT))
+              (N1 (N EDGE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N TABLE))))))))))))))
+("The purple on the left"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N PURPLE))
+         (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N LEFT))))))))
+("Purple cylinder in the middle right of slanted grey square."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP-
+           (VP- (V PURPLE)
+            (NP
+             (N1 (N1 (N CYLINDER))
+              (ADVBL (ADV IN)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ MIDDLE))
+                 (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ SLANTED)))))))))
+            (ADJP (ADJ GREY)))
+           (ADVBL (ADV SQUARE))))))
+       (PUNC PUNC-PERIOD)))
+("pink cylinder added towards the left side of the surface"
+(UTT (ADJP (VP- (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))) (V (V ADDED)))))(UTT
+       (ADVBL (ADV TOWARDS)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LEFT))
+          (N1 (N SIDE)
+           (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SURFACE))))))))))
+("Small pink cylinder sitting to the left of center closer to the edge."
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+         (N1 (V SITTING)))))(ADVBL (ADV TO)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N LEFT)
+         (PP (PREP OF)
+          (NP
+           (N1 (N1 (N CENTER))
+            (ADJP (ADJ CLOSER)
+             (PP (PREP TO) (NP (SPEC (DET (ART THE))) (N1 (N EDGE)))))))))))(PUNC PUNC-PERIOD))
+("The purple cylinder is in the center of the left side of the plane."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ LEFT))
+                  (N1 (N SIDE)
+                   (PP (PREP OF)
+                    (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a purple cylinder to the left of the original grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ ORIGINAL))
+                (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))
+("a magenta cylinder, taller than it is fat is towards the west side of the grey object"
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER)))))
+       (PUNC PUNC-COMMA))(UTT (ADJP (ADJ TALLER) (PP (PREP THAN))))(S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ FAT))))))(V IS)(UTT
+       (ADVBL (ADV TOWARDS)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ WEST))
+          (N1 (N SIDE)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT)))))))))))
+("the pink cylinder is on the left side of the plane"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFT))
+              (N1 (N SIDE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))))
+("A small light purple 3D octagon is placed at the left middle if the grey surface."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1
+          (ADJP
+           (VP- (ADVBL (ADV SMALL) (NP (N1 (N LIGHT))))
+            (VP- (V (V PURPLE)) (ADJP (NUMBER THREE) (N D)))))
+          (N1 (N OCTAGON))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL (ADV AT)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFT)) (N1 (N MIDDLE))))))))))(ADV IF)(NP (SPEC (DET (ART THE))) (N1 (N GREY)))(UTT (UTT (S (VP (VP- (V SURFACE))))) (PUNC PUNC-PERIOD)))
+("There is a pink cylinder in the middle left part of the gray area."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V (V IS))
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))
+             (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N MIDDLE))))))
+           (PRED (ADJP (ADJ LEFT))))
+          (ADVBL (ADV PART))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))(PUNC PUNC-PERIOD))
+("purple cylinder tube"
+(UTT (ADJP (VP- (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))) (V (V TUBE))))))
+("A magenta can is on the left side of the gray area."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CAN))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LEFT))
+               (N1 (N SIDE)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Near the front right side of the plane is a pink cylidner."
+(UTT
+       (ADVBL (ADV NEAR)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ FRONT))
+          (N1 (ADJP (ADJ RIGHT))
+           (N1 (N SIDE)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))(VP (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N PINK)))))(NP (N1 (N CYLIDNER)))(PUNC PUNC-PERIOD))
+("This cylindrical purple object is very small as well but it appears to be not placed right on the plane, only by mere degrees. it is near the center but off to the left a bit."
+(UTT
+       (S
+        (S
+         (NP (SPEC (DET (ART THIS)))
+          (N1 (ADJP (ADJ CYLINDRICAL))
+           (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))))
+         (VP
+          (VP- (VP- (V IS) (PRED (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SMALL)))))
+           (ADVBL (ADV AS) (NP (VP (VP- (V WELL))))))))
+        (CONJ BUT)
+        (S (NP (PRO IT))
+         (VP
+          (VP- (VP- (V APPEARS))
+           (ADVBL (ADV TO)
+            (VP (VP- (V BE) (NEG NOT) (PRED (ADJP (ADJ PLACED)))))))))))(UTT (S (VP (VP- (V RIGHT)))))(UTT (ADJP (ADJ ON)))(ART THE)(UTT (UTT (S (VP (VP- (V PLANE))))) (PUNC PUNC-COMMA))(UTT (ADJP (ADJ ONLY)))(PP (PREP BY) (ADJP (ADJ MERE)))(UTT (UTT (NP (N1 (N DEGREES)))) (PUNC PUNC-PERIOD))(NP (PRO IT))(V IS)(ADVBL (ADV NEAR) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(ADVBL (ADV BUT))(UTT (ADJP (ADJ OFF)))(ADVBL (WORD TO) (WORD THE) (ADV LEFT))(ART A)(UTT (UTT (S (VP (VP- (V BIT))))) (PUNC PUNC-PERIOD)))
+("Magenta cylinder on gray surface"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER)))
+         (ADVBL (ADV ON)
+          (NP (VP (VP- (V GRAY) (NP (VP (VP- (V SURFACE))))))))))))
+("A magenta cylinder sits on the left side of a deformed surface."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFT))
+              (N1 (N SIDE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART A)))
+                 (N1 (ADJP (VP- (V (V DEFORMED)))) (N1 (N SURFACE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("th epurple cylinder is in the plane"
+(UTT
+       (S (NP (N1 (N1 (N TH)) (N1 (N1 (N EPURPLE)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (V IS)
+          (PRED (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))
+("A pink cylinder was placed near the center of the western hemisphere."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ WESTERN)) (N1 (N HEMISPHERE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the cylinder is magenta, and sits toward teh left of the plane, in the middle"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+        (VP
+         (VP- (VP- (V IS) (PRED (ADJP (ADJ MAGENTA)))) (CONJ AND)
+          (VP- (VP- (V SITS)) (ADVBL (ADV TOWARD) (NP (N1 (N TEH)))))))))(UTT
+       (NP
+        (N1 (N LEFT)
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (N PLANE))
+            (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N MIDDLE)))))))))))
+)

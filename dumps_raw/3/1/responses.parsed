@@ -1,0 +1,263 @@
+(
+("The yellow cylinder is to the left of the blue sphere."
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("a small gold cylinder is near the back left corner of the table."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ GOLD)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N BACK))
+               (N1 (N1 (N LEFT))
+                (N1 (N CORNER)
+                 (PP (PREP OF)
+                  (NP (SPEC (DET (ART THE))) (N1 (N TABLE))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The yellow object."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N OBJECT)))))
+       (PUNC PUNC-PERIOD)))
+("Yellow cylinder located in upper right of slanted grey square."
+(NP
+       (N1 (ADJP (ADJ YELLOW))
+        (N1 (N1 (N CYLINDER))
+         (N1
+          (N1
+           (ADJP
+            (VP- (VP- (V LOCATED))
+             (ADVBL (ADV IN)
+              (NP
+               (N1 (ADJP (ADJ UPPER))
+                (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ SLANTED)))))))))
+           (N1 (N GREY)))
+          (N1 (N SQUARE))))))(PUNC PUNC-PERIOD))
+("yellow cylinder added to the left and slightly farther than the sphere"
+(UTT
+       (S
+        (VP
+         (VP- (V YELLOW)
+          (NP
+           (N1 (N1 (N CYLINDER))
+            (CP
+             (VP
+              (VP- (VP- (V (V ADDED)))
+               (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV LEFT)) (CONJ AND)
+                (ADVBL (ADV SLIGHTLY))))))))
+          (ADJP (ADJ FARTHER)
+           (PP (PREP THAN) (NP (SPEC (DET (ART THE))) (N1 (N SPHERE))))))))))
+("The cylindrical structure is behind the blue object and is standing upright."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ CYLINDRICAL)) (N1 (N STRUCTURE))))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT)))))))
+          (CONJ AND) (VP- (AUX (V IS)) (VP- (V STANDING)))))))(UTT (UTT (ADJP (ADJ UPRIGHT))) (PUNC PUNC-PERIOD)))
+("The yellow cylinder was added up and to the left of the blue sphere.  The yellow cylinder is near the top of the top-left portion of the plane."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))))(ADVBL (ADVBL (ADV UP)) (CONJ AND)
+       (ADVBL (WORD TO) (WORD THE) (ADV LEFT)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(N SPHERE)(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N TOP)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V LEFT))))
+                 (N1 (N PORTION)))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a yellow cylinder located above and to the left of the blue ball."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ YELLOW))
+            (N1 (N1 (N CYLINDER)) (ADJP (ADJ LOCATED)))))))))(UTT
+       (ADVBL (ADVBL (ADV ABOVE)) (CONJ AND)
+        (ADVBL (WORD TO) (WORD THE) (ADV LEFT))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(UTT (S (VP (VP- (V BALL)))))(PUNC PUNC-PERIOD))
+("A yellow cylinder, stationed to the northwest of the blue sphere. I also now realize that I probably used directions wrong before. I am directionally retarded, forgive me."
+)
+("The yellow cylinder is to the left of the blue sphere"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))))))))))))
+("A yellow 3D octagon is placed to the left and behind the blue object."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ YELLOW))
+           (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV LEFT)) (CONJ AND)
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT)))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is now a yellow object that is to the left and towards the upper left corner of the area."
+(UTT (ADVBL (ADV THERE)))(VP (VP- (V IS) (PRED (ADVBL (ADV NOW)))))(NP (SPEC (DET (ART A))) (N1 (N YELLOW)))(N1 (N1 (N OBJECT))
+       (CP (PRO THAT)
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV LEFT)) (CONJ AND)
+            (ADVBL (ADV TOWARDS) (NP (SPEC (DET (ART THE))) (N1 (N UPPER)))))
+           (VP- (V (V LEFT))))))))(N1 (N CORNER) (PP (PREP OF)))(NP (SPEC (DET (ART THE))) (N1 (N AREA)))(PUNC PUNC-PERIOD))
+("A yellow cylinder was placed west and very slightly north of the blue sphere."
+(S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+       (VP (VP- (V WAS))))(UTT
+       (UTT
+        (NP
+         (N1
+          (ADJP
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADVBL (ADV WEST)) (CONJ AND)
+             (ADVBL (ADVBL (ADVBL (ADV VERY)) (ADVBL (ADV SLIGHTLY)))
+              (ADVBL (ADV (WORD NORTH) (WORD OF))
+               (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))
+          (N1 (N SPHERE)))))
+       (PUNC PUNC-PERIOD)))
+("They added a cylinder next to the blue sphere. The yellow sphere is near the top left side."
+(UTT
+       (UTT
+        (S (NP (PRO THEY))
+         (VP
+          (VP- (V ADDED)
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (N CYLINDER))
+             (ADVBL (ADV (WORD NEXT) (WORD TO))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N SPHERE))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ TOP)) (N1 (ADJP (ADJ LEFT)) (N1 (N SIDE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("yellow cylinderical object further from blue sphere"
+(UTT
+       (S
+        (VP
+         (VP- (V YELLOW)
+          (NP
+           (N1 (N1 (N1 (N CYLINDERICAL)) (N1 (N OBJECT)))
+            (ADVBL (ADVBL (ADV FURTHER))
+             (ADVBL (ADV FROM)
+              (NP (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))))))))))
+("A blue sphere is placed on the furthest edge of a huge, pentagon, gray mat. A short, olive-colored cylinder is placed left to the sphere, close of the furthest corner on the same mat. There is a light source from 4 o'clock direction."
+)
+("In the back left side of the plane is a yellow cyilider."
+(UTT (ADVBL (ADV IN)))(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N BACK))
+          (N1 (N1 (N LEFT))
+           (N1 (N SIDE)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))
+        (VP (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N YELLOW)))))))(NP (N1 (N CYILIDER)))(PUNC PUNC-PERIOD))
+("This yellow octahedron is smaller than the ball and appears to be very back in the picture"
+(UTT
+       (S
+        (S
+         (NP
+          (NP (SPEC (DET (ART THIS)))
+           (N1 (ADJP (ADJ YELLOW)) (N1 (N OCTAHEDRON)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADJP (ADJ SMALLER)
+             (PP (PREP THAN) (NP (SPEC (DET (ART THE))) (N1 (N BALL)))))))))
+        (CONJ AND)
+        (VP (VP- (V APPEARS) (CP (INFINITIVAL-TO TO) (VP (VP- (V BE))))))))(UTT (ADVBL (ADVBL (ADV VERY)) (ADVBL (ADV BACK))))(UTT (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PICTURE))))))
+("Yellow cylinder across from blue sphere"
+(UTT
+       (S
+        (VP (VP (VP- (V YELLOW) (NP (N1 (N CYLINDER))))) (ADVBL (ADV ACROSS)))))(UTT (ADVBL (ADV FROM) (NP (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))))
+("A yellow cylinder sits to the left of the blue sphere."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the orange cylinder is more distant and to the left of the blue ball"
+(UTT
+       (S
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED (ADJP (ADJ (LESS-MORE (WORD MORE)) (ADJ DISTANT)))))))
+        (CONJ AND)
+        (VP
+         (VP-
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))))
+          (VP- (V BALL)))))))
+("the cylinder is yellow, and is located to the left of the blue ball."
+(UTT
+       (UTT
+        (S
+         (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+          (VP (VP- (AUX (V IS)) (VP- (V (V YELLOW))))))
+         (CONJ AND)
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (VP- (V LOCATED))
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ BLUE)) (N1 (N BALL)))))))))))))
+       (PUNC PUNC-PERIOD)))
+)

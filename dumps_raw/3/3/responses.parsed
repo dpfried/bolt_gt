@@ -1,0 +1,339 @@
+(
+("The yellow block is to the right of the red disc."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (V RIGHT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ RED)) (N1 (N DISC)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("a square gold brick is near and to the right of the red disk."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SQUARE)) (N1 (ADJP (ADJ GOLD)) (N1 (N BRICK)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADVBL (ADV NEAR)) (CONJ AND)
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (V RIGHT)
+                (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED))))))))
+            (VP- (V (V DISK))))))))
+       (PUNC PUNC-PERIOD)))
+("The ellow square object."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N ELLOW)) (N1 (N1 (N SQUARE)) (N1 (N OBJECT))))))
+       (PUNC PUNC-PERIOD)))
+("Narrow yellow box to the right of the red cylinder."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V NARROW)
+           (NP
+            (VP
+             (VP- (V YELLOW)
+              (NP
+               (VP
+                (VP- (VP- (V BOX))
+                 (ADVBL (ADV TO)
+                  (NP (SPEC (DET (ART THE)))
+                   (N1 (N RIGHT)
+                    (PP (PREP OF)
+                     (NP (SPEC (DET (ART THE)))
+                      (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Upright yellow square prism set to the right of the red prism but also slightly closer to the viewer"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ UPRIGHT))
+          (N1 (ADJP (ADJ YELLOW)) (N1 (ADJP (ADJ SQUARE)) (N1 (N PRISM)))))
+         (V (V SET)))))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N PRISM))))(ADVBL (ADV BUT))(UTT (ADVBL (ADV ALSO)))(UTT (ADVBL (ADV SLIGHTLY)))(UTT (ADVBL (ADV (WORD CLOSER) (WORD TO))))(ADVBL (NP (SPEC (DET (ART THE))) (N1 (N VIEWER)))))
+("A yellow wall is to the right of the red object. The wall's shadow touches the object next to itself."
+(S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N WALL))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ RED)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S
+         (NP
+          (SPEC
+           (DET (POSSESSOR (NP (SPEC (DET (ART THE))) (N1 (N WALL))) (^S ^S))))
+          (N1 (N SHADOW)))
+         (VP
+          (VP- (V TOUCHES)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N OBJECT))
+             (ADVBL (ADV (WORD NEXT) (WORD TO)) (NP (PRO ITSELF)))))))))
+       (PUNC PUNC-PERIOD)))
+("The yellow square was added to the right of the red disc.  The yellow square is standing up.  The yellow square is oriented at the bottom-center of the top-right portion of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N SQUARE))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N RED)))(N DISC)(PUNC PUNC-PERIOD)(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N SQUARE))))
+         (VP (VP- (AUX (V IS)) (VP- (V STANDING) (PART UP))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N SQUARE))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V ORIENTED)))
+           (ADVBL (ADV AT)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N BOTTOM)) (WORD PUNC-MINUS)
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V RIGHT))))
+                  (N1 (N PORTION))))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a yellow square to the righe of the red circle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N SQUARE)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N RIGHE))
+             (ADVBL (ADV OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ RED)) (N1 (N CIRCLE)))))))))))))
+("A thin, flat, cracker-like yellow box, the large face horizontally aligned with the bottom side of the flat grey object"
+(ART A)(ADJP (ADJ THIN))(PUNC PUNC-COMMA)(ADJP (ADJ FLAT))(PUNC PUNC-COMMA)(N1 (ADJP (ADJ CRACKER)) (N1 (ADJP (ADJ LIKE)) (N1 (N YELLOW))))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-COMMA)(NP (SPEC (DET (ART THE))) (N1 (N LARGE)))(V FACE)(UTT
+       (ADJP
+        (VP- (VP- (ADVBL (ADV HORIZONTALLY)) (VP- (V (V ALIGNED))))
+         (ADVBL (ADV WITH)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ BOTTOM))
+            (N1 (N SIDE)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ FLAT))
+                (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))))))))))))
+("The yellow cube is to the right of the red cylinder"
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))
+       (VP (VP- (V IS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))))))))
+("A short 3D yellow square is placed on its side to the right of the red object."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SHORT))
+          (N1 (ADJP (NUMBER THREE) (N D))
+           (N1 (ADJP (ADJ YELLOW)) (N1 (N SQUARE))))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))))(UTT (ADJP (ADJ ON)))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ RED)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD)))
+("Now there is a yellow rectagular cube to the right of the red slice."
+(UTT
+       (S (ADVBL (ADV NOW))
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N RECTAGULAR)))
+             (N1 (N CUBE)))))))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED))))))))(UTT (UTT (S (VP (VP- (V SLICE))))) (PUNC PUNC-PERIOD)))
+("A thin yellow rectangular prism was placed east of the red octagonal prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ THIN))
+           (N1 (ADJP (ADJ YELLOW))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV (WORD EAST) (WORD OF))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED))
+               (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD)))
+("They added a rectangular box on its side next to the red hexagon. It is on the right side of the hexagon."
+(UTT
+       (UTT
+        (S (NP (PRO THEY))
+         (VP
+          (VP- (V ADDED)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BOX))))
+           (PP (PREP ON)
+            (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+             (N1 (N1 (N SIDE))
+              (ADVBL (ADV (WORD NEXT) (WORD TO))
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ RED)) (N1 (N HEXAGON))))))))))))
+       (PUNC PUNC-PERIOD))(S (NP (PRO IT)) (VP (VP- (V (V IS)))))(UTT
+       (UTT
+        (ADVBL (ADV ON)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ RIGHT))
+           (N1 (V SIDE)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N HEXAGON)))))))))
+       (PUNC PUNC-PERIOD)))
+("thin 3D square object next to red disk"
+(UTT
+       (NP
+        (N1
+         (N1 (ADJP (ADJ THIN))
+          (N1 (ADJP (NUMBER THREE) (N D))
+           (N1 (ADJP (ADJ SQUARE)) (N1 (N OBJECT)))))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (N1 (ADJP (ADJ RED)) (N1 (V DISK)))))))))
+("There is a blue sphere placed closely to the furthest edge of a huge, pentagon, gray mat. A short, olive-colored cylinder is left to the sphere. A red, octagon, prism is in front of the sphere. An olive, square prism is on the right, next to the octagon."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP-
+           (VP- (V IS)
+            (NP (SPEC (DET (ART A)))
+             (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))) (ADJP (ADJ PLACED)))))
+           (ADVBL (ADV CLOSELY)))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ FURTHEST)) (N1 (N EDGE)))))))))(PREP OF)(ART A)(UTT (ADJP (ADJ HUGE)))(PUNC PUNC-COMMA)(N PENTAGON)(PUNC PUNC-COMMA)(UTT (S (VP (VP- (V GRAY) (NP (VP (VP- (V MAT))))))))(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SHORT))
+          (N1 (ADJP (ADJ OLIVE)) (N1 (ADJP (ADJ COLORED)) (N1 (N CYLINDER))))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V LEFT)))))))(PART TO)(NP (SPEC (DET (ART THE))) (N1 (N SPHERE)))(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART A))) (N1 (N RED)))(PUNC PUNC-COMMA)(N OCTAGON)(PUNC PUNC-COMMA)(N PRISM)(V IS)(UTT
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SPHERE))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART AN)))
+       (N1 (ADJP (ADJ OLIVE)) (N1 (ADJP (ADJ SQUARE)) (N1 (N PRISM)))))(VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))(ART THE)(ADVBL (ADVBL (ADV RIGHT))
+       (ADVBL (ADV (WORD NEXT) (WORD TO))
+        (NP (SPEC (DET (ART THE))) (N1 (N OCTAGON)))))(PUNC PUNC-PERIOD))
+("Directly to the right of the red disk is a yellow cube."
+(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADVBL (ADV DIRECTLY))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (V RIGHT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED))))))))
+          (VP- (V DISK))))))(VP
+       (VP- (V IS)
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))))(PUNC PUNC-PERIOD))
+("The yellow box-shaped is a darker yellow than the second object, but as tall as the blue object. Its shadow is covering the red octahedron as it is quite close to it."
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N YELLOW))))(UTT (ADJP (VP- (N1 (N BOX)) (PUNC PUNC-MINUS) (V (V SHAPED)))))(UTT
+       (UTT
+        (S (V IS)
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ DARKER)) (N1 (N YELLOW))
+           (PP (PREP THAN) (NP (DATE (ART THE) (ORDINAL SECOND))))))
+         (NP (N1 (N OBJECT)))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(ADVBL (ADV AS)
+       (NP
+        (N1 (N1 (N TALL))
+         (ADVBL (ADV AS)
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))))))(PUNC PUNC-PERIOD)(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SHADOW)))(V IS)(UTT
+       (S
+        (NP
+         (VP
+          (VP- (V COVERING)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ RED)) (N1 (N OCTAHEDRON)))))))
+        (VP
+         (VP- (ADVBL (ADV AS) (NP (PRO IT)))
+          (VP- (V IS) (PRED (ADJP (ADVBL (ADV QUITE)) (ADJP (ADJ CLOSE)))))))))(ADVBL (ADV TO) (NP (PRO IT)))(PUNC PUNC-PERIOD))
+("Yellow brick next to red cylinder"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N BRICK)))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))))))))
+("A skinny yellow cube sits to the right of the flat red cylinder."
+(UTT
+       (UTT
+        (S
+         (NP
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ SKINNY)) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ FLAT))
+                 (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the orange block is tot he right of the red circle and in front of the blue ball"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ ORANGE)) (N1 (N BLOCK))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V TOT)))))))(UTT
+       (S (NP (PRO HE))
+        (VP
+         (VP- (VP- (V RIGHT))
+          (ADVBL
+           (ADVBL (ADV OF)
+            (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CIRCLE)))))
+           (CONJ AND)
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N BALL))))))))))))
+("the box is pale yellow, and is located to the right of the red disk, which is in front of both the blue ball and the yellow cylinder, in line with the blue ball"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+         (VP (VP- (AUX (V IS)) (VP- (V (V PALE)) (ADJP (ADJ YELLOW))))))
+        (CONJ AND) (VP (VP- (AUX (V IS)) (VP- (V LOCATED))))))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED))))(DEFINITION (DEFINITION (VP (VP- (V DISK)))) (PUNC PUNC-COMMA)
+       (DEFINITION
+        (CP (PRO WHICH)
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (CONJ BOTH)
+               (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BALL))))
+               (WORD AND)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER)))))))))))))(PUNC PUNC-COMMA)(ADJP
+       (VP-
+        (ADVBL (ADV IN)
+         (NP
+          (VP
+           (VP- (V LINE)
+            (PP (PREP WITH) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))
+        (VP- (V (V BALL))))))
+)

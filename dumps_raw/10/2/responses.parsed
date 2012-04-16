@@ -1,0 +1,232 @@
+(
+("The purple most closed"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N PURPLE))
+         (CP (S (NP (SPEC (QUAN MOST))) (VP (VP- (V CLOSED)))))))))
+("taller purple box added in front of the blue box."
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ TALLER)) (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX))))
+         (V (V ADDED)))))(UTT
+       (UTT
+        (S
+         (ADVBL (ADV (WORD IN) (WORD FRONT))
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))
+         (S (VP (VP- (V BOX))))))
+       (PUNC PUNC-PERIOD)))
+("larger rectangular prism added in front of blue prism"
+(UTT
+       (NP
+        (N1
+         (N1
+          (N1 (ADJP (ADJ LARGER)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))
+          (CP (VP (VP- (V (V ADDED))))))
+         (ADVBL (ADV (WORD IN) (WORD FRONT))
+          (PP (PREP OF) (NP (N1 (ADJP (ADJ BLUE)) (N1 (N PRISM))))))))))
+("Pink tall and large structure to the south"
+(UTT
+       (S
+        (VP
+         (VP-
+          (VP- (V PINK)
+           (NP
+            (N1 (ADJP (ADJP (ADJ TALL)) (CONJ AND) (ADJP (ADJ LARGE)))
+             (N1 (N STRUCTURE)))))
+          (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N SOUTH)))))))))
+("the purple rectangular prism was added down from the blue rectangular prism.  the purple rectangular prism is almost touching the blue rectangular prism.  The purple rectangular prism is standing up."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))))(UTT
+       (UTT
+        (ADVBL (ADV (WORD DOWN) (WORD FROM))
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ PURPLE))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (ADVBL (ADV ALMOST))
+            (VP- (V TOUCHING)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+        (VP (VP- (AUX (V IS)) (VP- (V STANDING))))))(ADVBL (ADV UP))(PUNC PUNC-PERIOD))
+("there is a pink box below and to the left of the blue box"
+(UTT (ADVBL (ADV THERE)))(UTT
+       (S (AUX (V IS)) (NP (SPEC (DET (ART A))) (N1 (N PINK)))
+        (VP- (VP- (V (V BOX)))
+         (ADVBL (ADVBL (ADV BELOW)) (CONJ AND)
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))))))))(UTT (S (VP (VP- (V BOX))))))
+("a magenta box, like the blue box, but scaled up to 1.5 times the size sits just southwest of the blue box."
+(UTT (NP (SPEC (DET (ART A))) (N1 (N MAGENTA))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(ADJP (ADJ LIKE) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (NP
+         (N1 (ADJP (ADJ SCALED))
+          (N1
+           (ADJP
+            (NUMBER (ADV (WORD UP) (WORD TO))
+             (NUMBER (NUMBER ONE) (PUNC PUNC-PERIOD) (NUMBER FIVE))))
+           (N1 (N TIMES)))))))(UTT (NP (SPEC (DET (ART THE))) (N1 (N SIZE))))(VP
+       (VP- (VP- (V SITS)) (ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV SOUTHWEST)))))(ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-PERIOD)))
+("A larger light purple cuboid box on its side is in front of the dark blue one."
+)
+("A bigger pink rectangle object is below the other two objects."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1
+           (N1 (ADJP (ADJ BIGGER)) (N1 (ADJP (ADJ PINK)) (N1 (N RECTANGLE))))
+           (N1 (N OBJECT))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple box is in front of the other two shapes"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N SHAPES)))))))))))))
+("tall purple 3d rectangle"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ TALL))
+         (N1 (ADJP (ADJ PURPLE))
+          (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N RECTANGLE))))))))
+("A blue prism is placed close to the left, hind corner, and a smaller yellowish box is to the right, behind the blue prism. A magenta prism is right in front of the blue one."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N PRISM))))(VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))(UTT (ADJP (ADJ CLOSE)))(ADVBL (WORD TO) (WORD THE) (ADV LEFT))(PUNC PUNC-COMMA)(UTT (ADJP (ADJ HIND)))(UTT (UTT (S (VP (VP- (V CORNER))))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV AND))
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ YELLOWISH)) (N1 (N BOX)))))))(V IS)(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PUNC PUNC-COMMA)(UTT
+       (UTT
+        (ADVBL (ADV BEHIND)
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N PRISM))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N PRISM))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V RIGHT)))
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))))(UTT (UTT (NP (NUMBER ONE))) (PUNC PUNC-PERIOD)))
+("Right in front of the blue rectangular prisim is a pink rectangular prisim."
+)
+("The purple box is larger than any other currently placed box and thus has the largest shadow. It is covering part of blue in 'our' perspective and more near the middle of the picture."
+(NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))(UTT
+       (S (NP (VP (VP- (V BOX))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADJP (ADJ LARGER)
+            (PP (PREP THAN)
+             (NP (SPEC (QUAN ANY))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (VP- (ADVBL (ADV CURRENTLY)) (VP- (V (V PLACED)))))
+                (N1 (N BOX))))))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (S (NP (N1 (N THUS)))
+          (VP
+           (VP- (V HAS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LARGEST)) (N1 (N SHADOW)))))))))
+       (PUNC PUNC-PERIOD))(NP (PRO IT))(VP (VP- (AUX (V IS)) (VP- (V COVERING))))(N1 (N PART) (PP (PREP OF) (ADJP (ADJ BLUE))))(UTT (ADVBL (ADV IN)))(^ ^)(PRO OUR)(^ ^)(N PERSPECTIVE)(ADVBL (ADV AND))(NP (SPEC (QUAN MORE)))(UTT (ADJP (ADJ NEAR)))(NP (SPEC (DET (ART THE))) (N1 (N MIDDLE)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PICTURE)))(PUNC PUNC-PERIOD))
+("There is a purple brick in front of the other two bricks."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N BRICK)))
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER))
+                 (N1 (ADJP (NUMBER TWO)) (N1 (N BRICKS)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A skinny, pink block sits in front of the tall, blue cube."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SKINNY)) (N1 (ADJP (ADJ PINK)) (N1 (N BLOCK))))))(V SITS)(UTT
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))))))
+       (PUNC PUNC-PERIOD)))
+("the purple block is to the left of the blue block"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BLOCK))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))))))))))))
+("A large pink rectangular prism was placed south of the two previous shapes."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ LARGE))
+           (N1 (ADJP (ADJ PINK))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV (WORD SOUTH) (WORD OF))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (NUMBER TWO))
+               (N1 (ADJP (ADJ PREVIOUS)) (N1 (N SHAPES)))))))))))
+       (PUNC PUNC-PERIOD)))
+("the magenta tower is in front of the other two blocks, in line with the yellow box"
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N TOWER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER))
+                (N1 (ADJP (NUMBER TWO)) (N1 (N BLOCKS))))))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV IN)
+           (NP
+            (VP
+             (VP- (V LINE)
+              (PP (PREP WITH) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW))))))))
+          (VP- (V BOX)))))))
+)

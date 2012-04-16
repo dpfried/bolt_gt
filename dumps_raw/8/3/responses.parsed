@@ -1,0 +1,206 @@
+(
+("the red next to yellow"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N RED))
+         (ADVBL (ADV (WORD NEXT) (WORD TO)) (NP (N1 (V YELLOW))))))))
+("red cylinder propped up on the back right corner of the yellow box."
+(UTT (ADJP (VP- (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))) (V (V PROPPED)))))(UTT (ADVBL (ADV UP)))(UTT
+       (UTT
+        (S
+         (VP
+          (VP-
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N BACK))
+              (N1 (N1 (N RIGHT))
+               (N1 (V CORNER)
+                (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW)))))))))
+           (VP- (V BOX))))))
+       (PUNC PUNC-PERIOD)))
+("Red cylinder resting on the corner of the yellow cube"
+(UTT
+       (NP
+        (N1 (N1 (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))) (N1 (V RESTING)))
+         (ADVBL (ADV ON)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (V CORNER)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))))))))))
+("Flattened red cylinder resting on tip of yellow cube"
+(UTT
+       (NP
+        (N1
+         (N1
+          (N1 (ADJP (ADJ FLATTENED))
+           (N1 (ADJP (ADJ RED)) (N1 (N1 (N CYLINDER)) (N1 (V RESTING)))))
+          (ADVBL (ADV ON) (NP (N1 (N TIP)))))
+         (ADVBL (ADV OF) (NP (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE)))))))))
+("The red disc is held up by the top right corner of the yellow cube."
+(NP (SPEC (DET (ART THE))) (N1 (N RED)))(N DISC)(VP (VP- (AUX (V IS)) (VP- (V (V HELD)))))(UTT (ADVBL (ADV UP)))(ADVBL (ADV BY)
+       (NP (SPEC (DET (ART THE)))
+        (N1
+         (N1 (ADJP (ADJ TOP))
+          (N1 (N1 (N RIGHT))
+           (N1 (V CORNER)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW)))))))
+         (N1 (N CUBE)))))(PUNC PUNC-PERIOD))
+("there is a red circle resting on the upper right corner of the yellow box"
+(UTT (ADVBL (ADV THERE)))(V IS)(NP (SPEC (DET (ART A))) (N1 (N RED)))(V CIRCLE)(UTT (NP (VP (VP- (V RESTING)))))(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ UPPER))
+             (N1 (ADJP (ADJ RIGHT))
+              (N1 (V CORNER)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW)))))))))
+          (VP- (V BOX)))))))
+("a red disc is leaning its edge on the yellow box at its top, northeast corner. the disc has a diameter likely 1.5 times the size of the green cylinder's"
+)
+("A short red 3D octagon is laying atop the back rear corner of the yellow object."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ SHORT)) (N1 (N RED))))(UTT (NP (NUMBER THREE)))(N1 (ADJP (ADJ D)) (N1 (N OCTAGON)))(UTT
+       (S (V IS)
+        (NP
+         (N1 (N1 (N LAYING))
+          (ADVBL (ADV ATOP)
+           (NP (SPEC (DET (ART THE))) (N1 (N1 (N BACK)) (ADJP (ADJ REAR)))))))
+        (NP
+         (N1 (V CORNER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ YELLOW)) (N1 (N OBJECT)))))))))(PUNC PUNC-PERIOD))
+("A thin red slice is resting on the right corner of the yellow object."
+(ART A)(UTT (ADVBL (ADV THIN)))(N1 (ADJP (ADJ RED)) (N1 (N SLICE)))(UTT
+       (UTT
+        (S (V IS) (NP (VP (VP- (V RESTING))))
+         (PRED
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ RIGHT))
+             (N1 (N CORNER)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ YELLOW)) (N1 (N OBJECT))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The red disk is leaning on the yellow cube"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N DISK))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V LEANING))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE)))))))))))
+("red thin disk"
+(UTT (NP (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ THIN)) (N1 (V DISK)))))))
+("A blue CD stack case is on the center of the pentagon gray area. A same-sized, light-olive cube is right to the blue cylinder. A green paint bucket is 45 degrees behind the blue cylinder. A red, pie container leans on one corner of the light-olive cube."
+(NP (SPEC (DET (ART A))) (N1 (N BLUE)))(UTT (ADJP (ADJ CD)))(UTT (S (VP (VP- (V (V STACK))))))(ADJP (VP- (V (V CASE))))(VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))(NP (SPEC (DET (ART THE))) (N1 (N CENTER)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PENTAGON)))(N1 (ADJP (ADJ GRAY)) (N1 (N AREA)))(PUNC PUNC-PERIOD)(ART A)(ADJP (VP- (N1 (N SAME)) (PUNC PUNC-MINUS) (V (V SIZED))))(PUNC PUNC-COMMA)(UTT (ADVBL (ADV LIGHT)))(PUNC PUNC-MINUS)(N1 (ADJP (ADJ OLIVE)) (N1 (N CUBE)))(V IS)(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (VP- (V RIGHT))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ GREEN)) (N1 (N1 (N PAINT)) (N1 (N BUCKET)))))(UTT
+       (UTT
+        (S (V IS) (NP (NUMBER 45) (N1 (N DEGREES)))
+         (PRED
+          (ADVBL (ADV BEHIND)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART A))) (N1 (N RED)))(PUNC PUNC-COMMA)(N1 (N1 (N PIE)) (N1 (N CONTAINER)))(NP
+       (N1 (N1 (N LEANS))
+        (ADVBL (ADV ON) (NP (SPEC (NUMBER ONE)) (N1 (N CORNER))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N LIGHT)))(PUNC PUNC-MINUS)(N1 (ADJP (ADJ OLIVE)) (N1 (N CUBE)))(PUNC PUNC-PERIOD))
+("Leaning on the yellow cube is a red disk."
+(UTT
+       (NP
+        (VP
+         (VP- (VP- (V LEANING))
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE)))))))))(UTT
+       (UTT
+        (S (AUX (V IS)) (NP (SPEC (DET (ART A))) (N1 (N RED)))
+         (VP- (V (V DISK)))))
+       (PUNC PUNC-PERIOD)))
+("The red very short octahedron is placed near Yellow and has its edge resting on the edge of yellow (at least to my perspective)."
+)
+("Red cylinder on top of yellow brick"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))
+         (ADVBL (ADV ON)
+          (NP
+           (N1 (V TOP)
+            (PP (PREP OF) (NP (N1 (ADJP (ADJ YELLOW)) (N1 (N BRICK))))))))))))
+("A short red octagonal prism was placed leaning on the northeast corner of the yellow cube."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SHORT))
+          (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM))))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL
+            (VP
+             (VP- (VP- (V LEANING))
+              (ADVBL (ADV ON)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ NORTHEAST)) (N1 (N CORNER)))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N YELLOW)))(V CUBE)(PUNC PUNC-PERIOD))
+("A flat red cylindrical surface is resting at an angle on a corner of the yellow block."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ FLAT))
+          (N1 (ADJP (ADJ RED))
+           (N1 (ADJP (ADJ CYLINDRICAL)) (N1 (N SURFACE))))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V RESTING))
+           (ADVBL (ADV AT) (NP (SPEC (DET (ART AN))) (N1 (N ANGLE)))))))))(UTT (ADJP (ADJ ON)))(ART A)(UTT
+       (UTT
+        (NP
+         (N1 (V CORNER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ YELLOW)) (N1 (N BLOCK))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a brown disc that has one end sitting on top to the corner of the orange rectangle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS))
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BROWN)) (N1 (N DISC)))
+            (CP (PRO THAT)
+             (VP
+              (VP- (V HAS) (NP (NUMBER ONE))
+               (VP (VP- (V END) (NP (VP (VP- (V SITTING)))))))))))
+          (PRED (ADJP (ADJ ON)))))))(UTT
+       (S
+        (VP
+         (VP- (VP- (V TOP))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N CORNER)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ ORANGE)) (N1 (N RECTANGLE)))))))))))))
+("the disk is red, and sitting on an edge. The disk sits in line with the blue cylinder, to the right"
+(ART THE)(UTT (S (VP (VP- (V DISK)))))(V IS)(UTT (UTT (ADJP (ADJ RED))) (PUNC PUNC-COMMA))(ADVBL (ADV AND))(UTT (NP (VP (VP- (V SITTING)))))(UTT (ADJP (ADJ ON)))(ART AN)(UTT (UTT (S (VP (VP- (V EDGE))))) (PUNC PUNC-PERIOD))(ART THE)(UTT (S (VP (VP- (V DISK)))))(V SITS)(UTT
+       (UTT
+        (ADVBL (ADV IN)
+         (NP
+          (VP
+           (VP- (VP- (V LINE))
+            (ADVBL (ADV WITH)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-COMMA))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT)))
+)

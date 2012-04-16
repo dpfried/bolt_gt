@@ -1,0 +1,185 @@
+(
+("The yellow closer"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CLOSER))))))
+("yellow box added to the bottom of the blue box."
+(UTT (ADJP (ADJ YELLOW)))(UTT (S (VP (VP- (V BOX)))))(UTT
+       (ADJP
+        (VP- (V (V ADDED))
+         (PP (PREP TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (V BOTTOM)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-PERIOD)))
+("yellow recangular prism added in front of previous object"
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ YELLOW)) (N1 (N1 (N RECANGULAR)) (N1 (N PRISM))))
+         (V (V ADDED)))))(UTT
+       (S
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF) (ADJP (ADJ PREVIOUS))))
+        (S (VP (VP- (V OBJECT)))))))
+("small yellow cube in front of previous object"
+(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV SMALL)
+           (NP
+            (VP
+             (VP- (V YELLOW)
+              (NP
+               (N1 (N1 (N CUBE))
+                (ADVBL (ADV (WORD IN) (WORD FRONT))
+                 (PP (PREP OF) (ADJP (ADJ PREVIOUS))))))))))
+          (VP- (V OBJECT)))))))
+("the yellow cube was added down from the blue square."
+(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V ADDED)))
+          (ADVBL (ADV (WORD DOWN) (WORD FROM))
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a yellow box below the blue rectangle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX)))
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE))))))))))))
+("a yellow box, pivoted at an angle sits with its north corner aiming toward the blue box. The yellow box is a bit longer than it is tall, but about twice as wide as it is tall. The short, long end faces the viewer."
+)
+("A smaller yellow cuboid box is in front of the blue one."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER))
+          (N1 (ADJP (ADJ YELLOW)) (N1 (ADJP (ADJ CUBOID)) (N1 (N BOX))))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))))(UTT (UTT (NP (NUMBER ONE))) (PUNC PUNC-PERIOD)))
+("A smaller yellow cube is below the blue object."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))))))))
+       (PUNC PUNC-PERIOD)))
+("The yellow box is in front of the blue box"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))
+           (VP- (V (V BOX)))))))))
+("yellow cube"
+(UTT (NP (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))))
+("A blue cereal box stand sidewase left to the center. A yellowish lunch box is in front of the blue box."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (ADJ CEREAL))
+            (N1 (ADJP (VP- (V (V BOX)))) (N1 (N STAND)))))
+          (N1 (N SIDEWASE))))
+        (VP (VP- (V LEFT)))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(PUNC PUNC-PERIOD)(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ YELLOWISH)) (N1 (N1 (N LUNCH)) (N1 (N BOX)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))
+            (VP- (V (V BOX))))))))
+       (PUNC PUNC-PERIOD)))
+("In front of the blue rectangular prisim is a yellow cube."
+(UTT
+       (ADVBL (ADV (WORD IN) (WORD FRONT))
+        (PP (PREP OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))))))(V IS)(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))(PUNC PUNC-PERIOD))
+("This yellow box is placed closer to the point of view and is much smaller than Blue."
+(UTT
+       (S (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))))(UTT
+       (ADJP (ADJ CLOSER)
+        (PP (PREP TO) (NP (SPEC (DET (ART THE))) (N1 (N POINT))))))(ADVBL (ADV OF) (NP (N1 (N VIEW))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (S (V IS) (NP (SPEC (QUAN MUCH)))
+          (PRED (ADJP (ADJ SMALLER) (PP (PREP THAN) (ADJP (ADJ BLUE))))))))
+       (PUNC PUNC-PERIOD)))
+("The yellow brick is in front of the blue one."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N BRICK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (ART THE) (NAME (N BLUE) (RNUMBER (NUMBER ONE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A flat yellow cube sits slightly angled in front of the blue rectangle."
+(UTT
+       (S
+        (NP
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ YELLOW)) (N1 (N CUBE))))))
+        (VP (VP- (V SITS)))))(UTT (ADJP (ADVBL (ADV SLIGHTLY)) (ADJP (ADJ ANGLED))))(UTT
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE)))))))
+       (PUNC PUNC-PERIOD)))
+("there is an orange block in front of the  blue block"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART AN)))
+           (N1 (N1 (ADJP (ADJ ORANGE)) (N1 (N BLOCK)))
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))))))))))
+("A small yellow rectangular prism is just south of the tall blue rectangular prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SMALL))
+           (N1 (ADJP (ADJ YELLOW))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADVBL (ADV JUST))
+             (ADVBL (ADV (WORD SOUTH) (WORD OF))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ TALL))
+                (N1 (ADJP (ADJ BLUE))
+                 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the box is yellow, and smaller than the blue block. The new box sits in front of the blue block, in line with its right edge."
+)
+)

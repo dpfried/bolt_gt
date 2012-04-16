@@ -1,0 +1,219 @@
+(
+("The blue"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))
+("blue box added to the bottom of the slanted grey square."
+(ADJP (ADJ BLUE))(UTT (S (VP (VP- (V BOX)))))(UTT
+       (UTT
+        (ADJP
+         (VP- (V (V ADDED))
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N BOTTOM)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ SLANTED))
+                (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("upright rectangular prism added to left of the center of the surface"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ UPRIGHT)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))
+         (V (V ADDED)))))(UTT
+       (ADVBL (ADV TO)
+        (NP
+         (N1 (N LEFT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N CENTER)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SURFACE))))))))))))
+("Standing blue skinny cube"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ STANDING))
+         (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ SKINNY)) (N1 (N CUBE))))))))
+("the blue square is standing up in the center of the left portion of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))
+        (VP
+         (VP-
+          (VP-
+           (VP- (ADVBL (ADV SQUARE)) (VP- (V IS) (PRED (ADJP (ADJ STANDING)))))
+           (ADVBL (ADV UP)))
+          (ADVBL (ADV IN))))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ LEFT))
+             (N1 (N PORTION)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a blue rectangle to the left of center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a blue box, wide, about 1.5 times as wide as it is tall, and 1/3 as long as it is tall, sits, face toward the viewer."
+(UTT (UTT (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+       (PUNC PUNC-COMMA))(UTT
+       (NP
+        (N1 (ADJP (ADJ WIDE))
+         (N1
+          (ADJP
+           (NUMBER (ADV ABOUT)
+            (NUMBER (NUMBER ONE) (PUNC PUNC-PERIOD) (NUMBER FIVE))))
+          (N1 (N TIMES))))))(ADVBL (ADV AS))(UTT (ADVBL (ADV WIDE)))(ADVBL (ADV AS)
+       (S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ TALL)))))))(PUNC PUNC-COMMA)(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (S (NP (NUMBER (NUMBER ONE) (PUNC PUNC-SLASH) (NUMBER THREE)))
+          (VP
+           (VP-
+            (ADVBL (ADV (WORD AS) (WORD LONG) (WORD AS))
+             (S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ TALL)))))))
+            (VP- (V SITS)))))))
+       (PUNC PUNC-COMMA))(UTT (NP (N1 (N FACE))))(UTT
+       (UTT (ADVBL (ADV TOWARD) (NP (SPEC (DET (ART THE))) (N1 (N VIEWER)))))
+       (PUNC PUNC-PERIOD)))
+("A blue cuboid box on its side is toward the middle front of the grey surface."
+)
+("A blue rectangle is to the lower middle area."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N LOWER))))
+            (VP- (V MIDDLE) (NP (N1 (N AREA)))))))))
+       (PUNC PUNC-PERIOD)))
+("THe blue box is in the plane"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))
+        (VP
+         (VP- (V IS)
+          (PRED (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))
+("blue thin rectangular block"
+(UTT
+       (S
+        (VP
+         (VP- (V BLUE)
+          (NP
+           (N1 (ADJP (ADJ THIN))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK))))))))))
+("A blue cereal box stand sidewase left to the center."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (ADJ CEREAL))
+            (N1 (ADJP (VP- (V (V BOX)))) (N1 (N STAND)))))
+          (N1 (N SIDEWASE))))
+        (VP (VP- (V LEFT)))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(PUNC PUNC-PERIOD))
+("Near the front of the plane is a blue rectangular prisim."
+(UTT
+       (ADVBL (ADV NEAR)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N FRONT)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))(UTT
+       (UTT
+        (S (V IS) (NP (SPEC (DET (ART A))) (N1 (N BLUE)))
+         (NP (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))))
+       (PUNC PUNC-PERIOD)))
+("The blue box is near the middle of the screen. It appears to be large in height and length."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N MIDDLE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N SCREEN))))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (PRO IT))
+        (VP
+         (VP- (V APPEARS)
+          (CP (INFINITIVAL-TO TO)
+           (VP
+            (VP- (VP- (V BE) (PRED (ADJP (ADJ LARGE))))
+             (ADVBL (ADV IN) (NP (N1 (N HEIGHT)))))))))))(ADVBL (ADV AND))(UTT (NP (N1 (N LENGTH))))(PUNC PUNC-PERIOD))
+("There is a blue brick on the gray surface."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V (V IS))
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BRICK)))
+             (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))))
+           (PRED (ADJP (ADJ SURFACE)))))))
+       (PUNC PUNC-PERIOD)))
+("A skinny, blue rectangular block sits on the gray surface."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SKINNY))
+         (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))(V SITS)(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))
+           (VP- (V SURFACE))))))
+       (PUNC PUNC-PERIOD)))
+("there is a dark blue block on teh plane"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS))
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))
+            (ADVBL (ADV ON) (NP (N1 (N TEH))))))
+          (PRED (ADJP (ADJ PLANE))))))))
+("A tall blue rectangular prism was placed near the center of the plane in the southwestern hemisphere."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ TALL))
+          (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V PLACED)))))))(UTT
+       (UTT
+        (ADVBL (ADV NEAR)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N CENTER)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1
+              (ADJP
+               (VP- (V (V PLANE))
+                (PP (PREP IN)
+                 (NP (SPEC (DET (ART THE))) (N1 (N SOUTHWESTERN))))))
+              (N1 (N HEMISPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("the box is blue, and sits on its edge a little to teh left of the center of the plane"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ BLUE))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT (ADJP (ADJ ON)))(UTT (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N EDGE))))(UTT (ADVBL (ADV (WORD A) (WORD LITTLE))))(ADVBL (ADV TO) (NP (N1 (N TEH))))(UTT
+       (NP
+        (N1 (N LEFT)
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (N CENTER))
+            (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+)

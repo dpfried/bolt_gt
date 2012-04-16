@@ -1,0 +1,208 @@
+(
+("The blue"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))
+("blue cylinder in the middle of slanted grey square."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP-
+           (VP- (V BLUE)
+            (NP
+             (N1 (N1 (N CYLINDER))
+              (ADVBL (ADV IN)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (V MIDDLE) (PP (PREP OF) (ADJP (ADJ SLANTED))))))))
+            (ADJP (ADJ GREY)))
+           (ADVBL (ADV SQUARE))))))
+       (PUNC PUNC-PERIOD)))
+("blue octogon prism added towards the center of the surface"
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ BLUE)) (N1 (N1 (N OCTOGON)) (N1 (N PRISM))))
+         (V (V ADDED)))))(UTT
+       (ADVBL (ADV TOWARDS)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SURFACE)))))))))
+("Small blue cylinder near center of platform"
+(UTT
+       (S
+        (VP
+         (VP- (ADVBL (ADV SMALL))
+          (VP- (V BLUE)
+           (NP
+            (N1 (N1 (N CYLINDER))
+             (N1 (N1 (ADJP (ADJ NEAR)) (N1 (N CENTER) (PP (PREP OF))))
+              (N1 (N PLATFORM)))))))))))
+("The blue cylinder is in the center of the top portion of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ TOP))
+                  (N1 (N PORTION)
+                   (PP (PREP OF)
+                    (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a blue cylinder just above center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))
+            (ADVBL (ADVBL (ADV JUST))
+             (ADVBL (ADV ABOVE)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a short blue cylinder"
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))
+("The blue cylinder is near the middle of the blue cylindar"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N MIDDLE)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDAR))))))))))))))
+("A blue 3D octagon is toward the back middle of the grey surface."
+(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ BLUE))
+         (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON)))))
+       (VP (VP- (V IS))))(ADVBL (ADV TOWARD) (NP (SPEC (DET (ART THE))) (N1 (N BACK))))(UTT
+       (UTT
+        (NP
+         (N1
+          (N1 (V MIDDLE)
+           (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREY)))))
+          (ADJP (ADJ SURFACE)))))
+       (PUNC PUNC-PERIOD)))
+("A blue octagon is in the upper middle area."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N OCTAGON))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ UPPER))
+               (N1 (ADJP (ADJ MIDDLE)) (N1 (N AREA)))))))))))
+       (PUNC PUNC-PERIOD)))
+("thin blue 3d disk"
+(UTT
+       (S
+        (VP
+         (VP- (ADVBL (ADV THIN)) (VP- (V BLUE) (ADJP (NUMBER THREE) (N D)))))))(UTT (S (VP (VP- (V DISK))))))
+("A blue CD stack case is on the center of the pentagon gray area."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ CD)) (N1 (N STACK))))
+          (N1 (N CASE))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N PENTAGON)) (N1 (N1 (N GRAY)) (N1 (N AREA)))))))))
+       (PUNC PUNC-PERIOD)))
+("In the middle of the plane is a blue disk"
+(UTT
+       (ADVBL (ADV IN)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N MIDDLE)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))(UTT
+       (S (AUX (V IS)) (NP (SPEC (DET (ART A))) (N1 (N BLUE)))
+        (VP- (V (V DISK))))))
+("The blue octahedron is small and placed near the middle of the picture."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N OCTAHEDRON))))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (PRED (ADJP (ADJP (ADJ SMALL)) (CONJ AND) (ADJP (ADJ PLACED)))))
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N MIDDLE)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE))) (N1 (N PICTURE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("Blue cylinder on gray surface"
+(UTT
+       (S
+        (VP
+         (VP- (V BLUE)
+          (NP
+           (N1 (N1 (N CYLINDER))
+            (ADVBL (ADV ON)
+             (NP (VP (VP- (V GRAY) (NP (VP (VP- (V SURFACE)))))))))))))))
+("A blue octoganal prism was placed slightly north of the center of the plane."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ BLUE)) (N1 (N1 (N OCTOGANAL)) (N1 (N PRISM)))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADVBL (ADV SLIGHTLY))
+             (ADVBL (ADV (WORD NORTH) (WORD OF))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N1 (N CENTER))
+                (ADVBL (ADV OF)
+                 (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Short blue cylinder sitting towards the back/middle of a gray surface"
+(UTT
+       (S
+        (VP
+         (VP-
+          (VP- (V SHORT)
+           (NP (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))) (N1 (V SITTING)))))
+          (ADVBL (ADV TOWARDS) (NP (SPEC (DET (ART THE))) (N1 (N BACK))))))))(PUNC PUNC-SLASH)(UTT (ADJP (ADJ MIDDLE)))(PP (PREP OF) (NP (SPEC (DET (ART A))) (N1 (N GRAY))))(UTT (S (VP (VP- (V SURFACE))))))
+("there is a blue cylinder on the plane"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))
+            (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+("the cylinder is blue, and sits in the center of the plane, toward the back"
+(UTT
+       (UTT
+        (S
+         (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+          (VP (VP- (V IS) (PRED (ADJP (ADJ BLUE))))))
+         (CONJ AND)
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N CENTER))
+              (ADVBL (ADV OF)
+               (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV TOWARD) (NP (SPEC (DET (ART THE))) (N1 (N BACK))))))
+)

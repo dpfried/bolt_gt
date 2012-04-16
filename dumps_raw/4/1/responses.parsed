@@ -1,0 +1,261 @@
+(
+("a smaller green block is to the right of the cube"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (V RIGHT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N CUBE)))))))))))))
+("The green block is right of the purple block."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCK))))
+         (VP
+          (VP- (V IS)
+           (NP
+            (N1 (V RIGHT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N BLOCK)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The green object"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))))
+("Green box to the right of the purple box."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V GREEN)
+           (NP
+            (VP
+             (VP- (VP- (V BOX))
+              (ADVBL (ADV TO)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (N RIGHT)
+                 (PP (PREP OF)
+                  (NP (SPEC (DET (ART THE)))
+                   (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX)))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Thinner, green rectangular prism added to the right of the purple box"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ THINNER))
+          (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (V (V ADDED)))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX))))))))))
+("Green structure that is thinner and to the right of the purple cube."
+(UTT
+       (S
+        (NP (VP (VP- (V GREEN) (NP (VP (VP- (V STRUCTURE) (NP (PRO THAT))))))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ THINNER)))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The green cube was added to the right of the purple cylinder.  The green cube is near the top-center of the plane.  The green cube is a quarter the size of the purple cube."
+(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(V CUBE)(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (V (V ADDED))
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N RIGHT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(V CUBE)(VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))(NP (SPEC (DET (ART THE))) (N1 (N TOP)))(PUNC PUNC-MINUS)(UTT (ADJP (ADJ CENTER)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(V CUBE)(V IS)(ADJP (NUMBER (WORD A) (ORDINAL QUARTER)))(NP (SPEC (DET (ART THE))) (N1 (N SIZE)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))(V CUBE)(PUNC PUNC-PERIOD))
+("there is a purple box above and to the right of center of the grey shape to the right of the purple box there is a green box"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ PURPLE)) (N1 (N1 (N BOX)) (ADJP (ADJ ABOVE)))))))))(ADVBL (ADV AND))(ADVBL (ADV TO)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ CENTER))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GREY)))(V SHAPE)(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX))) (ADVBL (ADV THERE)))))))))(V IS)(NP (SPEC (DET (ART A))) (N1 (N GREEN)))(UTT (S (VP (VP- (V BOX))))))
+("a green box, also close to a cube, but this time taller, stationed just southwest of the maroon box, their sides aligned such that the faces would press cleanly were they to be together."
+(UTT (NP (SPEC (DET (ART A))) (N1 (N GREEN))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV ALSO)) (UTT (ADJP (ADJ CLOSE))))(ADVBL (ADV TO) (NP (SPEC (DET (ART A))) (N1 (N CUBE))))(PUNC PUNC-COMMA)(ADVBL (ADV BUT))(UTT (NP (SPEC (DET (ART THIS))) (N1 (N TIME))))(UTT (UTT (ADJP (ADJ TALLER))) (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (NP
+         (N1
+          (N1 (N1 (V STATIONED))
+           (ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV SOUTHWEST))))
+          (ADVBL (ADV OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ MAROON)) (N1 (N BOX))))))))
+       (PUNC PUNC-COMMA))(NP (SPEC (DET (POSSESSOR (PRO THEIR))))
+       (N1 (N1 (N SIDES)) (ADJP (ADJ ALIGNED))))(ADJP (ADJ SUCH))(CP (PRO THAT)
+       (S (NP (SPEC (DET (ART THE))) (N1 (N FACES)))
+        (VP (VP- (AUX (V WOULD)) (VP- (VP- (V PRESS)) (ADVBL (ADV CLEANLY)))))))(S (V WERE) (NP (PRO THEY)))(CP (INFINITIVAL-TO TO) (VP (VP- (V BE))))(UTT (UTT (ADVBL (ADV TOGETHER))) (PUNC PUNC-PERIOD)))
+("The green rectangular prism is to the right of the purple cube"
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+       (VP (VP- (V IS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE)))))))))))
+("A smaller green cube is to the right of the light purple cube."
+(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N CUBE)))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LIGHT))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a smaller green cube added next to and to the right of the purple cube."
+(UTT (ADVBL (ADV THERE)))(UTT
+       (S (AUX (V IS))
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N CUBE)))))
+        (VP- (V (V ADDED)))))(ADVBL (ADV (WORD NEXT) (WORD TO)))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("They added a green rectangular cube next to the right side of the purple cube."
+(NP (PRO THEY))(ADJP (VP- (V (V ADDED))))(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N CUBE))))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ RIGHT))
+            (N1 (V SIDE)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))))))))))(V CUBE)(PUNC PUNC-PERIOD))
+("green 3d rectangle"
+(UTT
+       (S
+        (VP
+         (VP- (V GREEN)
+          (NP (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N RECTANGLE)))))))))
+("A purple box is places closed to the furthest corner of a huge, pentagon, gray mat. A small, skinny, Pakistan green box is next to the purple box, on the right. The light source is coming from 5 o'clock direction."
+)
+("Directly to the right of the pink cube is a green tower."
+(UTT (ADVBL (ADV DIRECTLY)))(ADVBL (ADV TO))(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (V RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PINK)) (N1 (N CUBE)))))))
+        (VP (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N GREEN)))))))(UTT (UTT (ADJP (VP- (V (V TOWER))))) (PUNC PUNC-PERIOD)))
+("The green box has a similar height but smaller width in comparison to the purple object. Green is also placed to the right of Purple"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX))))
+        (VP
+         (VP- (V HAS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ SIMILAR)) (N1 (N HEIGHT))))))))(ADVBL (ADV BUT))(UTT (ADJP (ADJ SMALLER)))(NP (N1 (N WIDTH)))(UTT (ADVBL (ADV IN)))(NP (N1 (N COMPARISON)))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))))(PUNC PUNC-PERIOD)(UTT
+       (S (NP (N1 (V GREEN)))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (ADVBL (ADV ALSO))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ PURPLE)))))))))))))
+("Green brick next to magenta one."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V GREEN)
+           (NP
+            (N1 (N1 (N BRICK))
+             (ADVBL (ADV (WORD NEXT) (WORD TO))
+              (NP (NAME (N MAGENTA) (RNUMBER (NUMBER ONE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A green rectangular prism is east of a purple cube in the northern hemisphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD EAST) (WORD OF))
+             (NP (SPEC (DET (ART A)))
+              (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE)))
+               (ADVBL (ADV IN)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ NORTHERN)) (N1 (N HEMISPHERE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A skinny green rectangular box is next to the magenta box."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SKINNY))
+           (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BOX))))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV (WORD NEXT) (WORD TO))
+             (NP (SPEC (DET (ART THE))) (N1 (N MAGENTA))))
+            (VP- (V (V BOX))))))))
+       (PUNC PUNC-PERIOD)))
+("the brown block is to the right of the purple square"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (V RIGHT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))))))
+           (VP- (V (V SQUARE)))))))))
+("the green tower is in line with the magenta box, to the  right"
+(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N TOWER))))(V IS)(UTT
+       (UTT
+        (S
+         (ADVBL (ADV IN)
+          (NP
+           (VP
+            (VP- (V LINE)
+             (PP (PREP WITH) (NP (SPEC (DET (ART THE))) (N1 (N MAGENTA))))))))
+         (S (VP (VP- (V BOX))))))
+       (PUNC PUNC-COMMA))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT)))
+)

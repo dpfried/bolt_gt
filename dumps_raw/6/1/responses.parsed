@@ -1,0 +1,236 @@
+(
+("A blue ball is placed near the left edge of the table about halfway between the front and back edges"
+(NP (SPEC (DET (ART A))) (N1 (N BLUE)))(ADJP (VP- (V (V BALL))))(VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))(UTT
+       (ADVBL (ADV NEAR)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LEFT))
+          (N1 (N EDGE)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N TABLE))
+              (ADVBL (ADVBL (ADVBL (ADV ABOUT)) (ADVBL (ADV HALFWAY)))
+               (ADVBL (ADV BETWEEN)))))))))))(NP (SPEC (DET (ART THE))) (N1 (N FRONT)))(ADVBL (ADV AND))(ADVBL (ADV BACK))(UTT (S (VP (VP- (V EDGES))))))
+("The blue ball on the left"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BALL)))
+         (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N LEFT))))))))
+("Blue sphere added to the bottom left of the green sphere."
+(ADJP (VP- (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))) (V (V ADDED))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (ADJP (ADJ BOTTOM)) (N1 (N LEFT)))
+           (ADVBL (ADV OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("Larger, blue sphere added to the left of the green sphere, also slightly closer to viewer"
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ LARGER)) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))
+         (V (V ADDED)))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV ALSO))
+       (UTT
+        (ADJP (ADVBL (ADV SLIGHTLY))
+         (ADJP (ADJ CLOSER) (PP (PREP TO) (NP (N1 (N VIEWER)))))))))
+("Dark blue spherical object that is slightly bigger than the other one."
+(UTT
+       (UTT
+        (NP
+         (N1
+          (N1 (ADJP (ADJ DARK))
+           (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ SPHERICAL)) (N1 (N OBJECT)))))
+          (CP (PRO THAT)
+           (VP
+            (VP- (V IS)
+             (PRED
+              (ADJP (ADVBL (ADV SLIGHTLY))
+               (ADJP (ADJ BIGGER)
+                (PP (PREP THAN)
+                 (NP (SPEC (DET (ART THE))) (ADJP (ADJ OTHER))
+                  (CARDINALITY (NUMBER ONE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The blue sphere was added down and to the left of the green sphere.  The blue sphere is top-center of the bottom-left portion of the plane."
+(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(N SPHERE)(VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))(UTT
+       (ADVBL (ADVBL (ADV DOWN)) (CONJ AND)
+        (ADVBL (WORD TO) (WORD THE) (ADV LEFT))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(N SPHERE)(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(N SPHERE)(V IS)(UTT
+       (NP
+        (N1 (N1 (N TOP)) (WORD PUNC-MINUS)
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (VP- (N1 (N BOTTOM)) (PUNC PUNC-MINUS) (V (V LEFT))))
+             (N1 (N PORTION)))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a blue ball to the left of center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N BALL)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a blue sphere to the southwest of the green sphere. It is larger and about 4 diameters away."
+(UTT (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N SOUTHWEST))
+           (ADVBL (ADV OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))))))
+       (PUNC PUNC-PERIOD))(UTT (S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ LARGER)))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (NP (N1 (ADJP (NUMBER (ADV ABOUT) (NUMBER FOUR))) (N1 (N DIAMETERS))))))(UTT (UTT (ADVBL (ADV AWAY))) (PUNC PUNC-PERIOD)))
+("the blue sphere is near the leftmost corner of the plane"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFTMOST))
+              (N1 (V CORNER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))))
+("A larger blue spherish object is in front and to the left of the green one."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ LARGER))
+          (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERISH))) (N1 (N OBJECT)))))
+        (VP (VP- (V IS) (PRED (ADVBL (ADV (WORD IN) (WORD FRONT))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (ART THE) (NAME (N GREEN) (RNUMBER (NUMBER ONE))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a blue circular shaped object added to the lower left area of the gray area."
+(UTT (ADVBL (ADV THERE)))(UTT
+       (S (AUX (V IS))
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ BLUE))
+          (N1 (ADJP (ADJ CIRCULAR))
+           (N1 (ADJP (VP- (V (V SHAPED)))) (N1 (N OBJECT))))))
+        (VP- (V (V ADDED))
+         (PP (PREP TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LOWER)) (N1 (ADJP (ADJ LEFT)) (N1 (N AREA)))))))))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))(NP (N1 (N AREA)))(PUNC PUNC-PERIOD))
+("blue sphere"
+(UTT (NP (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))))
+("A Pakistan green ball is placed close to the furthest edge on the gray, pentagon area. A blue ball is placed at 08:30 direction from the grenn ball."
+)
+("In the front left corner of the plane is a blue ball."
+(VP
+       (VP-
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ FRONT))
+           (N1 (ADJP (ADJ LEFT))
+            (N1 (V CORNER)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+        (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N BLUE))))))(UTT (S (VP (VP- (V BALL)))))(PUNC PUNC-PERIOD))
+("The blue object appears to be larger and closer than the green one, similarly shaped and off on the left side of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))
+        (VP
+         (VP- (V APPEARS)
+          (CP (INFINITIVAL-TO TO)
+           (VP (VP- (V BE) (PRED (ADJP (ADJ LARGER))))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADJP (ADJ CLOSER)
+          (PP (PREP THAN)
+           (NP (ART THE) (NAME (N GREEN) (RNUMBER (NUMBER ONE))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV SIMILARLY)) (UTT (ADJP (VP- (V (V SHAPED))))))(UTT (ADVBL (ADV AND)) (UTT (ADJP (ADJ OFF))))(UTT
+       (UTT
+        (ADVBL (ADV ON)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ LEFT))
+           (N1 (N SIDE)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+       (PUNC PUNC-PERIOD)))
+("There is now a blue sphere also on the gray surface."
+(VP (VP- (ADVBL (ADV THERE)) (VP- (V IS))))(UTT
+       (UTT (ADVBL (ADV NOW))
+        (UTT
+         (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))
+          (VP
+           (VP- (ADVBL (ADV ALSO))
+            (VP- (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))
+             (VP- (V SURFACE))))))))
+       (PUNC PUNC-PERIOD)))
+("A blue sphere sits on the other side of the gray surface from the green sphere."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE))))(V SITS)(UTT
+       (UTT
+        (ADVBL (ADV ON)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ OTHER))
+           (N1 (N SIDE)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (ADJP (ADJ GRAY)) (N1 (N SURFACE)))
+               (ADVBL (ADV FROM)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a blue sphere to the left of the other sphere and closer to me"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER)) (N1 (N SPHERE))))))))))))(UTT (ADVBL (ADV AND)) (UTT (ADVBL (ADV (WORD CLOSER) (WORD TO)))))(UTT (NP (PRO ME))))
+("A blue sphere was place southwest of the green sphere, in the southwestern hempisphere."
+(UTT (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))(UTT
+       (UTT
+        (S (V WAS) (NP (N1 (N PLACE))) (ADVBL (ADV SOUTHWEST))
+         (PRED
+          (ADVBL (ADV OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SOUTHWESTERN)) (N1 (N HEMPISPHERE))))))
+       (PUNC PUNC-PERIOD)))
+("the ball is blue, and floats above the near edge of the plane"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BALL)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ BLUE))))))
+        (CONJ AND)
+        (VP
+         (VP- (VP- (V FLOATS))
+          (ADVBL (ADV ABOVE)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NEAR))
+             (N1 (V EDGE)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))))
+)

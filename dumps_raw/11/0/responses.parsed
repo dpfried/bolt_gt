@@ -1,0 +1,217 @@
+(
+("the green on the left hand"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N GREEN))
+         (ADVBL (ADV ON)
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ LEFT)) (N1 (N HAND)))))))))
+("green cylinder added to the upper right of the slanted grey square."
+(N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))(UTT
+       (UTT
+        (ADJP
+         (VP- (V (V ADDED))
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ UPPER))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ SLANTED))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Green cylinder added behind the center of the surface"
+(UTT
+       (S
+        (VP
+         (VP- (V GREEN)
+          (NP
+           (N1 (N1 (N CYLINDER))
+            (CP
+             (VP
+              (VP- (VP- (V (V ADDED)))
+               (ADVBL (ADV BEHIND)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (N CENTER)
+                  (PP (PREP OF)
+                   (NP (SPEC (DET (ART THE))) (N1 (N SURFACE)))))))))))))))))
+("Green small cylinder to the left of center"
+(UTT
+       (S
+        (VP
+         (VP- (VP- (V GREEN) (NP (N1 (ADJP (ADJ SMALL)) (N1 (N CYLINDER)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT) (PP (PREP OF) (NP (N1 (N CENTER))))))))))))
+("the green cylinder is near the center of the top-left portion of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V LEFT))))
+             (N1 (N PORTION)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a green cylinder to the left of center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a short green cylinder is toward the north west corner of the grey object"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV TOWARD)
+            (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ NORTH)) (N1 (N WEST)))))
+           (VP- (V CORNER)))))))(ADVBL (ADV OF)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))))
+("A small green 3D octagon is toward the rear left of the grey surface."
+(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SMALL))
+         (N1 (ADJP (ADJ GREEN))
+          (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON))))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TOWARD)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ REAR))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREY)) (N1 (N SURFACE))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a short green object ot the middle left area."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))
+            (N1 (N OT))))))))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ MIDDLE)) (N1 (ADJP (ADJ LEFT)) (N1 (N AREA))))))(PUNC PUNC-PERIOD))
+("the green cylinder is in the plane"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))
+("green 3d disk"
+(UTT
+       (S
+        (VP
+         (VP- (V GREEN) (NP (N1 (ADJP (NUMBER THREE) (N D)) (N1 (V DISK)))))))))
+("A green short cylinder is left to the center."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ SHORT)) (N1 (N CYLINDER)))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ LEFT)))))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(PUNC PUNC-PERIOD))
+("The green disk is at the far end of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N DISK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV AT)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ FAR))
+               (N1 (N END)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The dark green octahedron is very small and near the middle of the picture."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ GREEN)) (N1 (N OCTAHEDRON)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADVBL (ADV VERY))
+             (ADVBL (ADVBL (ADV SMALL)) (CONJ AND)
+              (ADVBL (ADV NEAR)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (N MIDDLE)
+                 (PP (PREP OF)
+                  (NP (SPEC (DET (ART THE))) (N1 (N PICTURE))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Green cylinder on gray surface"
+(UTT
+       (S
+        (VP
+         (VP- (V GREEN)
+          (NP
+           (N1 (N1 (N CYLINDER))
+            (ADVBL (ADV ON)
+             (NP (VP (VP- (V GRAY) (NP (VP (VP- (V SURFACE)))))))))))))))
+("A green octoganal prism was placed in the northwestern hemisphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ GREEN)) (N1 (N1 (N OCTOGANAL)) (N1 (N PRISM)))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ NORTHWESTERN)) (N1 (N HEMISPHERE))))))))))
+       (PUNC PUNC-PERIOD)))
+("A flat green cylinder sits towards the back corner of the gray  surface."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TOWARDS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N BACK))
+              (N1 (N CORNER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GRAY)) (N1 (N SURFACE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a brown cylinder in the plane"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BROWN)) (N1 (N CYLINDER)))
+            (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+("the cylinder is toward the back of the plane, to the left"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+        (VP (VP- (AUX (V IS))))))(UTT
+       (ADVBL (ADV TOWARD)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N BACK)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N PLANE))
+             (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N LEFT))))))))))))
+)

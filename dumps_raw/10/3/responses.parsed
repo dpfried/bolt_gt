@@ -1,0 +1,244 @@
+(
+("The purple further than another one"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PURPLE))))(UTT (ADJP (ADJ FURTHER)))(PP (PREP THAN) (NP (PRO ANOTHER) (ADJP (NUMBER ONE)))))
+("purple cylinder added to the right of the blue box."
+(UTT
+       (ADJP (VP- (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))) (V (V ADDED)))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-PERIOD)))
+("pink cylinder added to the right of all other objects"
+(UTT (ADJP (VP- (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))) (V (V ADDED)))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (QUAN ALL)) (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))
+("Pink cylinder of modest height to the rich of the other structure"
+(UTT
+       (S
+        (VP
+         (VP-
+          (VP- (V PINK)
+           (NP
+            (N1 (N1 (N CYLINDER))
+             (ADVBL (ADV OF) (NP (N1 (ADJP (ADJ MODEST)) (N1 (N HEIGHT))))))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N RICH))
+             (ADVBL (ADV OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER)) (N1 (N STRUCTURE)))))))))))))
+("the purple cylinder was added to the right of the blue rectangular prism.  the purple cylinder is located near left-center of the top-right portion of the plane."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (V (V ADDED))
+            (PP (PREP TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (V RIGHT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ BLUE))
+                  (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V IS)) (VP- (V LOCATED))))))(ADJP (ADJ NEAR))(ADJP (ADJ LEFT))(PUNC PUNC-MINUS)(ADJP (ADJ CENTER))(PREP OF)(ART THE)(VP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V RIGHT))))(ADJP (VP- (V (V PORTION))))(PREP OF)(ART THE)(ADJP (ADJ PLANE))(PUNC PUNC-PERIOD))
+("there is a pink cylinder to the right and below the yellow rectangle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))
+            (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)) (CONJ AND)
+             (ADVBL (ADV BELOW)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ YELLOW)) (N1 (N RECTANGLE)))))))))))))
+("a magenta cylinder sits to the east of the other shapes, a bit wider than it is tall. About three and a half of the cylinders could fit inbetween the cylinder and the blue box."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N EAST)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER)) (N1 (N SHAPES))))))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV (WORD A) (WORD BIT))))(UTT (ADJP (ADJ WIDER) (PP (PREP THAN))))(UTT (S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ TALL)))))))(PUNC PUNC-PERIOD)(UTT
+       (NP
+        (NUMBER (ADV ABOUT)
+         (NUMBER (NUMBER THREE) (WORD AND) (NUMBER (WORD A) (ORDINAL HALF))))))(PREP OF)(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDERS)))
+        (VP (VP- (AUX (V COULD)) (VP- (V FIT))))))(UTT (NP (N1 (N INBETWEEN))))(UTT
+       (UTT
+        (S
+         (NP (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER))) (CONJ AND)
+          (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))
+         (VP (VP- (V BOX)))))
+       (PUNC PUNC-PERIOD)))
+("A small light purple 3D octagon is In between and to the right of the blue and yellow objects."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1
+         (ADJP
+          (VP- (ADVBL (ADV SMALL))
+           (VP- (ADVBL (ADV LIGHT)) (VP- (V (V PURPLE))))))
+         (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON))))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV (WORD IN) (WORD BETWEEN))) (CONJ AND)
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ YELLOW)))
+               (N1 (N OBJECTS))))))))))
+       (PUNC PUNC-PERIOD)))
+("A pink cylinder is to the right of all the other objects and in line with the blue object."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))(V IS)(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (QUAN ALL))
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (S
+         (VP
+          (VP-
+           (ADVBL (ADV IN)
+            (NP
+             (VP
+              (VP- (V LINE)
+               (PP (PREP WITH) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))
+           (VP- (V OBJECT)))))))(PUNC PUNC-PERIOD))
+("The cylinder is to the right of the other shapes"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER)) (N1 (N SHAPES))))))))))))))
+("purple cylindrical tube"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ CYLINDRICAL)) (N1 (N TUBE)))))))
+("A blue prism is placed close to the left, hind corner, and a smaller yellowish box is to the right, behind the blue prism. A magenta prism is right in front of the blue one. A magenta cylinder is right of the blue prism, away from all."
+(NP (SPEC (DET (ART A))) (N1 (N BLUE)))(N PRISM)(VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))(UTT (ADJP (ADJ CLOSE)))(ADVBL (WORD TO) (WORD THE) (ADV LEFT))(PUNC PUNC-COMMA)(UTT (ADJP (ADJ HIND)))(UTT (S (VP (VP- (V CORNER)))))(PUNC PUNC-COMMA)(UTT (ADVBL (ADV AND))
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ YELLOWISH)) (N1 (N BOX)))))))(V IS)(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PUNC PUNC-COMMA)(UTT (ADJP (ADJ BEHIND)))(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(N PRISM)(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART A))) (N1 (N MAGENTA)))(N PRISM)(VP
+       (VP- (AUX (V IS))
+        (VP- (VP- (V (V RIGHT)))
+         (ADVBL (ADV (WORD IN) (WORD FRONT))
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))(UTT (NP (NUMBER ONE)))(PUNC PUNC-PERIOD)(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V RIGHT)))))))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))(N PRISM)(PUNC PUNC-COMMA)(UTT (ADVBL (ADV AWAY)))(PREP FROM)(NP (SPEC (QUAN ALL)))(PUNC PUNC-PERIOD))
+("To the right of the rectagular prisims is a pink cylinder"
+(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RECTAGULAR))))))))(UTT
+       (S (NP (N1 (N PRISIMS)))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))))))
+("This purple octahedron is placed to the right of the other objects and is the second smallest object."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THIS)))
+         (N1 (ADJP (ADJ PURPLE)) (N1 (N OCTAHEDRON))))
+        (VP
+         (VP-
+          (VP- (AUX (V IS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N RIGHT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))
+          (CONJ AND) (VP- (V IS) (NP (DATE (ART THE) (ORDINAL SECOND))))))))(UTT (ADJP (ADJ SMALLEST)))(UTT (S (VP (VP- (V OBJECT)))))(PUNC PUNC-PERIOD))
+("There is a purple cylinder to the right of the other objects."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (NP (SPEC (DET (ART A)))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A pink cylinder sits apart from the other objects."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (VP- (VP- (V SITS)) (ADVBL (ADV APART)))
+           (ADVBL (ADV FROM)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))
+       (PUNC PUNC-PERIOD)))
+("teh pink cylinder is standing to the right of the other three blocks"
+(NP (N1 (N TEH)))(UTT
+       (S (NP (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V STANDING))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER))
+                 (N1 (ADJP (NUMBER THREE)) (N1 (N BLOCKS)))))))))))))))
+("A pink cylinder was placed east of the blue rectangular prism."
+(NP (SPEC (DET (ART A))) (N1 (N PINK)))(N CYLINDER)(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V PLACED)))
+          (ADVBL (ADV (WORD EAST) (WORD OF))
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ BLUE))
+             (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))
+       (PUNC PUNC-PERIOD)))
+("the cylinder is magenta, and sits in line with the blue tower, to the right"
+(UTT
+       (UTT
+        (S
+         (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+          (VP (VP- (V IS) (PRED (ADJP (ADJ MAGENTA))))))
+         (CONJ AND)
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV IN)
+            (NP
+             (VP
+              (VP- (VP- (V LINE))
+               (ADVBL (ADV WITH)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ BLUE)) (N1 (N TOWER)))))))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (WORD TO) (WORD THE) (ADV RIGHT))))
+)

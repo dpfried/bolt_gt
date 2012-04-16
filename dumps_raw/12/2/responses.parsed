@@ -1,0 +1,213 @@
+(
+("the further blue object"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ FURTHER)) (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT)))))))
+("bigger blue box added above the other blue box."
+(UTT (ADJP (ADJ BIGGER)))(UTT (ADJP (ADJ BLUE)))(UTT
+       (UTT
+        (S (NP (VP (VP- (V BOX))))
+         (VP
+          (VP- (V ADDED)
+           (NP
+            (VP
+             (VP-
+              (ADVBL (ADV ABOVE)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ OTHER)) (N1 (N BLUE)))))
+              (VP- (V BOX)))))))))
+       (PUNC PUNC-PERIOD)))
+("box-like prism added behind original object"
+(UTT
+       (S
+        (VP
+         (VP- (V BOX)
+          (NP
+           (N1 (N1 (ADJP (ADJ LIKE)) (N1 (N PRISM)))
+            (N1
+             (N1 (ADJP (VP- (V (V ADDED))))
+              (N1 (ADJP (ADJ BEHIND)) (N1 (N ORIGINAL))))
+             (N1 (N OBJECT))))))))))
+("Very large blue cube sitting behind other two objects"
+(UTT
+       (NP
+        (N1
+         (N1
+          (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ LARGE)))
+           (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))
+          (ADJP (ADJ SITTING)))
+         (ADVBL (ADV BEHIND)
+          (NP
+           (N1 (ADJP (ADJ OTHER))
+            (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS))))))))))
+("the blue cube was added up from the blue square. the distance between each object is the same."
+(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(V CUBE)(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V ADDED)))
+          (ADVBL (ADV (WORD UP) (WORD FROM))
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N DISTANCE)))
+         (VP
+          (VP- (ADVBL (ADV BETWEEN) (NP (SPEC (QUAN EACH)) (N1 (N OBJECT))))
+           (VP- (V IS) (PRED (ADJP (ADJ (WORD THE) (WORD SAME)))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a blue box above the blue rectangle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE))))))))))))
+("a new blue box, positioned to the north of the old one, is a little less wide, and a little less tall, but about 2.5 times as thick as the old blue box."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ NEW)) (N1 (N BLUE))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(ADJP (VP- (V (V POSITIONED))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N NORTH))))(PREP OF)(ART THE)(UTT (ADJP (ADJ OLD)))(UTT
+       (UTT
+        (S (NP (NUMBER ONE))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADJP
+             (ADVBL (ADVBL (ADV (WORD A) (WORD LITTLE)))
+              (ADVBL (ADVBL (ADV (WORD LESS) (ADV WIDE))) (CONJ AND)
+               (ADVBL (ADV (WORD A) (WORD LITTLE)))))
+             (ADJP (ADJ (LESS-MORE (WORD LESS)) (ADJ TALL)))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(NP
+       (N1
+        (N1
+         (ADJP
+          (NUMBER (ADV ABOUT)
+           (NUMBER (NUMBER TWO) (PUNC PUNC-PERIOD) (NUMBER FIVE))))
+         (N1 (N TIMES)))
+        (ADVBL (ADV AS)
+         (NP
+          (N1 (N1 (N THICK))
+           (ADVBL (ADV AS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OLD)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))))))))(PUNC PUNC-PERIOD))
+("A larger blue cuboid box is behind the other one."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ LARGER))
+          (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ CUBOID)) (N1 (N BOX))))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ BEHIND)))))))(ART THE)(UTT (ADJP (ADJ OTHER)))(UTT (UTT (NP (NUMBER ONE))) (PUNC PUNC-PERIOD)))
+("A bigger blue cube was added above the first blue object."
+(ART A)(N1 (ADJP (ADJ BIGGER)) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V ADDED)))
+          (ADVBL (ADV ABOVE)
+           (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+            (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))))))
+       (PUNC PUNC-PERIOD)))
+("the blue box is in between the yellow and blue boxes"
+(UTT
+       (S (ADVBL (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))
+        (S (NP (VP (VP- (V BOX))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJP (ADJ YELLOW)) (CONJ AND) (ADJP (ADJ BLUE)))
+               (N1 (N BOXES))))))))))))
+("blue cube"
+(UTT (NP (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))))
+("A blue cereal box stand sidewase left to the center. A yellowish lunch box is in front of the blue box. A blue storage box is behind the blue cereal box."
+)
+("Behind the blue rectangular prisim is a blue cube."
+(VP
+       (VP-
+        (ADVBL (ADV BEHIND)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))))
+        (VP- (V IS))))(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))(PUNC PUNC-PERIOD))
+("A new blue object has been added, it is bigger than the other two objects and placed behind them."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ NEW)) (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT)))))
+         (VP (VP- (AUX (V HAS)) (VP- (AUX (V BEEN)) (VP- (V (V ADDED))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (S (NP (PRO IT))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADJP (ADJ BIGGER)
+            (PP (PREP THAN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS))))))))))))(UTT (ADVBL (ADV AND)) (UTT (ADJP (VP- (V (V PLACED))))))(UTT (ADJP (ADJ BEHIND)))(UTT (UTT (NP (PRO THEM))) (PUNC PUNC-PERIOD)))
+("The big blue brick is behind the other two."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ BIG)) (N1 (ADJP (ADJ BLUE)) (N1 (N BRICK)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE))) (ADJP (ADJ OTHER))
+              (CARDINALITY (NUMBER TWO)))))))))
+       (PUNC PUNC-PERIOD)))
+("A large blue box sits behind the blue rectangle."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE)))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a large blue square behind the smaller blue block"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS))
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE)))))
+          (PRED
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ SMALLER))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))))))))))
+("A large blue cube was placed north of the tall blue rectangular prism."
+(NP (SPEC (DET (ART A))) (N1 (N LARGE)))(N1 (ADJP (ADJ BLUE)) (N1 (N CUBE)))(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V PLACED)))
+          (ADVBL (ADV (WORD NORTH) (WORD OF))
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ TALL))
+             (N1 (ADJP (ADJ BLUE))
+              (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))
+       (PUNC PUNC-PERIOD)))
+("the box is blue and larger than the other blue box, and sits behind and a little to the left of the  other blue box"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+        (VP
+         (VP- (V IS)
+          (PRED (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ LARGER))))))))(PP (PREP THAN)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ OTHER)) (N1 (N BLUE)))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(ADVBL (ADV AND))(V SITS)(UTT
+       (ADVBL
+        (ADVBL (ADVBL (ADV BEHIND)) (CONJ AND)
+         (ADVBL (ADV (WORD A) (WORD LITTLE))))
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))))))))))
+)

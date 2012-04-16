@@ -1,0 +1,221 @@
+(
+("The lower purple object close to middle"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ LOWER)) (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))
+         (ADJP (ADJ CLOSE) (PP (PREP TO) (ADJP (ADJ MIDDLE))))))))
+("short purple cylinder added to the front of the purple sphere."
+(UTT
+       (ADJP
+        (VP- (ADVBL (ADV SHORT))
+         (VP- (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))) (V (V ADDED))))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N FRONT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("short cylinder added in front of sphere"
+(UTT
+       (ADJP
+        (VP-
+         (VP- (ADVBL (ADV SHORT) (NP (N1 (N CYLINDER)))) (VP- (V (V ADDED))))
+         (ADVBL (ADV (WORD IN) (WORD FRONT))
+          (PP (PREP OF) (NP (N1 (N SPHERE)))))))))
+("Pink flattened cylinder to the near south of the pink sphere"
+(UTT
+       (S
+        (VP
+         (VP- (VP- (V PINK) (NP (N1 (ADJP (ADJ FLATTENED)) (N1 (N CYLINDER)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NEAR))
+             (N1 (N SOUTH)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))))))))))))))
+("The purple disc is down from the purple sphere.  The purple disc is a fifth the distance of the red cube from the purple sphere."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N DISC))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD DOWN) (WORD FROM))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N DISC))))(VP (VP- (V IS) (NP (NUMBER (WORD A) (ORDINAL FIFTH)))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (V DISTANCE)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ RED)) (N1 (N CUBE)))
+             (ADVBL (ADV FROM)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a pink circle below the pink ball"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PINK)) (N1 (N CIRCLE)))
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PINK)) (N1 (N BALL))))))))))))
+("now a magenta cylinder, like a disc, short and flat, wider than the red cube (its corners might lie on the cylinder's edge were they to stack). The cylinder is to the south and a bit east of the sphere."
+)
+("A short  light purple 3D octagon is in front of the other light purple object."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1
+         (ADJP
+          (VP- (VP- (V (V SHORT)))
+           (ADVBL (ADV LIGHT) (NP (VP (VP- (V PURPLE) (NP (NUMBER THREE))))))))
+         (N1 (ADJP (ADJ D)) (N1 (N OCTAGON))))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ OTHER))
+            (N1 (ADJP (ADJ LIGHT))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD)))
+("A pink octagon slice was added below the pink sphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (N1 (ADJP (ADJ PINK)) (N1 (N OCTAGON))) (N1 (N SLICE))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))))))))))
+       (PUNC PUNC-PERIOD)))
+("The puplredisk is in front of the purple sphere"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N PUPLREDISK)))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))))))))))
+("purple thin disk"
+(UTT (S (VP (VP- (V PURPLE) (NP (N1 (ADJP (ADJ THIN)) (N1 (V DISK)))))))))
+("A small. magenta ball is on the further edge of the gray pentagon area. Left to the ball, a red cube is close to a corner of the gray area. Dead front of the ball is a magenta, octagon pizza box."
+(NP (SPEC (DET (ART A))) (N1 (N SMALL)))(PUNC PUNC-PERIOD)(UTT (ADJP (ADJ MAGENTA)))(ADJP (VP- (V (V BALL))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV ON)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ FURTHER))
+           (N1 (N EDGE)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (ADJP (ADJ GRAY)) (N1 (N PENTAGON)))
+               (N1 (N AREA))))))))))
+       (PUNC PUNC-PERIOD))(UTT (ADJP (ADJ LEFT)))(PART TO)(NP (SPEC (DET (ART THE))) (N1 (N BALL)))(PUNC PUNC-COMMA)(NP (SPEC (DET (ART A))) (N1 (N RED)))(V CUBE)(V IS)(ADV (WORD CLOSE) (WORD TO))(NP (SPEC (DET (ART A))) (N1 (N CORNER)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GRAY)))(N AREA)(PUNC PUNC-PERIOD)(ADJP (ADVBL (ADV DEAD)) (ADJP (ADJ FRONT)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N BALL)))(V IS)(NP (SPEC (DET (ART A))) (N1 (N MAGENTA)))(PUNC PUNC-COMMA)(N OCTAGON)(N PIZZA)(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-PERIOD))
+("The pink disk is in front of the ball."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PINK)) (N1 (N DISK))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BALL))))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple octahedron is placed forward from the first purple object and is very short and long in comparison to the other two objects."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ PURPLE)) (N1 (N OCTAHEDRON))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))))(UTT
+       (S
+        (VP
+         (VP- (V (V FORWARD))
+          (NP
+           (N1
+            (ADJP
+             (VP- (ADVBL (ADV FROM) (NP (DATE (ART THE) (ORDINAL FIRST))))
+              (VP- (V (V PURPLE)))))
+            (N1 (N OBJECT))))))))(ADVBL (ADV AND))(VP
+       (VP- (V IS)
+        (PRED
+         (ADJP (ADVBL (ADV VERY))
+          (ADJP (ADJP (ADJ SHORT)) (CONJ AND) (ADJP (ADJ LONG)))))))(ADVBL (ADV IN))(N COMPARISON)(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ OTHER)) (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS)))))))(PUNC PUNC-PERIOD))
+("There is a slim purple cylinder in front of the purple sphere."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1
+             (N1 (ADJP (ADJ SLIM)) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A flat pink cylinder sits in front of the pink sphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is aflat purple cylinder in front of the pink sphere"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP
+           (N1 (N1 (N1 (N AFLAT)) (N1 (N1 (N PURPLE)) (N1 (N CYLINDER))))
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))))))))))))
+("a pink octagonal prism was placed just south of the pink sphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ PINK)) (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM)))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADVBL (ADV JUST))
+             (ADVBL (ADV (WORD SOUTH) (WORD OF))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("the disk is magenta, and sits front-right of the magenta ball"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N DISK)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ MAGENTA))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT
+       (NP
+        (N1 (N1 (N FRONT)) (WORD PUNC-MINUS)
+         (N1 (V RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ MAGENTA)) (N1 (N BALL))))))))))
+)

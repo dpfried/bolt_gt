@@ -1,0 +1,225 @@
+(
+("The purple close to middle"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N PURPLE))
+         (ADJP (ADJ CLOSE) (PP (PREP TO) (ADJP (ADJ MIDDLE))))))))
+("tall purple box in the middle right of the slanted grey square."
+(ADJP (ADJ TALL))(ADJP (ADJ PURPLE))(ADJP (VP- (V (V BOX))))(UTT
+       (UTT
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ MIDDLE))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ SLANTED))
+               (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("elongated upright rectangular prism"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ ELONGATED))
+         (N1 (ADJP (ADJ UPRIGHT))
+          (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))
+("Very tall pink cube"
+(UTT
+       (NP
+        (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ TALL)))
+         (N1 (ADJP (ADJ PINK)) (N1 (N CUBE)))))))
+("the purple rectangular prism is standing up near the center of the right side of the plane."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V STANDING) (PART UP))
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N CENTER)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ RIGHT)) (N1 (N SIDE)))))))))))))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))(PUNC PUNC-PERIOD))
+("there is a purple rectangle to the left of center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N RECTANGLE)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a tall magenta box, a bit wider than it is long, but about 4 times as long as it is tall is toward the northwest of the grey shape."
+(UTT (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ TALL)) (N1 (N MAGENTA)))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(ADJP (ADVBL (ADV (WORD A) (WORD BIT)))
+       (ADJP (ADJ WIDER) (PP (PREP THAN) (NP (PRO IT)))))(V IS)(UTT (UTT (ADVBL (ADV LONG))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (S (ADVBL (ADV ABOUT) (NP (N1 (ADJP (NUMBER FOUR)) (N1 (N TIMES)))))
+         (S (ADVBL (ADV (WORD AS) (WORD LONG) (WORD AS)))
+          (S (NP (PRO IT)) (VP (VP- (V IS) (PRED (ADJP (ADJ TALL))))))))))(V IS)(ADVBL (ADV TOWARD))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N NORTHWEST))
+          (ADVBL (ADV OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))
+       (PUNC PUNC-PERIOD)))
+("A purple cuboid box standing on end is toward the middle left of the grey surface."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ PURPLE))
+         (N1 (ADJP (ADJ CUBOID)) (N1 (N1 (N BOX)) (N1 (N STANDING)))))))(UTT (ADJP (ADJ ON)))(NP (N1 (N END)))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TOWARD)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ MIDDLE))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREY)) (N1 (N SURFACE))))))))))
+       (PUNC PUNC-PERIOD)))
+("A skinny tall pink cube is in the left middle area of the gray area."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SKINNY))
+          (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ PINK)) (N1 (N CUBE))))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LEFT))
+              (N1 (ADJP (ADJ MIDDLE)) (N1 (N AREA)))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))(PUNC PUNC-PERIOD))
+("THe purple vertical box is in the plane"
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ VERTICAL)) (N1 (N BOX)))))
+       (VP (VP- (V IS))))(ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))
+("tall purple 3d rectangle"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ TALL))
+         (N1 (ADJP (ADJ PURPLE))
+          (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N RECTANGLE))))))))
+("A magenta prism stands left to the center"
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (N1 (ADJP (ADJ MAGENTA)) (N1 (N PRISM)))
+         (CP
+          (S (NP (N1 (N STANDS)))
+           (VP
+            (VP- (VP- (V LEFT))
+             (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))))))))))
+("The pink tower is in the middle of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PINK)) (N1 (N TOWER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N MIDDLE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple object appears very slender because its height is much larger than its width. It is very close to the center of the four corners."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))
+        (VP
+         (VP- (V APPEARS)
+          (PRED (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SLENDER))))))))(UTT
+       (UTT
+        (ADVBL (ADV BECAUSE)
+         (S (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N HEIGHT)))
+          (VP
+           (VP- (V IS)
+            (PRED
+             (ADJP (ADVBL (ADV MUCH))
+              (ADJP (ADJ LARGER)
+               (PP (PREP THAN)
+                (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N WIDTH))))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S (NP (PRO IT))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADJP (ADVBL (ADV VERY))
+             (ADJP (ADJ CLOSE)
+              (PP (PREP TO)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (N1 (N CENTER))
+                 (ADVBL (ADV OF)
+                  (NP (SPEC (DET (ART THE)))
+                   (N1 (ADJP (NUMBER FOUR)) (N1 (N CORNERS)))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a purple object on the gray surface"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GRAY)) (N1 (N SURFACE))))))))))))
+("A tall magenta cube sits on a gray surface."
+(UTT
+       (UTT
+        (S
+         (NP
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CUBE))))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART A)))
+             (N1 (N1 (N GRAY)) (ADJP (ADJ SURFACE)))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a tall purple rectangle"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ TALL))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N RECTANGLE))))))))))
+("A tall thin pink rectangular prism was placed just west of the center of the plane."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ TALL))
+          (N1 (ADJP (ADJ THIN))
+           (N1 (ADJP (ADJ PINK))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL (ADVBL (ADV JUST))
+            (ADVBL (ADV (WORD WEST) (WORD OF))
+             (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("the tower is tall, narrow, and magenta. It stis to the left of center in the plane"
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N TOWER)))
+         (VP
+          (VP- (V IS)
+           (NP
+            (NPSEQ (NP (N1 (N TALL))) (PUNC PUNC-COMMA) (NP (N1 (N NARROW))))
+            (PUNC PUNC-COMMA) (CONJ AND) (NP (N1 (N MAGENTA))))))))
+       (PUNC PUNC-PERIOD))(UTT (NP (PRO IT)))(UTT (NP (N1 (N STIS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N LEFT) (PP (PREP OF) (NP (N1 (N CENTER)))))
+          (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+)

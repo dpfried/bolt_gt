@@ -1,0 +1,195 @@
+(
+("the yellow next to the 2nd blue"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N YELLOW))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (SPEC (DET (ART THE)) (ORDINAL (NUMBER TWO) (PUNC PUNC-ORDINAL)))
+           (N1 (N BLUE))))))))
+("Yellow cylinder sitting on its side to the left of the bigger blue box."
+(UTT
+       (NP (N1 (ADJP (ADJ YELLOW)) (N1 (N1 (N CYLINDER)) (N1 (V SITTING))))))(UTT (ADJP (ADJ ON)))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BIGGER)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))))))))
+       (PUNC PUNC-PERIOD)))
+("cylinder on its side added to the left of previous object"
+(UTT
+       (NP
+        (N1 (N1 (N CYLINDER))
+         (ADVBL (ADV ON)
+          (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))))))(UTT
+       (ADJP
+        (VP- (V (V ADDED))
+         (PP (PREP TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF) (NP (N1 (ADJP (ADJ PREVIOUS)) (N1 (N OBJECT))))))))))))
+("Yellow cylinder layin down to the left of very large blue cube"
+(UTT (NP (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))) (N1 (N LAYIN)))))(UTT
+       (ADVBL (ADV (WORD DOWN) (WORD TO))
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N LEFT)
+          (PP (PREP OF)
+           (NP
+            (VP
+             (VP- (ADVBL (ADVBL (ADV VERY)) (ADVBL (ADV LARGE)))
+              (VP- (V BLUE) (NP (N1 (N CUBE)))))))))))))
+("the yellow cylinder was added to the left of the blue cube.  the yellow cylinder is on its side and almost touching the blue cube."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (V (V ADDED))
+           (PP (PREP TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))))))))))(NP (N1 (N CUBE)))(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADVBL (ADVBL (ADV ALMOST))
+          (ADVBL (ADV TOUCHING)
+           (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a yellow cylinder to the left of the blue box"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))))))))))
+("a yellow cylinder sits such that the shadow from the west of the thicker blue box is touching its circular face. The cylinder has a height that is about 1.5 times its diameter."
+)
+("A yellow 3D octagon on its side is to the left of the bigger blue cuboid box."
+)
+("A yellow cylinder is on its side to the left of the big blue cube."
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))))(UTT (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BIG)) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The yellow  cylinder is to the left of the blue cube"
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+       (VP (VP- (V IS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N LEFT)
+          (PP (PREP OF)
+           (NP
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE)))))))))))
+("yellow cylinder lying on the longer end"
+(UTT
+       (S
+        (VP
+         (VP- (V YELLOW)
+          (NP
+           (N1 (N1 (N1 (N CYLINDER)) (N1 (N LYING)))
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LONGER)) (N1 (N END))))))))))))
+("A blue cereal box stand sidewase left to the center. A yellowish lunch box is in front of the blue box. A blue storage box is behind the blue cereal box. A yellowish paper towel roll lies left to the blue storage box."
+)
+("Directly to the left of the blue cube is a yellow cylinder on it's side."
+(UTT
+       (ADVBL (ADVBL (ADV DIRECTLY))
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE)))))))))))(UTT
+       (S (V IS)
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (PRED (ADVBL (ADV ON) (NP (PRO IT))))))(UTT (NP (PRO US)))(UTT (UTT (ADJP (ADJ SIDE))) (PUNC PUNC-PERIOD)))
+("The yellow object is very close to the big blue box and is smaller in height but similar in length to big-blue."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ YELLOW)) (N1 (N OBJECT))))
+        (VP
+         (VP-
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADVBL (ADV VERY))
+             (ADVBL (ADV (WORD CLOSE) (WORD TO))
+              (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BIG)) (N1 (N BLUE))))))
+            (VP- (V (V BOX)))))
+          (CONJ AND) (VP- (V IS) (PRED (ADJP (ADJ SMALLER))))))))(ADVBL (ADV IN) (NP (N1 (N HEIGHT))))(ADVBL (ADV BUT))(ADJP (ADJ SIMILAR) (PP (PREP IN)))(NP (N1 (N LENGTH)))(PP (PREP TO) (ADJP (ADJ BIG)))(PUNC PUNC-MINUS)(UTT (UTT (ADJP (ADJ BLUE))) (PUNC PUNC-PERIOD)))
+("There is a yellow cylinder behind the blue brick that's behind the first two bricks."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS))
+          (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+          (PRED (ADJP (ADJ BEHIND)))))))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BRICK)))
+         (CP (PRO THAT)
+          (VP
+           (VP- (V ^S)
+            (PRED
+             (ADVBL (ADV BEHIND)
+              (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N BRICKS))))))))))))(PUNC PUNC-PERIOD))
+("A yellow cylinder lies on its side next to the large blue box."
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ YELLOW)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (VP- (V LIES))
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+            (N1 (N1 (N SIDE))
+             (ADVBL (ADV (WORD NEXT) (WORD TO))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ LARGE)) (N1 (N BLUE))))))))))))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-PERIOD)))
+("there is an orange cylinder on it's side next to the large blue square"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS))
+          (NP (SPEC (DET (ART AN))) (N1 (ADJP (ADJ ORANGE)) (N1 (N CYLINDER))))
+          (PRED (ADJP (ADJ ON)))))))(NP (PRO IT))(UTT
+       (S (V ^S)
+        (NP
+         (N1 (N1 (N SIDE))
+          (ADVBL (ADV (WORD NEXT) (WORD TO))
+           (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ LARGE)) (N1 (N BLUE)))))))
+        (PRED (ADJP (ADJ SQUARE))))))
+("A yellow octagonal prism was placed on its side just west of the large blue cube."
+)
+("the cylinder is yellow, and sits on its side just to the left of the blue box"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ YELLOW))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT (ADJP (ADJ ON)))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(UTT (ADVBL (ADV JUST))
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))))))))
+)

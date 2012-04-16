@@ -1,0 +1,248 @@
+(
+("Another brick, this one blue, partly obscures the small green brick."
+(UTT (UTT (NP (SPEC (QUAN ANOTHER)) (N1 (N BRICK)))) (PUNC PUNC-COMMA))(UTT (NP (PRO THIS)))(UTT (UTT (NP (SPEC (NUMBER ONE)) (N1 (N BLUE)))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV PARTLY)))(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V OBSCURES)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ GREEN)) (N1 (N BRICK)))))))))
+       (PUNC PUNC-PERIOD)))
+("The blue in the objects group"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N BLUE))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE))) (N1 (N1 (N OBJECTS)) (N1 (N GROUP)))))))))
+("blue box added in front of the shorter green box."
+(UTT (ADJP (ADJ BLUE)))(UTT
+       (UTT
+        (S (NP (VP (VP- (V BOX))))
+         (VP
+          (VP- (V ADDED)
+           (NP
+            (VP
+             (VP-
+              (ADVBL (ADV (WORD IN) (WORD FRONT))
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ SHORTER)) (N1 (N GREEN))))))
+              (VP- (V BOX)))))))))
+       (PUNC PUNC-PERIOD)))
+("blue square-like prism placed in front of third object"
+(UTT
+       (S
+        (VP
+         (VP- (V BLUE)
+          (NP
+           (N1
+            (N1 (N1 (N SQUARE)) (WORD PUNC-MINUS)
+             (N1 (N1 (ADJP (ADJ LIKE)) (N1 (N PRISM))) (ADJP (ADJ PLACED))))
+            (ADVBL (ADV (WORD IN) (WORD FRONT)))))))))(PREP OF)(ORDINAL THIRD)(UTT (S (VP (VP- (V OBJECT))))))
+("Dark blue, looks like large wall covering a part of the green structure behind it."
+(ADJP (ADJ DARK))(ADJP (ADJ BLUE))(PUNC PUNC-COMMA)(NP (N1 (N LOOKS)))(ADJP (ADJ LIKE))(ADJP
+       (VP- (ADVBL (ADV LARGE))
+        (VP- (VP- (V (V WALL)))
+         (ADVBL
+          (VP
+           (VP- (V COVERING)
+            (NP (SPEC (DET (ART A)))
+             (N1 (N PART)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ GREEN))
+                 (N1 (N1 (N STRUCTURE)) (ADJP (ADJ BEHIND))))))))))))))(NP (PRO IT))(PUNC PUNC-PERIOD))
+("The blue cube is between the smaller green square and the purple cylinder.  The blue cube is near the center of the top-left portion of the plane."
+(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(V CUBE)(V IS)(UTT
+       (UTT
+        (ADVBL (ADV BETWEEN)
+         (NP
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE)))))
+          (CONJ AND)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(V CUBE)(VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))(NP (SPEC (DET (ART THE))) (N1 (N CENTER)))(PREP OF)(ART THE)(ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V LEFT))))(ADJP (VP- (V (V PORTION))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a blue square below the small green square"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE)))
+            (ADVBL (ADV BELOW)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ SMALL))
+               (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE)))))))))))))
+("a blue box like the last green cracker, but thicker, is now sitting at the midpoint between the shorter green box and the purple cylinder. You can still see the green box."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))
+          (ADJP (ADJ LIKE)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ LAST)) (N1 (N GREEN)))
+             (ADJP (ADJ CRACKER))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(ADJP (ADJ THICKER))(PUNC PUNC-COMMA)(V IS)(ADVBL (ADV NOW))(UTT
+       (UTT
+        (NP
+         (VP
+          (VP- (VP- (V SITTING))
+           (ADVBL (ADV AT)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N MIDPOINT))
+              (ADVBL (ADV BETWEEN)
+               (NP
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ SHORTER))
+                  (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))
+                (CONJ AND)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))))))))))
+       (PUNC PUNC-PERIOD))(NP (PRO YOU))(AUX (V CAN))(N1 (ADJP (ADJ STILL)) (N1 (N SEE)))(ART THE)(ADJP (ADJ GREEN))(ADJP (VP- (V (V BOX))))(PUNC PUNC-PERIOD))
+("The blue box is in between the small green box and the purple cylinder"
+(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(UTT
+       (S (NP (VP (VP- (V BOX))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+            (NP
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))
+             (CONJ AND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))))))))
+("A taller blue 3D square on it's side is between the smaller green square and the light purple object."
+(ART A)(ADJP (ADJ TALLER))(UTT (ADJP (ADJ BLUE)))(ADJP (NUMBER THREE) (N D))(UTT (ADVBL (ADV SQUARE)))(UTT (ADJP (ADJ ON)))(NP (PRO IT))(NP (PRO US))(UTT (ADJP (ADJ SIDE)))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV BETWEEN)
+         (NP
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE)))))
+          (CONJ AND)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a blue rectangle cube added in between the pink and first green object."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE))) (N1 (N CUBE))))))))(UTT
+       (NP
+        (N1
+         (ADJP
+          (VP- (VP- (V (V ADDED)))
+           (ADVBL
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP (SPEC (DET (ART THE))) (N1 (N PINK))))
+            (CONJ AND) (ADVBL (ADV FIRST)))))
+         (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))))(PUNC PUNC-PERIOD))
+("blue thin square 3d"
+(UTT
+       (NP
+        (N1
+         (ADJP
+          (VP- (VP- (V (V BLUE)) (ADJP (ADJ THIN)))
+           (ADVBL (ADV SQUARE) (NP (NUMBER THREE)))))
+         (N1 (N D))))))
+("A magenta can is on the left side of the gray area. A blue pie's box is behind the magenta can, stands sidewase. A green cookie box is right behind the blue pie's box. and a green cereal box is right next to the cookie box."
+)
+("Right between the pink cylidner and the green rectangular prisim is a blue cube."
+(UTT
+       (S
+        (VP
+         (VP- (VP- (V RIGHT))
+          (ADVBL (ADV BETWEEN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ PINK)) (N1 (N CYLIDNER)))))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ GREEN))
+          (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM)))))))(V IS)(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE))))(PUNC PUNC-PERIOD))
+("The blue object is placed in between the smaller-green object and the purple object. it is roughly the same size as the larger green object"
+(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(UTT (S (VP (VP- (V OBJECT)))))(V IS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V PLACED)))
+          (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+           (NP
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT)))))
+            (CONJ AND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD))(NP (PRO IT))(V IS)(ADVBL (ADV ROUGHLY))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ SAME)) (N1 (N SIZE))
+         (PP (PREP AS)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LARGER)) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))))))))
+("The blue brick is in front of one of the green ones"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BRICK))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF)
+             (NP (SPEC (NUMBER ONE))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N ONES))))))))))))))
+("A large but skinny blue box sits inbetween the magenta cylinder and smaller green blocks."
+(UTT (NP (SPEC (DET (ART A))) (N1 (N LARGE))))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (S (NP (N1 (ADJP (ADJ SKINNY)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+         (VP (VP- (V SITS))))))(UTT (NP (N1 (N INBETWEEN))))(UTT
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER)))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (NP
+          (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N BLOCKS)))))))
+       (PUNC PUNC-PERIOD)))
+("there is a blue square in between the purple cylinder and the smaller brown block"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE)))
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ SMALLER))
+                (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK))))))))))))))
+("A tall blue rectangular prism was placed in front of the first green rectangular prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TALL))
+           (N1 (ADJP (ADJ BLUE))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+               (N1 (ADJP (ADJ GREEN))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the box is blue, and sits between the cylinder and the smaller green box"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N BOX))))(V IS)(UTT (UTT (ADJP (ADJ BLUE))) (PUNC PUNC-COMMA))(ADVBL (ADV AND))(V SITS)(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV BETWEEN)
+           (NP (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER))) (CONJ AND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ SMALLER)) (N1 (N GREEN))))))
+          (VP- (V BOX)))))))
+)

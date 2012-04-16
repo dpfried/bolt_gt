@@ -1,0 +1,259 @@
+(
+("a tiny blue cylinder is on the table"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ TINY)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (V IS)
+          (PRED (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N TABLE))))))))))
+("The blue object at the middle left"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT)))
+          (ADVBL (ADV AT) (NP (SPEC (DET (ART THE))) (N1 (N MIDDLE))))))
+        (VP (VP- (V LEFT))))))
+("small teal cylinder in the right middle of the slanted grey square."
+(UTT
+       (UTT
+        (NP
+         (N1 (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ TEAL)) (N1 (N CYLINDER))))
+          (ADVBL (ADV IN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ RIGHT))
+             (N1 (N MIDDLE)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ SLANTED))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("small blue cylinder placed towards the center of the surface"
+(UTT
+       (ADJP
+        (VP- (ADVBL (ADV SMALL))
+         (VP- (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))) (V (V PLACED))))))(UTT
+       (ADVBL (ADV TOWARDS)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SURFACE)))))))))
+("Small light blue cylinder to the right of the center of the platform."
+(UTT
+       (NP
+        (N1 (ADJP (ADJ SMALL))
+         (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N CENTER)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE))) (N1 (N PLATFORM)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The blue cylinder is near the bottom-left corner of the top-right portion of the plane.  The blue cylinder is smaller than average."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))))(NP (SPEC (DET (ART THE)))
+       (N1 (ADJP (VP- (N1 (N BOTTOM)) (PUNC PUNC-MINUS) (V (V LEFT))))
+        (N1 (N CORNER)
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V RIGHT))))
+            (N1 (N PORTION))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD)(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADJP (ADJ SMALLER) (PP (PREP THAN) (ADJP (ADJ AVERAGE)))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a light blue cylinder to the right of center on the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ CENTER))))))))))(ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GREY))))(V SHAPE))
+("a small, very light blue cylinder sits just west of the origin of this strange grey object. The diameter is close to the height."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALL))
+          (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ LIGHT)))
+           (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))
+        (VP (VP- (V SITS)))))(UTT
+       (UTT (ADVBL (ADV JUST))
+        (UTT
+         (ADVBL (ADV (WORD WEST) (WORD OF))
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N ORIGIN)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THIS)))
+              (N1 (ADJP (ADJ STRANGE))
+               (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT)))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N DIAMETER)))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ CLOSE)))))))(PART TO)(NP (SPEC (DET (ART THE))) (N1 (N HEIGHT)))(PUNC PUNC-PERIOD))
+("Th blue cylinder is to the right of the middle of the plane"
+(UTT (NP (N1 (N TH))))(UTT (ADJP (ADJ BLUE)))(UTT (NP (N1 (N CYLINDER))))(V IS)(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (V MIDDLE)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+("A small 3D blue octagon is placed toward the back right of the grey surface."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALL))
+          (N1 (ADJP (NUMBER THREE) (N D))
+           (N1 (ADJP (ADJ BLUE)) (N1 (N OCTAGON))))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))))(UTT
+       (UTT
+        (ADVBL (ADV TOWARD)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N BACK))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREY)) (N1 (N SURFACE))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is small turquoise cylinder in the middle right side of the gray area."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP
+           (N1
+            (N1 (ADJP (ADJ SMALL)) (N1 (N1 (N TURQUOISE)) (N1 (N CYLINDER))))
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ MIDDLE))
+               (N1 (N1 (N RIGHT)) (ADJP (ADJ SIDE))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GRAY)))(N AREA)(PUNC PUNC-PERIOD))
+("Cyan color cylinder on the middle of the pentagon looking shape platform."
+(N1 (N1 (ADJP (ADJ CYAN)) (N1 (N COLOR))) (N1 (N CYLINDER)))(UTT
+       (UTT
+        (ADVBL (ADV ON)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N MIDDLE)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N PENTAGON))
+              (N1 (N1 (N LOOKING))
+               (N1 (N1 (N SHAPE)) (N1 (N PLATFORM)))))))))))
+       (PUNC PUNC-PERIOD)))
+("teal 3d cylinderical tube"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ TEAL))
+          (N1 (ADJP (NUMBER THREE)) (N1 (ADJP (ADJ D)) (N1 (N CYLINDERICAL)))))
+         (V (V TUBE))))))
+("A short, cyan cylinder is at the center of the gray area."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ CYAN)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV AT)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GRAY)) (N1 (N AREA)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The cylinder is in the center of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N CENTER))
+               (ADVBL (ADV OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("This light blue cylinder is very small and has a very long shadow. It is toward the right-middle."
+(UTT
+       (UTT
+        (S
+         (S
+          (NP (SPEC (DET (ART THIS)))
+           (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
+          (VP
+           (VP- (V IS) (PRED (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SMALL)))))))
+         (CONJ AND)
+         (VP
+          (VP- (V HAS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ LONG)))
+             (N1 (N SHADOW))))))))
+       (PUNC PUNC-PERIOD))(NP (PRO IT))(V IS)(ADVBL (ADV TOWARD) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))(PUNC PUNC-MINUS)(UTT (ADJP (ADJ MIDDLE)))(PUNC PUNC-PERIOD))
+("There is a teal brick on the gray surface."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V (V IS))
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ TEAL)) (N1 (N BRICK)))
+             (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))))
+           (PRED (ADJP (ADJ SURFACE)))))))
+       (PUNC PUNC-PERIOD)))
+("A teal cylinder was placed near the enter in the easter hemisphere."
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ TEAL)) (N1 (N CYLINDER))))
+        (VP (VP- (AUX (V WAS)) (VP- (VP- (V (V PLACED))) (ADVBL (ADV NEAR)))))))(ART THE)(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (VP- (V ENTER))
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ EASTER)) (N1 (N HEMISPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("A small light blue cylinder."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALL))
+          (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))
+       (PUNC PUNC-PERIOD)))
+("there is a small pink cylinder on the plane"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+            (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+("the cylinder is teal and small, and sits a little right of the center of the plane."
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP
+          (VP- (V IS)
+           (PRED (ADJP (ADJP (ADJ TEAL)) (CONJ AND) (ADJP (ADJ SMALL)))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT
+       (UTT
+        (NP (SPEC (QUAN (WORD A) (WORD LITTLE)))
+         (N1 (V RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N CENTER))
+             (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))
+       (PUNC PUNC-PERIOD)))
+)

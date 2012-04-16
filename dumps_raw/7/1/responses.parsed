@@ -1,0 +1,264 @@
+(
+("A very small red brick lies flat on the table near the back"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SMALL)))
+          (N1 (ADJP (ADJ RED)) (N1 (N BRICK)))))
+        (VP
+         (VP- (VP- (VP- (V LIES)) (ADVBL (ADV FLAT)))
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N TABLE))
+             (ADVBL (ADV NEAR) (NP (SPEC (DET (ART THE))) (N1 (N BACK))))))))))))
+("The red object farther than the purple"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ RED))
+         (N1 (N1 (N OBJECT))
+          (ADJP (ADJ FARTHER)
+           (PP (PREP THAN) (NP (SPEC (DET (ART THE))) (N1 (N PURPLE))))))))))
+("small red box added to upper left of purple cylinder."
+(NP
+       (N1
+        (N1 (ADJP (ADJ SMALL))
+         (N1
+          (N1 (ADJP (ADJ RED))
+           (N1 (ADJP (VP- (V (V BOX))))
+            (N1 (ADJP (VP- (V (V ADDED)) (PP (PREP TO) (ADJP (ADJ UPPER)))))
+             (N1 (N LEFT) (PP (PREP OF))))))
+          (N1 (N PURPLE))))
+        (N1 (N CYLINDER))))(PUNC PUNC-PERIOD))
+("tiny red rectangular prism added to the right of the cylinder, as well as farther from the viewer"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ TINY))
+          (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (V (V ADDED)))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV AS) (NP (VP (VP- (V WELL))))))(ADVBL (ADV AS))(UTT
+       (ADVBL (ADVBL (ADV FARTHER))
+        (ADVBL (ADV FROM) (NP (SPEC (DET (ART THE))) (N1 (N VIEWER)))))))
+("Dark red cube that is very flat and sitting north and to the center of the pink cylinder."
+(NP
+       (N1 (N1 (ADJP (ADJ DARK)) (N1 (ADJP (ADJ RED)) (N1 (N CUBE))))
+        (CP (PRO THAT)
+         (VP (VP- (V IS) (PRED (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ FLAT)))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (NP
+          (VP
+           (VP- (VP- (V SITTING))
+            (ADVBL (ADVBL (ADV NORTH)) (CONJ AND)
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the red rectangle was added up and to the right of the purple sphere. The red rectangle is near the center of the top side of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADVBL (ADV UP)) (CONJ AND)
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (V RIGHT)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N CENTER)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N TOP))))))))))))(UTT (ADJP (ADJ SIDE)))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))(PUNC PUNC-PERIOD))
+("there is a red rectangle above and to the right of the purple cylinder"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE)))))
+          (ADVBL (ADVBL (ADV ABOVE)) (CONJ AND)
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))))))))))
+("a short, long, red box, bricklike in stature, is to the northeast of the cylinder. about 4 or 5 bricks could fit inbetween the objects"
+(UTT (UTT (NP (SPEC (DET (ART A))) (N1 (N SHORT)))) (PUNC PUNC-COMMA))(UTT (UTT (ADVBL (ADV LONG))) (PUNC PUNC-COMMA))(UTT (ADJP (ADJ RED)))(UTT (UTT (S (VP (VP- (V BOX))))) (PUNC PUNC-COMMA))(UTT (NP (N1 (N BRICKLIKE))))(UTT (ADVBL (ADV IN)))(UTT (UTT (NP (N1 (N STATURE)))) (PUNC PUNC-COMMA))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N NORTHEAST))
+           (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S
+        (NP
+         (N1
+          (ADJP
+           (NUMBER (ADV ABOUT) (NUMBER (NUMBER FOUR) (WORD OR) (NUMBER FIVE))))
+          (N1 (N BRICKS))))
+        (VP (VP- (AUX (V COULD)) (VP- (V FIT))))))(UTT (NP (N1 (N INBETWEEN))))(UTT (NP (SPEC (DET (ART THE))) (N1 (N OBJECTS)))))
+("The small red box is farther and to the right of the pink cylinder"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ RED)) (N1 (N BOX)))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ FARTHER)))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))))))))
+("A red cuboid box is behind and to the right of the light purple object."
+(NP (SPEC (DET (ART A))) (N1 (N RED)))(UTT (ADJP (ADJ CUBOID)))(UTT (S (VP (VP- (V BOX)))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV BEHIND)) (CONJ AND)
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LIGHT))
+               (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a short red rectangle object added in the upper left area of the gray area."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE))))
+            (N1 (N OBJECT))))))))(UTT
+       (ADJP
+        (VP- (VP- (V (V ADDED)))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ UPPER)) (N1 (ADJP (ADJ LEFT)) (N1 (N AREA)))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GRAY)))(N AREA)(PUNC PUNC-PERIOD))
+("thin red rectangluar black"
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ THIN)) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLUAR))))
+         (V (V BLACK))))))
+("A magenta can is on the left side of the gray area. A red cigarette box lies at 2 o'clock direction from the magenta can."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CAN))))(VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))(NP (SPEC (DET (ART THE))) (N1 (N1 (N LEFT)) (ADJP (ADJ SIDE))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ RED)) (N1 (N1 (N CIGARETTE)) (N1 (N BOX)))))
+        (VP (VP- (V LIES)))))(ADVBL (ADV AT) (NP (NAME (TIME-VALUE (NUMBER TWO) (WORD O^CLOCK)))))(UTT
+       (UTT
+        (NP
+         (N1 (N1 (N DIRECTION))
+          (ADVBL (ADV FROM)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ MAGENTA)) (N1 (N CAN))))))))
+       (PUNC PUNC-PERIOD)))
+("In the center of the back of the plane is a red rectangular prisim."
+(UTT
+       (ADVBL (ADV IN)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N BACK)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))(UTT
+       (UTT
+        (S (V IS) (NP (SPEC (DET (ART A))) (N1 (N RED)))
+         (NP (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))))
+       (PUNC PUNC-PERIOD)))
+("This red brick looking object is in the middle-right of the picture and smaller than the purple object."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THIS)))
+         (N1 (N1 (ADJP (ADJ RED)) (N1 (N BRICK)))
+          (N1 (N1 (N LOOKING)) (N1 (N OBJECT)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N1 (N MIDDLE)) (WORD PUNC-MINUS)
+              (N1 (N RIGHT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PICTURE)))))))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADJP (ADJ SMALLER)
+          (PP (PREP THAN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))))))
+       (PUNC PUNC-PERIOD)))
+("Red brick also on top of surface"
+(UTT
+       (S (NP (N1 (ADJP (ADJ RED)) (N1 (N BRICK))))
+        (VP
+         (VP- (ADVBL (ADV ALSO))
+          (VP- (ADVBL (ADV ON) (NP (N1 (V TOP) (PP (PREP OF)))))
+           (VP- (V SURFACE))))))))
+("A flat red rectangle sits towards the back of the gray surface."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TOWARDS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N BACK)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ GRAY)) (N1 (N SURFACE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("th ebrown block is to the right of the purple cylinder"
+(UTT (NP (N1 (N TH))))(NP (N1 (N EBROWN)))(S (NP (N1 (N BLOCK)))
+       (VP
+        (VP- (VP- (V IS))
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))))))))
+("A short red rectangular prism was placed northeast of the pink cylinder."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SHORT))
+          (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V PLACED))) (ADVBL (ADV NORTHEAST)))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PINK)))(N CYLINDER)(PUNC PUNC-PERIOD))
+("the  brick is behind the cylinder, toward the middle of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BRICK)))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV TOWARD))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N MIDDLE)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))
+       (PUNC PUNC-PERIOD)))
+)

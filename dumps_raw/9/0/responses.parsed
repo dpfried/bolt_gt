@@ -1,0 +1,221 @@
+(
+("the purple far away"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PURPLE))))(UTT (ADJP (ADJ FAR)))(UTT (ADVBL (ADV AWAY))))
+("Small purple cylinder in upper middle of the slanted grey sqsuare."
+)
+("small, pink sphere placed towards back of surface"
+(UTT
+       (ADJP
+        (VP- (ADVBL (ADV SMALL))
+         (VP- (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))) (V (V PLACED))))))(ADVBL (ADV TOWARDS) (NP (N1 (N BACK))))(UTT (ADVBL (ADV OF) (NP (VP (VP- (V SURFACE)))))))
+("small pink sphere sitting between northwest and northeast corners."
+(UTT
+       (UTT
+        (NP
+         (N1
+          (N1 (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))))
+           (ADJP (ADJ SITTING)))
+          (ADVBL (ADV BETWEEN)
+           (NP
+            (N1 (ADJP (ADJP (ADJ NORTHWEST)) (CONJ AND) (ADJP (ADJ NORTHEAST)))
+             (N1 (N CORNERS))))))))
+       (PUNC PUNC-PERIOD)))
+("the purple sphere is near the top-center of the top portion of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N TOP)) (WORD PUNC-MINUS)
+          (N1 (N CENTER)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ TOP))
+              (N1 (N PORTION)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a purple box above the center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N BOX)))
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE)))))))))))))))
+("A magenta sphere is sitting on the grey object (not that the grey object ever left, I just don't like mentioning it) toward the northeast side"
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N SPHERE))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V SITTING))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))))))))(PUNC START-PAREN)(UTT (ADVBL (ADV NOT)))(NP (PRO THAT))(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))
+         (VP (VP- (ADVBL (ADV EVER)) (VP- (V LEFT))))))
+       (PUNC PUNC-COMMA))(UTT (NP (PRO I)))(UTT (ADVBL (ADV JUST)))(VP
+       (VP- (AUX (V DO-)) (NEG N^T)
+        (VP- (V LIKE) (VP (VP- (V MENTIONING) (NP (PRO IT)))))))(PUNC END-PAREN)(UTT
+       (ADVBL (ADV TOWARD)
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ NORTHEAST)) (N1 (N SIDE)))))))
+("A small light purple spherish object is toward the back center of the grey surface."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1
+         (N1
+          (ADJP
+           (VP- (ADVBL (ADV SMALL))
+            (VP- (ADVBL (ADV LIGHT)) (VP- (V (V PURPLE))))))
+          (N1 (N SPHERISH)))
+         (N1 (N OBJECT)))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TOWARD)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N BACK))
+           (N1 (N CENTER)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREY)) (N1 (N SURFACE))))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a pink sphere in the upper middle area."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))
+             (ADVBL (ADV IN)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ UPPER))
+                (N1 (ADJP (ADJ MIDDLE)) (N1 (N AREA))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the purple sphere is on the other end of the pane"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER))
+              (N1 (N END)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PANE))))))))))))))
+("purple sphere"
+(UTT (NP (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))))
+("A small. magenta ball is on the further edge of the gray area."
+(ART A)(UTT (UTT (ADVBL (ADV SMALL))) (PUNC PUNC-PERIOD))(UTT (ADJP (ADJ MAGENTA)))(UTT
+       (UTT
+        (S (NP (N1 (N BALL)))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ FURTHER))
+               (N1 (N EDGE)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The ball is on the far side of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BALL)))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ FAR))
+               (N1 (N SIDE)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("This purple cube is near the right of the screen and appears very small."
+(UTT
+       (UTT
+        (S
+         (S (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ PURPLE)) (N1 (N CUBE))))
+          (VP
+           (VP- (V IS)
+            (PRED
+             (ADVBL (ADV NEAR)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N RIGHT)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE))) (N1 (N SCREEN)))))))))))
+         (CONJ AND)
+         (VP
+          (VP- (V APPEARS)
+           (PRED (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SMALL))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a purple sphere on the gray surface."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V (V IS))
+           (NP (SPEC (DET (ART A)))
+            (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))
+             (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))))
+           (PRED (ADJP (ADJ SURFACE)))))))
+       (PUNC PUNC-PERIOD)))
+("A small pink sphere sits towards the back of a gray surface."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TOWARDS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N BACK)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART A)))
+                (N1 (ADJP (ADJ GRAY)) (N1 (N SURFACE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a pink sphere in the plane"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))
+            (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))))
+("A pink sphere was placed near the center of the northern hemisphere."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ NORTHERN)) (N1 (N HEMISPHERE)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the ball is magenta, and sits toward the back of the plane, in the middle"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BALL)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ MAGENTA))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT
+       (ADVBL (ADV TOWARD)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N BACK)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (N PLANE))
+             (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N MIDDLE))))))))))))
+)

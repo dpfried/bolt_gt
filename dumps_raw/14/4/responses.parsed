@@ -1,0 +1,232 @@
+(
+("the light blue far away"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N LIGHT))
+         (CP
+          (VP (VP- (VP- (V (V BLUE)) (ADJP (ADJ FAR))) (ADVBL (ADV AWAY)))))))))
+("teal cylinder added behind the taller blue box."
+(UTT (ADJP (VP- (N1 (ADJP (ADJ TEAL)) (N1 (N CYLINDER))) (V (V ADDED)))))(UTT
+       (UTT
+        (S
+         (ADVBL (ADV BEHIND)
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ TALLER)) (N1 (N BLUE)))))
+         (S (VP (VP- (V BOX))))))
+       (PUNC PUNC-PERIOD)))
+("short blue cylinder added behind and to the right of all other objects"
+(UTT
+       (ADVBL
+        (ADVBL (ADV SHORT)
+         (NP
+          (N1
+           (ADJP (VP- (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))) (V (V ADDED))))
+           (N1 (N BEHIND)))))
+        (CONJ AND)
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (QUAN ALL))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))))
+("Light blue cylinder sitting closer to the northeast corner"
+(UTT
+       (NP
+        (N1
+         (N1 (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+          (N1 (N SITTING)))
+         (ADJP (ADJ CLOSER)
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NORTHEAST)) (N1 (N CORNER))))))))))
+("the light-blue cylinder is up from the blue square.  the light-blue cylinder is near the center of the top-right portion of the plane."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (VP- (N1 (N LIGHT)) (PUNC PUNC-MINUS) (V (V BLUE))))
+           (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV (WORD UP) (WORD FROM))
+             (NP (SPEC (DET (ART THE))) (N1 (N BLUE))))
+            (VP- (V (V SQUARE))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (VP- (N1 (N LIGHT)) (PUNC PUNC-MINUS) (V (V BLUE))))
+          (N1 (N CYLINDER))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV NEAR)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N CENTER)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V RIGHT))))
+                 (N1 (N PORTION)))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a light blue cylinder above and to the right of the blue box"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))))))(UTT
+       (ADVBL (ADVBL (ADV ABOVE)) (CONJ AND)
+        (ADVBL (WORD TO) (WORD THE) (ADV RIGHT))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(UTT (S (VP (VP- (V BOX))))))
+("a light blue cylinder, 3/4 the diameter of the red cylinder, and 1.5 times as tall as the brick, sits a ways northeast of the large blue box"
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))))
+       (PUNC PUNC-COMMA))(UTT (NP (DATE (NUMBER THREE) (PUNC PUNC-SLASH) (NUMBER FOUR))))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N DIAMETER))
+         (ADVBL (ADV OF)
+          (NP
+           (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+           (CONJ AND)
+           (NP (NUMBER (NUMBER ONE) (PUNC PUNC-PERIOD) (NUMBER FIVE))))))))(UTT (NP (N1 (N TIMES))))(PP (PREP AS) (ADJP (ADJ TALL)))(ADVBL (ADV AS) (NP (SPEC (DET (ART THE))) (N1 (N BRICK))))(PUNC PUNC-COMMA)(V SITS)(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (N1 (N1 (N WAYS)) (ADVBL (ADV NORTHEAST)))
+         (ADVBL (ADV OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX))))))))))
+("A short turqoise 3D octagon is behind the other objects."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SHORT))
+           (N1 (NP (NAME (N TURQOISE) (RNUMBER (NUMBER THREE))))
+            (N1 (N1 (N D)) (N1 (N OCTAGON))))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))
+       (PUNC PUNC-PERIOD)))
+("A turquoise slice of an octagon is added to the upper right area."
+(NP (SPEC (DET (ART A))) (N1 (N TURQUOISE)))(UTT (S (VP (VP- (V SLICE)))))(PREP OF)(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART AN))) (N1 (N OCTAGON)))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (V (V ADDED))
+            (PP (PREP TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ UPPER))
+               (N1 (ADJP (ADJ RIGHT)) (N1 (N AREA)))))))))))
+       (PUNC PUNC-PERIOD)))
+("light blue cylinder is behind the blue square"
+(UTT
+       (S (NP (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N SQUARE)))))))))))
+("teal 3d disk"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ TEAL)) (N1 (ADJP (NUMBER THREE) (N D)) (N1 (V DISK)))))))
+("A red tissue box is left to the center and a red, octagon bucket is behind the tissue box. A blue cooke box is at the center. A blue cereal box is right to the center. A cyan octagon prism is behind the cereal box."
+)
+("In the rear right section of the plane is a teal disk"
+(VP
+       (VP-
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ REAR))
+           (N1 (ADJP (ADJ RIGHT))
+            (N1 (N SECTION)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+        (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N TEAL))))))(UTT (S (VP (VP- (V DISK))))))
+("This cyan octahedron is about as tall as little-blue and very off to the right of all the other shapes."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ CYAN)) (N1 (N OCTAHEDRON))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADVBL (ADV ABOUT)) (ADVBL (ADV AS) (NP (N1 (N TALL))))))))))(UTT
+       (ADJP
+        (ADVBL (ADVBL (ADV AS) (NP (N1 (ADJP (ADJ LITTLE)) (N1 (N BLUE)))))
+         (CONJ AND) (ADVBL (ADV VERY)))
+        (ADJP (ADJ OFF))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (QUAN ALL))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N SHAPES))))))))))
+       (PUNC PUNC-PERIOD)))
+("Teal cylinder away from the other items"
+(UTT (NP (N1 (ADJP (ADJ TEAL)) (N1 (N CYLINDER)))))(UTT (ADVBL (ADV AWAY)))(UTT
+       (ADVBL (ADV FROM)
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ OTHER)) (N1 (N ITEMS)))))))
+("A short cyan cylinder sits apart from the other objects towards the right corner."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SHORT)) (N1 (ADJP (ADJ CYAN)) (N1 (N CYLINDER)))))
+         (VP
+          (VP-
+           (VP- (VP- (VP- (V SITS)) (ADVBL (ADV APART)))
+            (ADVBL (ADV FROM)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))
+           (ADVBL (ADV TOWARDS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ RIGHT)) (N1 (N CORNER)))))))))
+       (PUNC PUNC-PERIOD)))
+("a pink cylinder has been added to the  right of the other objects and further away"
+(NP (SPEC (DET (ART A))) (N1 (N PINK)))(N CYLINDER)(VP (VP- (AUX (V HAS)) (VP- (AUX (V BEEN)) (VP- (V (V ADDED))))))(UTT
+       (ADVBL
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))
+        (CONJ AND) (ADVBL (ADVBL (ADV FURTHER)) (ADVBL (ADV AWAY))))))
+("A teal cylinder was placed north of the larger blue rectangular prism, in the northeastern hemisphere."
+(NP (SPEC (DET (ART A))) (N1 (N TEAL)))(N CYLINDER)(V WAS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V PLACED)))
+          (ADVBL (ADV (WORD NORTH) (WORD OF))
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ LARGER))
+             (N1 (ADJP (ADJ BLUE))
+              (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ NORTHEASTERN)) (N1 (N HEMISPHERE))))))
+       (PUNC PUNC-PERIOD)))
+("the cylinder is teal, and is furthest back, in line with the largest blue box"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ TEAL))))))
+        (CONJ AND) (VP (VP- (V IS) (PRED (ADJP (ADJ FURTHEST)))))))(UTT (ADVBL (ADV BACK)))(PUNC PUNC-COMMA)(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV IN)
+           (NP
+            (VP
+             (VP- (V LINE)
+              (PP (PREP WITH)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ LARGEST)) (N1 (N BLUE)))))))))
+          (VP- (V BOX)))))))
+)

@@ -1,0 +1,246 @@
+(
+("a tiny pink disk is to the immediate left of the green ball."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TINY)) (N1 (ADJP (ADJ PINK)) (N1 (N DISK)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP-
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ IMMEDIATE))
+               (N1 (N LEFT)
+                (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))))))
+            (VP- (V (V BALL))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple object between two objects"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))
+         (ADVBL (ADV BETWEEN) (NP (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS)))))))))
+("Small purple cylinder added to the right of green cylinder."
+(UTT
+       (NP (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))))))(UTT
+       (UTT
+        (NP
+         (N1
+          (ADJP
+           (VP- (V (V ADDED))
+            (PP (PREP TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (V RIGHT) (PP (PREP OF) (ADJP (ADJ GREEN))))))))
+          (N1 (N CYLINDER)))))
+       (PUNC PUNC-PERIOD)))
+("small pink cylinder added just to the left of the original sphere"
+(UTT
+       (ADJP
+        (VP- (ADVBL (ADV SMALL))
+         (VP- (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))) (V (V ADDED))))))(UTT
+       (ADVBL (ADVBL (ADV JUST))
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ ORIGINAL)) (N1 (N SPHERE)))))))))))
+("Small pink cylinder structure sitting next to green sphere."
+(UTT
+       (NP
+        (VP
+         (VP-
+          (ADVBL (ADV SMALL)
+           (NP
+            (N1 (ADJP (ADJ PINK)) (N1 (N1 (N CYLINDER)) (N1 (N STRUCTURE))))))
+          (VP- (V SITTING))))))(ADV (WORD NEXT) (WORD TO))(N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))(PUNC PUNC-PERIOD))
+("the purple disc was added to the left of the green sphere.  The purple disc is smaller than average.  The purple disc is located in the right-center of the top-left portion of the plane."
+(NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))(N DISC)(VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))(ADVBL (WORD TO) (WORD THE) (ADV LEFT))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(N SPHERE)(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))(N DISC)(V IS)(UTT (UTT (ADJP (ADJ SMALLER) (PP (PREP THAN) (ADJP (ADJ AVERAGE)))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART THE))) (N1 (N PURPLE)))(N DISC)(V IS)(UTT
+       (ADJP
+        (VP- (VP- (V LOCATED))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (N RIGHT)) (WORD PUNC-MINUS)
+            (N1 (N CENTER)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V LEFT))))
+                (N1 (N PORTION))))))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a purple cylinder between the green ball and the blue ball"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))
+            (ADVBL (ADV BETWEEN)
+             (NP
+              (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N BALL))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N BALL)))))))))))))
+("a magenta cylinder, shorter and fat, but considerably smaller than either sphere, sits just southwest of the green sphere, 1/4 the distance closer to the green sphere than the blue sphere."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N CYLINDER)))))
+       (PUNC PUNC-COMMA))(UTT (ADJP (ADJ SHORTER)))(ADVBL (ADV AND))(UTT (UTT (ADJP (ADJ FAT))) (PUNC PUNC-COMMA))(UTT (ADVBL (ADV BUT)) (UTT (ADVBL (ADV CONSIDERABLY))))(ADJP (ADJ SMALLER) (PP (PREP THAN)))(UTT
+       (S (NP (SPEC (QUAN EITHER)) (N1 (N SPHERE)))
+        (VP
+         (VP- (VP- (V SITS))
+          (ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV SOUTHWEST)))))))(ADVBL (ADV OF)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))(PUNC PUNC-COMMA)(UTT (NP (DATE (NUMBER ONE) (PUNC PUNC-SLASH) (NUMBER FOUR))))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N DISTANCE))
+         (ADJP (ADJ CLOSER)
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))))))(PP (PREP THAN)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N SPHERE)))))(PUNC PUNC-PERIOD))
+("The pink cylinder is to the left of the green sphere"
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))
+       (VP (VP- (V IS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N LEFT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE))))))))))
+("A small light purple 3D octagon is to the left of the green object."
+(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SMALL))
+         (N1 (ADJP (ADJ LIGHT))
+          (N1 (ADJP (ADJ PURPLE))
+           (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON)))))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-PERIOD)))
+("A pink cylinder shaped object was added slightly to the left of the green sphere."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ PINK))
+          (N1 (ADJP (VP- (N1 (N CYLINDER)) (V (V SHAPED)))) (N1 (N OBJECT)))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))))(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV SLIGHTLY))
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE))))))))))
+       (PUNC PUNC-PERIOD)))
+("purple cylinder disk"
+(UTT (ADJP (VP- (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER))) (V (V DISK))))))
+("A Pakistan green ball is placed close to the furthest edge on the gray, pentagon area. A blue ball is placed at 8 o'clock direction from the grenn ball. A magenta CD stack case is at  08:30 direction, very close to the green ball."
+)
+("Directly to the left of the green ball is a pink cylinder."
+(UTT (ADVBL (ADV DIRECTLY)))(ADVBL (ADV TO))(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N BALL)))))))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple object appears to be a very small octahedron, smaller than any object has been thus far and in between the blue and green objects (but nearer to the green)."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT))))
+         (VP
+          (VP- (V APPEARS)
+           (CP (INFINITIVAL-TO TO)
+            (VP
+             (VP- (V BE)
+              (NP (SPEC (DET (ART A)))
+               (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ SMALL)))
+                (N1 (N OCTAHEDRON)))))))))))
+       (PUNC PUNC-COMMA))(ADJP (ADJ SMALLER) (PP (PREP THAN)))(UTT
+       (S (NP (SPEC (QUAN ANY)) (N1 (N OBJECT)))
+        (VP
+         (VP- (AUX (V HAS))
+          (VP- (V BEEN) (PRED (ADJP (ADVBL (ADV THUS)) (ADJP (ADJ FAR)))))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ GREEN)))
+           (N1 (N OBJECTS)))))))(PUNC START-PAREN)(UTT (ADVBL (ADV BUT)) (UTT (ADVBL (ADV NEARER))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))(PUNC END-PAREN)(PUNC PUNC-PERIOD))
+("There is a purple cylinder next to the dark green sphere."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (NP (SPEC (DET (ART A)))
+             (N1 (ADJP (ADJ PURPLE)) (N1 (N CYLINDER)))))
+           (ADVBL (ADV (WORD NEXT) (WORD TO))
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ DARK))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE))))))))))
+       (PUNC PUNC-PERIOD)))
+("A flat, pink cylinder sits to the left of the green sphere."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a pink cylinder next to the brown sphere"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))
+            (ADVBL (ADV (WORD NEXT) (WORD TO))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BROWN)) (N1 (N SPHERE))))))))))))
+("A small pink cylinder was placed just southwest of the green sphere."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALL)) (N1 (ADJP (ADJ PINK)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV SOUTHWEST))))))))(ADVBL (ADV OF)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N SPHERE)))))(PUNC PUNC-PERIOD))
+("the cylinder is small and magenta, and sits to the left of the green ball"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP
+          (VP- (V IS)
+           (PRED (ADJP (ADJP (ADJ SMALL)) (CONJ AND) (ADJP (ADJ MAGENTA)))))))
+        (CONJ AND)
+        (VP
+         (VP- (VP- (V SITS))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ GREEN)) (N1 (N BALL)))))))))))))
+)

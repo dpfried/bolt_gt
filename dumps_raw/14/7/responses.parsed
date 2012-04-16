@@ -1,0 +1,211 @@
+(
+("The light blue most further"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ LIGHT)) (N1 (N BLUE)))
+         (ADVBL (ADV (WORD MOST) (ADV FURTHER)))))))
+("teal box added behind the green cylinder."
+(UTT
+       (UTT
+        (NP
+         (N1 (ADJP (ADJ TEAL))
+          (N1 (ADJP (VP- (V (V BOX))))
+           (N1
+            (ADJP
+             (VP- (VP- (V (V ADDED)))
+              (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))))
+            (N1 (N CYLINDER)))))))
+       (PUNC PUNC-PERIOD)))
+("blue rectangular prism added behind all other objects"
+(UTT
+       (S
+        (VP
+         (VP- (V BLUE)
+          (NP
+           (N1 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))
+            (CP
+             (VP
+              (VP- (VP- (V (V ADDED)))
+               (ADVBL (ADV BEHIND)
+                (NP (SPEC (QUAN ALL))
+                 (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))))))))
+("Light blue tall cube sitting behind all other objects"
+(UTT
+       (NP
+        (N1
+         (N1
+          (N1 (ADJP (VP- (ADVBL (ADV LIGHT)) (VP- (V (V BLUE)))))
+           (N1 (ADJP (ADJ TALL)) (N1 (N CUBE))))
+          (ADJP (ADJ SITTING)))
+         (ADVBL (ADV BEHIND)
+          (NP (SPEC (QUAN ALL)) (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))
+("the light-blue rectangular prism was added up from the green cylinder.  the light-blue rectangular prism is near the top-center of the top-left portion of the plane."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LIGHT))
+          (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+        (VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))))(ADVBL (ADV (WORD UP) (WORD FROM)))(ART THE)(N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LIGHT))
+          (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))))(ART THE)(ADJP (ADJ TOP))(PUNC PUNC-MINUS)(ADJP (ADJ CENTER))(PREP OF)(ART THE)(VP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V LEFT))))(ADJP (VP- (V (V PORTION))))(PREP OF)(ART THE)(ADJP (ADJ PLANE))(PUNC PUNC-PERIOD))
+("there is a blue box above the green cylinder"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))))))
+("a teal box, 1.5 times taller than a cube, its length a little shorter than the diameter of the light blue cylinder, its height a bit shorter than the green cylinder, sits to the northeast of the green cylinder."
+)
+("A turquoise cuboid is behind all the other objects."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A))) (N1 (N1 (N TURQUOISE)) (ADJP (ADJ CUBOID))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (QUAN ALL))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A turquoise cube is above the green cylinder."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (N1 (N TURQUOISE)) (N1 (N CUBE))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD)))
+("The light blue cubeic shape is by the far corner of the plane"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N CUBEIC))))
+          (N1 (N SHAPE))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV BY)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ FAR))
+              (N1 (V CORNER)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))))
+("teal rectangular block"
+(UTT
+       (NP (N1 (ADJP (ADJ TEAL)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))
+("Blue big box, blue small box, red box, and yellow box is lined up from center to left. Red octagon prism, green cylinder, and teal box lined up behind red box. A teal octagon prism is behind the big blue box."
+(UTT (ADJP (ADJ BLUE)))(VPSEQ (VP (VP- (ADVBL (ADV BIG)) (VP- (V (V BOX))))) (PUNC PUNC-COMMA)
+       (VP (VP- (V (V BLUE)) (ADJP (ADJ SMALL)))))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-COMMA)(UTT (ADJP (ADJ RED)))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-COMMA)(ADVBL (ADV AND))(UTT (ADJP (ADJ YELLOW)))(UTT (S (VP (VP- (V BOX)))))(VP (VP- (V IS) (PRED (ADJP (ADJ LINED)))))(ADVBL (ADV (WORD UP) (WORD FROM)))(UTT (ADJP (ADJ CENTER)))(PP (PREP TO) (ADJP (ADJ LEFT)))(PUNC PUNC-PERIOD)(UTT (ADJP (ADJ RED)))(N1 (N1 (N OCTAGON)) (N1 (N PRISM)))(PUNC PUNC-COMMA)(N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))(PUNC PUNC-COMMA)(ADVBL (ADV AND))(UTT (ADJP (ADJ TEAL)))(UTT (S (VP (VP- (V BOX)))))(UTT (ADJP (ADJ LINED)))(ADVBL (ADV UP))(UTT (ADJP (ADJ BEHIND)))(UTT (ADJP (ADJ RED)))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-PERIOD)(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ TEAL)) (N1 (N1 (N OCTAGON)) (N1 (N PRISM)))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ BEHIND)))))))(ART THE)(ADJP (VP- (ADVBL (ADV BIG)) (VP- (V (V BLUE)))))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-PERIOD))
+("Behind the green and red cylinders is a teal tower."
+(UTT
+       (ADVBL (ADV BEHIND)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJP (ADJ GREEN)) (CONJ AND) (ADJP (ADJ RED)))
+          (N1 (N CYLINDERS))))))(UTT
+       (UTT
+        (S (V IS) (NP (SPEC (DET (ART A))) (N1 (N TEAL))) (NP (N1 (N TOWER)))))
+       (PUNC PUNC-PERIOD)))
+("This cyan box was hard to distinguish from the last picture, but is about medium length and on the taller side when compared to these objects."
+(UTT
+       (S (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ CYAN)) (N1 (N BOX))))
+        (VP (VP- (V WAS) (PRED (ADJP (ADJ HARD)))))))(PART TO)(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (VP- (V DISTINGUISH))
+           (ADVBL (ADV FROM)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ LAST)) (N1 (N PICTURE)))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(VP
+       (VP- (V IS)
+        (NP (ADV ABOUT) (NP (N1 (ADJP (ADJ MEDIUM)) (N1 (N LENGTH)))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADJP
+          (VP-
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ TALLER)) (N1 (N SIDE)))))
+           (VP- (ADVBL (ADV WHEN))
+            (VP- (V (V COMPARED))
+             (PP (PREP TO)
+              (NP (SPEC (DET (ART THESE))) (N1 (N OBJECTS))))))))))
+       (PUNC PUNC-PERIOD)))
+("Teal square behind the green cylinder"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ TEAL)) (N1 (N SQUARE)))
+         (ADVBL (ADV BEHIND)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))))))
+("A tall cyan cube sits behind the red and green cylinders."
+(UTT
+       (UTT
+        (S
+         (NP
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ CYAN)) (N1 (N CUBE))))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJP (ADJ RED)) (CONJ AND) (ADJP (ADJ GREEN)))
+              (N1 (N CYLINDERS)))))))))
+       (PUNC PUNC-PERIOD)))
+("a pink block has been added at the furthest distance"
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N BLOCK))))
+        (VP
+         (VP- (AUX (V HAS))
+          (VP- (AUX (V BEEN))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADV AT)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ FURTHEST)) (N1 (N DISTANCE))))))))))))
+("A teal rectangular prism was place north of the large red octagonal prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TEAL)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (VP
+          (VP- (V WAS)
+           (NP
+            (N1 (N1 (N PLACE))
+             (ADVBL (ADV (WORD NORTH) (WORD OF))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ LARGE))
+                (N1 (ADJP (ADJ RED))
+                 (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the cylinder is teal, and is furthest back, in line with the yellow box"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ TEAL))))))
+        (CONJ AND) (VP (VP- (V IS) (PRED (ADJP (ADJ FURTHEST)))))))(UTT (UTT (ADVBL (ADV BACK))) (PUNC PUNC-COMMA))(UTT
+       (S
+        (VP
+         (VP-
+          (ADVBL (ADV IN)
+           (NP
+            (VP
+             (VP- (V LINE)
+              (PP (PREP WITH) (NP (SPEC (DET (ART THE))) (N1 (N YELLOW))))))))
+          (VP- (V BOX)))))))
+)

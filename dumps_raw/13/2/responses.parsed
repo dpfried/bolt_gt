@@ -1,0 +1,250 @@
+(
+("The blue on the center line"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N BLUE))
+          (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))))
+        (VP (VP- (V LINE))))))
+("teal box added to the upper left of the red box."
+(UTT (ADJP (ADJ TEAL)))(UTT (S (VP (VP- (V BOX)))))(UTT
+       (UTT
+        (ADJP
+         (VP- (V (V ADDED))
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ UPPER))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ RED)) (N1 (N BOX))))))))))))
+       (PUNC PUNC-PERIOD)))
+("blue rectangular object added between previous two objects, as well as farther away from viewer"
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V BLUE)
+           (NP
+            (N1
+             (N1 (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N OBJECT)))
+              (CP (VP (VP- (V (V ADDED))))))
+             (ADVBL (ADV BETWEEN)
+              (NP
+               (N1 (ADJP (ADJ PREVIOUS))
+                (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS))))))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV (WORD AS) (WORD WELL) (WORD AS)))(UTT (ADVBL (ADVBL (ADV FARTHER)) (ADVBL (ADV AWAY))))(ADVBL (ADV FROM) (NP (N1 (N VIEWER)))))
+("Light blue cub behind other two objects."
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (ADVBL (ADV LIGHT))
+           (VP- (V BLUE)
+            (NP
+             (N1 (N1 (N CUB))
+              (ADVBL (ADV BEHIND)
+               (NP
+                (N1 (ADJP (ADJ OTHER))
+                 (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the blue square was added up and to the right of the purple rectangular prism.  the blue square is up and to the left of the red rectangular prism.  The blue square is near the center of the top portion of the plane."
+(ART THE)(ADJP (ADJ BLUE))(ADJP (ADJ SQUARE))(VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV UP)) (CONJ AND)
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ PURPLE))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD))(ART THE)(ADJP (ADJ BLUE))(ADJP (ADJ SQUARE))(V IS)(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV UP)) (CONJ AND)
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD))(ART THE)(ADJP (ADJ BLUE))(ADJP (ADJ SQUARE))(VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))(ART THE)(ADJP (ADJ CENTER))(PREP OF)(ART THE)(ADJP (ADJ TOP))(ADJP (VP- (V (V PORTION))))(PREP OF)(ART THE)(ADJP (ADJ PLANE))(PUNC PUNC-PERIOD))
+("there is a blue box above and to the right of the red box"
+(UTT (ADVBL (ADV THERE)))(UTT
+       (S (AUX (V IS)) (NP (SPEC (DET (ART A))) (N1 (N BLUE)))
+        (VP- (VP- (V (V BOX)))
+         (ADVBL (ADVBL (ADV ABOVE)) (CONJ AND)
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (V RIGHT)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED)))))))))))(UTT (S (VP (VP- (V BOX))))))
+("a light blue box is to the north of the midpoint between the red and magenta boxes. The light blue box is similar to the brick, except positioned with its short, long face toward the viewer, and is perhaps 1.5 times as small."
+)
+("A turquoise cuboid box is behind the other two."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (N1 (N TURQUOISE)) (N1 (N1 (N CUBOID)) (N1 (N BOX)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE))) (ADJP (ADJ OTHER))
+              (CARDINALITY (NUMBER TWO)))))))))
+       (PUNC PUNC-PERIOD)))
+("A turquoise cube is above the first two objects but in the space between the two."
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (N1 (N TURQUOISE)) (N1 (N CUBE))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV ABOVE)
+            (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+             (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS))))))))))(UTT
+       (UTT (ADVBL (ADV BUT))
+        (UTT
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (N SPACE))
+            (ADVBL (ADV BETWEEN)
+             (NP (SPEC (DET (ART THE))) (CARDINALITY (NUMBER TWO)))))))))
+       (PUNC PUNC-PERIOD)))
+("THe light blue box is behind the other boxes"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LIGHT)) (N1 (ADJP (ADJ BLUE)) (N1 (N BOX)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N BOXES)))))))))))
+("teal rectangular block"
+(UTT
+       (NP (N1 (ADJP (ADJ TEAL)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))
+("A magenta prism and a red tissue box shares the center. A cyan tissue box is equally spaced in between, a step behind the magenta prism and red box."
+(UTT
+       (NP (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ MAGENTA)) (N1 (N PRISM))))
+        (CONJ AND)
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ RED)) (N1 (N TISSUE))))))(UTT
+       (UTT
+        (S (NP (VP (VP- (V BOX))))
+         (VP (VP- (V SHARES) (NP (SPEC (DET (ART THE))) (N1 (N CENTER)))))))
+       (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ CYAN)) (N1 (N TISSUE))))(UTT (S (VP (VP- (V BOX)))))(V IS)(UTT
+       (UTT
+        (ADJP
+         (VP- (ADVBL (ADV EQUALLY))
+          (VP- (VP- (V (V SPACED))) (ADVBL (ADV (WORD IN) (WORD BETWEEN)))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (S
+         (NP
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (N STEP))
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ MAGENTA)) (N1 (N PRISM)))))))
+          (CONJ AND) (NP (N1 (N RED))))
+         (VP (VP- (V BOX)))))
+       (PUNC PUNC-PERIOD)))
+("There is a teal rectangular prisim between and behind the tower and thered rectangular prisim."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS)) (NP (SPEC (DET (ART A))) (N1 (N TEAL)))
+          (PRED (ADJP (ADJ RECTANGULAR)))))))(NP
+       (NP
+        (N1 (N1 (N PRISIM))
+         (ADVBL (ADVBL (ADV BETWEEN)) (CONJ AND)
+          (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N TOWER)))))))
+       (CONJ AND) (NP (N1 (N THERED))))(NP (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))(PUNC PUNC-PERIOD))
+("The cyan box is on its side just like the red object, but is smaller than it in width height and length."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ CYAN)) (N1 (N BOX))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+              (N1 (N1 (N SIDE))
+               (ADJP (ADVBL (ADV JUST))
+                (ADJP (ADJ LIKE)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ RED)) (N1 (N OBJECT))))))))))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(VP
+       (VP-
+        (VP- (V IS) (PRED (ADJP (ADJ SMALLER) (PP (PREP THAN) (NP (PRO IT))))))
+        (ADVBL (ADV IN) (NP (N1 (N1 (N WIDTH)) (N1 (N HEIGHT)))))))(ADVBL (ADV AND))(UTT (UTT (NP (N1 (N LENGTH)))) (PUNC PUNC-PERIOD)))
+("There is a teal brick behind the other two bricks"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ TEAL)) (N1 (N BRICK)))
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N BRICKS)))))))))))))
+("A flat cyan box sits in proximity to the other boxes/cubes."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ CYAN)) (N1 (N BOX)))))
+        (VP (VP- (VP- (V SITS)) (ADVBL (ADV IN) (NP (N1 (N PROXIMITY))))))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ OTHER)) (N1 (N BOXES))))))(PUNC PUNC-SLASH)(UTT (UTT (NP (N1 (N CUBES)))) (PUNC PUNC-PERIOD)))
+("there is a pink rectangle further away from me and between the other two objects"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP-
+           (VP- (V (V IS))
+            (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N RECTANGLE))))
+            (PRED (ADJP (ADJ FURTHER))))
+           (ADVBL (ADV AWAY)))
+          (ADVBL (ADVBL (ADV FROM) (NP (PRO ME))) (CONJ AND)
+           (ADVBL (ADV BETWEEN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER))
+              (N1 (ADJP (NUMBER TWO)) (N1 (N OBJECTS))))))))))))
+("A teal rectangular prism was placed north and centered of the two previous shapes."
+(UTT
+       (S
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TEAL)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (VP
+          (VP- (V WAS) (NP (N1 (ADJP (VP- (V (V PLACED)))) (N1 (N NORTH)))))))
+        (CONJ AND) (VP (VP- (V CENTERED)))))(UTT
+       (UTT
+        (ADVBL (ADV OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (NUMBER TWO))
+           (N1 (ADJP (ADJ PREVIOUS)) (N1 (N SHAPES)))))))
+       (PUNC PUNC-PERIOD)))
+("the box is teal, and is between the other two blocks, but further back in the plane"
+(UTT
+       (UTT
+        (S
+         (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+          (VP (VP- (V IS) (PRED (ADJP (ADJ TEAL))))))
+         (CONJ AND)
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV BETWEEN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (NUMBER TWO)) (N1 (N BLOCKS)))))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (NP
+         (N1 (N1 (ADJP (ADJ FURTHER)) (N1 (N BACK)))
+          (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+)

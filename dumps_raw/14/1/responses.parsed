@@ -1,0 +1,195 @@
+(
+("The red higher"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N RED))))(UTT (ADJP (ADJ HIGHER))))
+("tall red cylinder added behind the red box."
+(UTT
+       (UTT
+        (S (NP (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V ADDED)
+           (NP
+            (VP
+             (VP- (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N RED))))
+              (VP- (V BOX)))))))))
+       (PUNC PUNC-PERIOD)))
+("red cylinder added behind previous object"
+(UTT
+       (NP
+        (N1 (ADJP (VP- (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))) (V (V ADDED))))
+         (N1 (ADJP (ADJ BEHIND)) (N1 (ADJP (ADJ PREVIOUS)) (N1 (N OBJECT))))))))
+("very large re cylinder sitting behind red rectangular cube"
+(UTT
+       (NP
+        (N1
+         (N1
+          (N1 (ADJP (ADVBL (ADV VERY)) (ADJP (ADJ LARGE)))
+           (N1 (N1 (N RE)) (N1 (N CYLINDER))))
+          (N1 (V SITTING)))
+         (ADVBL (ADV BEHIND)
+          (NP
+           (N1 (ADJP (ADJ RED))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N CUBE))))))))))
+("the red cylinder was added up from the red rectangular prism.  the red cylinder is almost touching the red rectangular prism."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADV (WORD UP) (WORD FROM))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (ADVBL (ADV ALMOST))
+            (VP- (V TOUCHING)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a red cylinder above the red box"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED)) (N1 (N BOX))))))))))))
+("a red cylinder, diameter 3/4 as long as the red box, and as tall as the red box, sits just to the northeast of the box."
+)
+("A red 3D octagon is behind the red"
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ RED))
+          (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N RED))))))))))
+("A tall red octagon is above the red rectangle."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ RED)) (N1 (N OCTAGON)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ABOVE)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE))))))))))
+       (PUNC PUNC-PERIOD)))
+("The red cylinder is just behind the red box"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADVBL (ADV JUST))
+            (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N RED)))))
+           (VP- (V (V BOX)))))))))
+("red cylindrical tube"
+(UTT
+       (NP (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ CYLINDRICAL)) (N1 (V TUBE)))))))
+("A red tissue box is left to the center and a red, octagon bucket is behind the tissue box."
+(UTT (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ RED)) (N1 (N TISSUE)))))(UTT
+       (S (NP (VP (VP- (V BOX))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V LEFT)))
+           (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER)))))))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (S
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ RED)) (N1 (N1 (N OCTAGON)) (N1 (N BUCKET)))))
+          (VP
+           (VP- (AUX (V IS))
+            (VP-
+             (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N TISSUE))))
+             (VP- (V (V BOX)))))))))
+       (PUNC PUNC-PERIOD)))
+("Directly behind the red rectangular prisim is a red cylinder."
+(UTT
+       (UTT
+        (S (ADVBL (ADVBL (ADV DIRECTLY)) (ADVBL (ADV BEHIND)))
+         (S
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM)))))
+          (VP
+           (VP- (V IS)
+            (NP (SPEC (DET (ART A)))
+             (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))))))))
+       (PUNC PUNC-PERIOD)))
+("This red octahedron is much larger in height but similar in length to Brick, and is placed close but behind Brick."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ RED)) (N1 (N OCTAHEDRON))))
+        (VP
+         (VP- (VP- (V IS) (PRED (ADJP (ADVBL (ADV MUCH)) (ADJP (ADJ LARGER)))))
+          (ADVBL (ADV IN) (NP (N1 (N HEIGHT))))))))(UTT (ADVBL (ADV BUT))
+       (UTT (ADJP (ADJ SIMILAR) (PP (PREP IN) (NP (N1 (N LENGTH)))))))(ADVBL (ADV TO))(UTT (UTT (NP (N1 (N BRICK)))) (PUNC PUNC-COMMA))(ADVBL (ADV AND))(VP (VP- (AUX (V IS)) (VP- (VP- (V (V PLACED))) (ADVBL (ADV CLOSE)))))(UTT (ADVBL (ADV BUT)) (UTT (ADJP (ADJ BEHIND))))(UTT (UTT (NP (N1 (N BRICK)))) (PUNC PUNC-PERIOD)))
+("Red cylinder next to red brick"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (N1 (ADJP (ADJ RED)) (N1 (N BRICK)))))))))
+("A big red cylinder sits behind the flat red block."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ BIG)) (N1 (ADJP (ADJ RED)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ FLAT)) (N1 (ADJP (ADJ RED)) (N1 (N BLOCK))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a brown cylinder behind the brown block"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BROWN)) (N1 (N CYLINDER)))
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK))))))))))))
+("A large red octagonal prism was placed just north of the red rectangular prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ LARGE))
+           (N1 (ADJP (ADJ RED)) (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM))))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADVBL (ADV JUST))
+             (ADVBL (ADV (WORD NORTH) (WORD OF))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ RED))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the cylinder is red, and is located directly behind the brick"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ RED))))))
+        (CONJ AND)
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V LOCATED))
+           (ADVBL (ADVBL (ADV DIRECTLY))
+            (ADVBL (ADV BEHIND)
+             (NP (SPEC (DET (ART THE))) (N1 (N BRICK)))))))))))
+)

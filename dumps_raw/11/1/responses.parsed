@@ -1,0 +1,221 @@
+(
+("The blue in the middle"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N BLUE))
+         (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N MIDDLE))))))))
+("taller blue cylinder added to the bottom left of the green cylinder."
+(UTT
+       (ADJP
+        (VP- (N1 (ADJP (ADJ TALLER)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (V (V ADDED)))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ BOTTOM))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))))
+       (PUNC PUNC-PERIOD)))
+("larger octagonal cylinder added to the right and in front of the previous object"
+(UTT
+       (NP
+        (N1
+         (N1 (ADJP (ADJ LARGER)) (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N CYLINDER))))
+         (CP
+          (VP
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)) (CONJ AND)
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ PREVIOUS)) (N1 (N OBJECT))))))))))))))
+("Very large blue cylinder that stands so large the shadow covers much of the green cylinder"
+(ADVBL (ADVBL (ADV VERY))
+       (ADVBL (ADV LARGE)
+        (NP
+         (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))
+          (CP (PRO THAT)
+           (VP
+            (VP- (VP- (V STANDS))
+             (ADVBL (ADVBL (ADV SO))
+              (ADVBL (ADV LARGE)
+               (NP (SPEC (DET (ART THE))) (N1 (N SHADOW))))))))))))(UTT (NP (N1 (N COVERS))))(UTT
+       (NP (SPEC (QUAN MUCH))
+        (PP (PREP OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))
+("the blue cylinder was added down and to the left of the green cylinder.  the blue cylinder is four times the height of the green cylinder.  the blue cylinder is near the bottom--center of the top portion of the plane."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADVBL (ADV DOWN)) (CONJ AND)
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N LEFT)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))))))))
+       (PUNC PUNC-PERIOD))(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+       (VP (VP- (V IS))))(NP (N1 (ADJP (NUMBER FOUR)) (N1 (N TIMES))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N HEIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ NEAR)))))))(NP (SPEC (DET (ART THE))) (N1 (N BOTTOM)))(PUNC PUNC-MINUS)(PUNC PUNC-MINUS)(N1 (N CENTER) (PP (PREP OF)))(NP (SPEC (DET (ART THE))) (N1 (N TOP)))(N1 (N PORTION) (PP (PREP OF)))(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD))
+("there is a blue cylinder just above center of the grey shape"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))
+            (ADVBL (ADVBL (ADV JUST))
+             (ADVBL (ADV ABOVE)
+              (NP
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))))
+("a much taller (3.5 times), thicker (1.5 times) blue cylinder sits a bit to the southeast of the green cylinder."
+(ART A)(UTT (ADJP (ADVBL (ADV MUCH)) (ADJP (ADJ TALLER))))(PUNC START-PAREN)(UTT (NP (NUMBER (NUMBER THREE) (PUNC PUNC-PERIOD) (NUMBER FIVE))))(UTT (NP (N1 (N TIMES))))(PUNC END-PAREN)(PUNC PUNC-COMMA)(UTT (ADJP (ADJ THICKER)))(PUNC START-PAREN)(UTT (NP (NUMBER (NUMBER ONE) (PUNC PUNC-PERIOD) (NUMBER FIVE))))(UTT (NP (N1 (N TIMES))))(PUNC END-PAREN)(UTT (ADJP (ADJ BLUE)))(UTT
+       (S (NP (N1 (N CYLINDER)))
+        (VP
+         (VP- (VP- (V SITS))
+          (ADVBL (ADVBL (ADV (WORD A) (WORD BIT)))
+           (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N SOUTHEAST)))))))))(PREP OF)(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+       (PUNC PUNC-PERIOD)))
+("A larger blue 3D octagon is to the right and in front of the green one."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ LARGER))
+          (N1 (ADJP (ADJ BLUE))
+           (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N OCTAGON))))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)) (CONJ AND)
+            (ADVBL (ADV (WORD IN) (WORD FRONT))
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))))))))(UTT (UTT (NP (NUMBER ONE))) (PUNC PUNC-PERIOD)))
+("A much taller blue object of the same shape as the green one is added slightly below and to the right of the green object."
+(NP (SPEC (DET (ART A)))
+       (N1
+        (N1 (ADJP (ADVBL (ADV MUCH)) (ADJP (ADJ TALLER)))
+         (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))
+        (ADVBL (ADV OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SAME)) (N1 (N SHAPE))
+           (PP (PREP AS) (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))))))(UTT
+       (S (NP (NUMBER ONE))
+        (VP
+         (VP- (AUX (V IS)) (VP- (VP- (V (V ADDED))) (ADVBL (ADV SLIGHTLY)))))))(UTT
+       (UTT
+        (S
+         (VP
+          (VP-
+           (ADVBL (ADVBL (ADV BELOW)) (CONJ AND)
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (V RIGHT)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))))))
+           (VP- (V OBJECT))))))
+       (PUNC PUNC-PERIOD)))
+("The blue cylinder is right next to the green one"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V RIGHT)))
+           (ADVBL (ADV (WORD NEXT) (WORD TO))
+            (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))))))(UTT (NP (NUMBER ONE))))
+("blue cylindrical tube"
+(UTT
+       (NP (N1 (ADJP (ADJ BLUE)) (N1 (ADJP (ADJ CYLINDRICAL)) (N1 (V TUBE)))))))
+("A green short cylinder is left to the center. A blue octagon bucket is at the center."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ SHORT)) (N1 (N CYLINDER)))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ LEFT)))))))(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(PUNC PUNC-PERIOD)(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ BLUE)) (N1 (N1 (N OCTAGON)) (N1 (N BUCKET)))))
+       (VP (VP- (V IS))))(ADVBL (ADV AT) (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))(PUNC PUNC-PERIOD))
+("The blue cylinder is in front of the green disk"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))
+           (VP- (V (V DISK)))))))))
+("This new addition to the picture is a very tall and broad blue octahedron, his shadow falls upon green. Very symbolic."
+)
+("Blue cylinder covering green one"
+(UTT
+       (S (NP (N1 (ADJP (ADJ BLUE)) (N1 (N1 (N CYLINDER)) (N1 (N COVERING)))))
+        (VP (VP- (V GREEN) (NP (NUMBER ONE)))))))
+("A large blue octoganal prism was placed in the center of the plane."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ BLUE)) (N1 (N OCTOGANAL))))))(UTT
+       (UTT
+        (S (NP (N1 (N PRISM)))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N CENTER))
+               (ADVBL (ADV OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A tall blue cylinder casts its shadow over the green cylinder."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ TALL)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (V CASTS)
+           (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+            (N1 (N1 (N SHADOW))
+             (ADVBL (ADV OVER)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a huge blue cylinder in front of the other one"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (N1 (ADJP (ADJ HUGE)) (N1 (ADJP (ADJ BLUE)) (N1 (N CYLINDER))))
+            (ADVBL (ADV (WORD IN) (WORD FRONT)))))))))(PREP OF)(ART THE)(UTT (ADJP (ADJ OTHER)))(UTT (NP (NUMBER ONE))))
+("the cylinder is tall, and blue. It sits in front of the disk, to the right"
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N CYLINDER)))
+         (VP
+          (VP- (V IS)
+           (PRED (ADJP (ADJP (ADJ TALL)) (CONJ AND) (ADJP (ADJ BLUE))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (PRO IT))
+        (VP
+         (VP-
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N DISK))))))
+          (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)))))))
+)

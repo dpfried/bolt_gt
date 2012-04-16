@@ -1,0 +1,284 @@
+(
+("To the right, and closer to me, is a green brick standing on its edge"
+(ADVBL (ADV TO)
+       (NP (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))) (CONJ AND)
+        (NP (N1 (N CLOSER)))))(ADVBL (ADV TO))(UTT (UTT (NP (PRO ME))) (PUNC PUNC-COMMA))(UTT
+       (S (V IS)
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ GREEN)) (N1 (N1 (N BRICK)) (N1 (N STANDING)))))
+        (PRED (ADJP (ADJ ON)))))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N EDGE))))
+("The green object away from the objects group"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))(UTT
+       (S
+        (VP
+         (VP- (VP- (VP- (V OBJECT)) (ADVBL (ADV AWAY)))
+          (ADVBL (ADV FROM)
+           (NP (SPEC (DET (ART THE))) (N1 (N1 (N OBJECTS)) (N1 (N GROUP))))))))))
+("Another green box added to the right of the other green box."
+(UTT (NP (SPEC (QUAN ANOTHER)) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))(UTT
+       (UTT
+        (ADJP
+         (VP- (V (V ADDED))
+          (PP (PREP TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N RIGHT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N BOX))))))))))))
+       (PUNC PUNC-PERIOD)))
+("Another Green rectangular prism added to the right of all other objects and also closer to viewer"
+(UTT
+       (NP (SPEC (QUAN ANOTHER))
+        (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))(UTT
+       (ADJP
+        (VP- (VP- (V (V ADDED)))
+         (ADVBL
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N RIGHT)
+             (PP (PREP OF)
+              (NP (SPEC (QUAN ALL))
+               (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))
+          (CONJ AND) (ADVBL (ADV ALSO))))))(ADVBL (ADV (WORD CLOSER) (WORD TO)))(N VIEWER))
+("Newest structure appears to be displaced to the right of the other structures and is dark green."
+(ADJP (ADJ NEWEST))(ADJP (VP- (V (V STRUCTURE))))(VP
+       (VP-
+        (VP-
+         (VP- (V APPEARS)
+          (CP (INFINITIVAL-TO TO)
+           (VP (VP- (AUX (V BE)) (VP- (V (V DISPLACED)))))))
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N RIGHT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N STRUCTURES)))))))))
+        (CONJ AND) (VP- (V IS) (PRED (ADJP (ADJ DARK))))))(ADJP (ADJ GREEN))(PUNC PUNC-PERIOD))
+("The green square is standing up near the center of the top-right portion of the plane.  The green square is down and to the right of the green cube."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))
+        (VP
+         (VP-
+          (VP- (ADVBL (ADV SQUARE)) (VP- (V IS) (PRED (ADJP (ADJ STANDING)))))
+          (ADVBL (ADV UP))))))(UTT
+       (ADVBL (ADV NEAR)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N CENTER)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (VP- (N1 (N TOP)) (PUNC PUNC-MINUS) (V (V RIGHT))))
+             (N1 (N PORTION)))))))))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N PLANE)))(PUNC PUNC-PERIOD)(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))
+        (VP (VP- (ADVBL (ADV SQUARE)) (VP- (V IS) (PRED (ADJP (ADJ DOWN))))))))(ADVBL (ADV AND))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GREEN)))(V CUBE)(PUNC PUNC-PERIOD))
+("there is a green rectangle below and to the right of the first green box"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ GREEN)) (N1 (N RECTANGLE)))))
+          (ADVBL (ADVBL (ADV BELOW)) (CONJ AND)
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N BOX))))))))))))))
+("Nos there is just a lame, tall, thin, green box, short face positioned towards the user, aligned with the other boxes but to the southwest such that only its shadow dares get close to the other shapes (though it is not quite past half the grey object)."
+(UTT (NP (N1 (N NOS))))(VP (VP- (ADVBL (ADV THERE)) (VP- (V IS))))(UTT (ADVBL (ADV JUST)))(ART A)(UTT (ADJP (ADJ LAME)) (PUNC PUNC-COMMA))(UTT (UTT (ADJP (ADJ TALL))) (PUNC PUNC-COMMA))(UTT
+       (S
+        (VP
+         (VP- (ADVBL (ADV THIN))
+          (VP- (V GREEN) (NP (VP (VP- (V BOX)))) (ADJP (ADJ SHORT)))))))(NP (N1 (N FACE)))(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V (V POSITIONED)))
+          (ADVBL (ADV TOWARDS) (NP (SPEC (DET (ART THE))) (N1 (N USER)))))))
+       (PUNC PUNC-COMMA))(UTT
+       (ADJP
+        (VP- (VP- (V (V ALIGNED)))
+         (ADVBL (ADV WITH)
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ OTHER)) (N1 (N BOXES))))))))(ADVBL (ADV BUT))(PP (PREP TO) (NP (SPEC (DET (ART THE))) (N1 (N SOUTHWEST))))(ADJ SUCH)(NP (PRO THAT))(UTT (ADJP (ADJ ONLY)))(NP (SPEC (DET (POSSESSOR (PRO ITS))))
+       (N1 (N1 (N SHADOW))
+        (N1 (N1 (N DARES))
+         (N1 (N1 (N GET))
+          (ADJP (ADJ CLOSE)
+           (PP (PREP TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N SHAPES))))))))))(PUNC START-PAREN)(ADVBL (ADV THOUGH))(NP (PRO IT))(VP
+       (VP- (V IS)
+        (PRED (WORD NOT) (PRED (ADJP (ADVBL (ADV QUITE)) (ADJP (ADJ PAST)))))))(NP (SPEC (QUAN HALF)))(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))(PUNC END-PAREN)(PUNC PUNC-PERIOD))
+("The vertical green box is to the right of the other group of boxes"
+(S
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ VERTICAL)) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))
+       (VP (VP- (V IS))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N GROUP)))))))
+          (ADVBL (ADV OF) (NP (N1 (N BOXES)))))))))
+("A short green 3D square on its side is to the right of the other objects."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SHORT))
+         (N1 (ADJP (ADJ GREEN))
+          (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N SQUARE)))))))(UTT (ADJP (ADJ ON)))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS)))))))))
+       (PUNC PUNC-PERIOD)))
+("There is a taller green rectangular object that is not in line with the other objects but to the right and a little lower in the gray area."
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ TALLER))
+            (N1 (ADJP (ADJ GREEN))
+             (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N OBJECT))))))))))(CP (PRO THAT)
+       (VP
+        (VP- (V IS)
+         (PRED (WORD NOT)
+          (PRED
+           (ADVBL (ADV IN)
+            (NP
+             (VP
+              (VP- (VP- (V LINE))
+               (ADVBL (ADV WITH)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))))))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (S
+         (VP
+          (VP-
+           (VP-
+            (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)) (CONJ AND)
+             (ADVBL (ADV (WORD A) (WORD LITTLE))))
+            (VP- (V LOWER)))
+           (ADVBL (ADV IN)))))))(NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N AREA))))(PUNC PUNC-PERIOD))
+("They added a more rectangle looking box on the lower right side of the other green box."
+)
+("green thin 3d square"
+(UTT
+       (S
+        (VP
+         (VP- (V GREEN) (ADVBL (ADV THIN) (NP (NUMBER THREE)))
+          (NP (N1 (N1 (N D)) (ADVBL (ADV SQUARE)))))))))
+("A teal pizza box is on a corner of a big gray mat. A purple box is right to the teal box, follow by a small olived shoes box and a skinny green box. At 4 o'clock direction, a green pizza box stands up tall, sidewase."
+)
+("Towards the right side of the plane, in front of and off to the side of the green tower is a green cube."
+(UTT
+       (UTT
+        (ADVBL (ADV TOWARDS)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ RIGHT))
+           (N1 (N SIDE)
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+       (PUNC PUNC-COMMA))(UTT (ADVBL (ADV (WORD IN) (WORD FRONT))))(PREP OF)(UTT (ADVBL (ADV AND)) (UTT (ADJP (ADJ OFF))))(VP
+       (VP-
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N SIDE)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N TOWER))))))))
+        (VP- (V IS)
+         (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N CUBE)))))))(PUNC PUNC-PERIOD))
+("The newly added green object appears to have the same width as Yellow, but appears to be the tallest of the bunch. It is placed closer to the point of view and to the right than the other green object."
+(UTT
+       (S
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (VP- (ADVBL (ADV NEWLY)) (VP- (V (V ADDED)))))
+           (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT)))))
+         (VP
+          (VP- (V APPEARS)
+           (CP (INFINITIVAL-TO TO)
+            (VP
+             (VP- (V HAVE)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ SAME)) (N1 (N WIDTH))
+                (PP (PREP AS) (ADJP (ADJ YELLOW)))))))))))
+        (CONJ BUT) (VP (VP- (V APPEARS)))))(CP (INFINITIVAL-TO TO) (VP (VP- (V BE))))(ART THE)(UTT (ADJP (ADJ TALLEST)))(PREP OF)(ART THE)(UTT (UTT (NP (VP (VP- (V BUNCH))))) (PUNC PUNC-PERIOD))(S (NP (PRO IT)) (VP (VP- (V (V IS)))))(UTT (ADJP (VP- (V (V PLACED)))))(UTT (ADVBL (ADV (WORD CLOSER) (WORD TO))))(UTT (NP (SPEC (DET (ART THE))) (N1 (N POINT))))(PREP OF)(NP (N1 (N VIEW)))(ADVBL (ADV AND))(ADVBL (WORD TO) (WORD THE) (ADV RIGHT))(PREP THAN)(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ OTHER)) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))))
+       (PUNC PUNC-PERIOD)))
+("New green brick is away from the others"
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ NEW)) (N1 (N GREEN)))
+         (CP
+          (S (NP (N1 (N BRICK)))
+           (VP
+            (VP- (VP- (VP- (V IS)) (ADVBL (ADV AWAY)))
+             (ADVBL (ADV FROM)
+              (NP (SPEC (DET (ART THE))) (N1 (N OTHERS))))))))))))
+("A second rectangular prism is placed southeast of the other prisms in the eastern hemisphere."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)) (ORDINAL SECOND))
+         (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V PLACED))) (ADVBL (ADV SOUTHEAST)))))))(UTT
+       (UTT
+        (ADVBL (ADV OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (ADJP (ADJ OTHER)) (N1 (N PRISMS)))
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ EASTERN)) (N1 (N HEMISPHERE)))))))))
+       (PUNC PUNC-PERIOD)))
+("A flat but vertical square box sits away from the other objects."
+(UTT (NP (SPEC (DET (ART A))) (N1 (N FLAT))))(UTT
+       (UTT (ADVBL (ADV BUT))
+        (UTT
+         (S
+          (NP (N1 (ADJP (ADJ VERTICAL)) (N1 (ADJP (ADJ SQUARE)) (N1 (N BOX)))))
+          (VP
+           (VP- (VP- (VP- (V SITS)) (ADVBL (ADV AWAY)))
+            (ADVBL (ADV FROM)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))))
+       (PUNC PUNC-PERIOD)))
+("the brown block is to the right and closer to me than the other blocks"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BROWN)) (N1 (N BLOCK))))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV TO)
+             (NP (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))) (CONJ AND)
+              (NP (N1 (N CLOSER)))))))
+          (ADVBL (ADV TO) (NP (PRO ME)))))))(PP (PREP THAN)
+       (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ OTHER)) (N1 (N BLOCKS))))))
+("the box is green, and sits in front of the line of blocks, on the right side. The long side of the new box faces the line of blocks"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N BOX))))(V IS)(UTT (UTT (ADJP (ADJ GREEN))) (PUNC PUNC-COMMA))(ADVBL (ADV AND))(V SITS)(UTT
+       (UTT
+        (ADVBL (ADV (WORD IN) (WORD FRONT))
+         (PP (PREP OF)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LINE) (PP (PREP OF) (NP (N1 (N BLOCKS)))))))))
+       (PUNC PUNC-COMMA))(UTT (ADJP (ADJ ON)))(UTT (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))(UTT (UTT (ADJP (ADJ SIDE))) (PUNC PUNC-PERIOD))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ LONG))
+         (N1 (N SIDE)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ NEW))
+             (N1 (ADJP (VP- (V (V BOX)))) (N1 (N FACES))))))))))(NP (SPEC (DET (ART THE)))
+       (N1 (N LINE) (PP (PREP OF) (NP (N1 (N BLOCKS)))))))
+)

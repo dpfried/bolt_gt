@@ -1,0 +1,225 @@
+(
+("the yellow between blue and purple"
+(UTT
+       (NP
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (VP- (VP- (V (V YELLOW))) (ADVBL (ADV BETWEEN))))
+          (N1 (N BLUE))))
+        (CONJ AND) (NP (N1 (N PURPLE))))))
+("long, thin yellow box added between the blue and purple boxes."
+(UTT
+       (ADJP
+        (VP- (ADVBL (ADV LONG))
+         (VP- (ADVBL (ADV THIN))
+          (VP- (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX))) (V (V ADDED)))))))(UTT
+       (UTT
+        (ADVBL (ADV BETWEEN)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ PURPLE)))
+           (N1 (N BOXES))))))
+       (PUNC PUNC-PERIOD)))
+("elongated, yellow rectangular prism added between blue and pink rectangular prisms"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ ELONGATED))
+          (N1 (ADJP (ADJ YELLOW))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (V (V ADDED)))))(UTT
+       (ADVBL (ADV BETWEEN)
+        (NP
+         (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ PINK)))
+          (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISMS))))))))
+("Long yellow cube in-between the pink and blue large structures"
+(UTT
+       (S
+        (VP
+         (VP- (ADVBL (ADV LONG))
+          (VP- (V YELLOW)
+           (NP
+            (N1 (N1 (N CUBE))
+             (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJP (ADJ PINK)) (CONJ AND) (ADJP (ADJ BLUE)))
+                (N1 (ADJP (ADJ LARGE)) (N1 (N STRUCTURES))))))))))))))
+("the yellow rectangle was added between the blue rectangular prism and the purple rectangular prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ YELLOW)) (N1 (N RECTANGLE))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADV BETWEEN)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PURPLE))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a second yellow rectangle between the blue and pink boxes"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)) (ORDINAL SECOND))
+           (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N RECTANGLE)))
+            (ADVBL (ADV BETWEEN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ PINK)))
+               (N1 (N BOXES))))))))))))
+("another yellow box, though this time less long, but a bit wider, is slightly hidden behind the magenta box, sitting just in front of the blue box."
+(NP (SPEC (QUAN ANOTHER)) (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX))))(PUNC PUNC-COMMA)(ADVBL (ADV THOUGH))(NP (SPEC (DET (ART THIS))) (N1 (N TIME)))(ADJP (ADJ (LESS-MORE (WORD LESS)) (ADJ LONG)))(PUNC PUNC-COMMA)(ADVBL (ADV BUT))(ADVBL (ADV (WORD A) (WORD BIT)))(ADJP (ADJ WIDER))(PUNC PUNC-COMMA)(UTT
+       (S (V IS)
+        (NP
+         (VP
+          (VP- (ADVBL (ADV SLIGHTLY))
+           (VP- (V HIDDEN)
+            (NP
+             (VP
+              (VP-
+               (ADVBL (ADV BEHIND)
+                (NP (SPEC (DET (ART THE))) (N1 (N MAGENTA))))
+               (VP- (V BOX)))))))))
+        (PRED (ADJP (ADJ SITTING)))))(ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV IN)))(UTT (ADJP (ADJ FRONT)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N BLUE)))(UTT (S (VP (VP- (V BOX)))))(PUNC PUNC-PERIOD))
+("A short yellow cuboid box is in between the light purple and blue boxes."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ SHORT))
+           (N1 (ADJP (ADJ YELLOW)) (N1 (ADJP (ADJ CUBOID)) (N1 (N BOX))))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LIGHT))
+               (N1 (ADJP (ADJP (ADJ PURPLE)) (CONJ AND) (ADJP (ADJ BLUE)))
+                (N1 (N BOXES)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A thin, long yellow rectangle was added in between the blue and pink rectangles."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ THIN))
+           (N1 (ADJP (ADJ LONG)) (N1 (ADJP (ADJ YELLOW)) (N1 (N RECTANGLE))))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V ADDED)))
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJP (ADJ BLUE)) (CONJ AND) (ADJP (ADJ PINK)))
+               (N1 (N RECTANGLES))))))))))
+       (PUNC PUNC-PERIOD)))
+("The thin yellow box is in the middle of all the other shapes"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ THIN)) (N1 (ADJP (ADJ YELLOW)) (N1 (N BOX)))))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N MIDDLE)
+              (PP (PREP OF)
+               (NP (SPEC (QUAN ALL))
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ OTHER)) (N1 (N SHAPES)))))))))))))))
+("thin yellow 3d rectangular block"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ THIN))
+         (N1 (ADJP (ADJ YELLOW))
+          (N1 (ADJP (NUMBER THREE) (N D))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))))))
+("A magenta tall box is left to the center. A yellowish handi wrap box is behind the magenta box. A blue box is behind the handi wrap box, follow by a yellowish small box. A magenta cylinder is right to the blue box, away from all."
+)
+("Between the pink rectangular prisim and the blue rectangular prisim is a yellow rectangular prisim."
+)
+("This yellow box is longer but smaller than the other yellow object and appears to be in between Blue and the first placed Purple."
+(NP (SPEC (DET (ART THIS))) (N1 (N YELLOW)))(UTT (S (VP (VP- (V BOX)))))(VP (VP- (V IS) (PRED (ADJP (ADJ LONGER)))))(UTT (ADVBL (ADV BUT))
+       (UTT
+        (ADJP (ADJ SMALLER)
+         (PP (PREP THAN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ OTHER)) (N1 (ADJP (ADJ YELLOW)) (N1 (N OBJECT)))))))))(ADVBL (ADV AND))(V APPEARS)(UTT
+       (UTT
+        (S
+         (ADVBL (ADV TO)
+          (VP
+           (VP- (AUX (V BE))
+            (VP- (ADVBL (ADV (WORD IN) (WORD BETWEEN)))
+             (VP- (VP- (V (V BLUE))) (CONJ AND)
+              (VP- (ADVBL (NP (DATE (ART THE) (ORDINAL FIRST))))
+               (VP- (V (V PLACED)))))))))
+         (S (VP (VP- (V PURPLE))))))
+       (PUNC PUNC-PERIOD)))
+("There is now a yellow brick between the other objects."
+(UTT (S (NP (PRO THERE)) (VP (VP- (V IS) (NP (N NOW))))))(UTT
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1 (N1 (ADJP (ADJ YELLOW)) (N1 (N BRICK)))
+          (ADVBL (ADV BETWEEN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ OTHER)) (N1 (N OBJECTS))))))))
+       (PUNC PUNC-PERIOD)))
+("A short skinny yellow block sits inbetween the pink and blue blocks."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ SHORT))
+         (N1 (ADJP (ADJ SKINNY)) (N1 (ADJP (ADJ YELLOW)) (N1 (N BLOCK)))))))(V SITS)(NP (N1 (N INBETWEEN)))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJP (ADJ PINK)) (CONJ AND) (ADJP (ADJ BLUE)))
+          (N1 (N BLOCKS)))))
+       (PUNC PUNC-PERIOD)))
+("the orange block is laying betwen the blue block and the purple block"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ ORANGE)) (N1 (N BLOCK))))
+        (VP (VP- (V IS) (NP (N1 (V LAYING)))))))(UTT (NP (N1 (N BETWEN))))(UTT
+       (NP (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK))))
+        (CONJ AND)
+        (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N BLOCK)))))))
+("A yellow rectangular prism was placed in between the blue rectangular prism and the pink rectangular prism."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ YELLOW))
+           (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV (WORD IN) (WORD BETWEEN))
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM)))))
+              (CONJ AND)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PINK))
+                (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))))))
+       (PUNC PUNC-PERIOD)))
+("the box is yellow, and sits between the magenta tower and the blue tower"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ YELLOW))))))
+        (CONJ AND)
+        (VP
+         (VP- (VP- (V SITS))
+          (ADVBL (ADV BETWEEN)
+           (NP
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ MAGENTA)) (N1 (N TOWER))))
+            (CONJ AND)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N TOWER)))))))))))
+)

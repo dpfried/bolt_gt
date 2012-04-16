@@ -1,0 +1,414 @@
+(
+("The purple sphere is to the left of the blue block."
+(S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+       (VP (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ BLUE)) (N1 (N BLOCK)))))))))
+       (PUNC PUNC-PERIOD)))
+("A puce sphere is to the left of and a little in front of the green cube."
+(S (NP (SPEC (DET (ART A))) (N1 (N1 (N PUCE)) (N1 (N SPHERE))))
+       (VP (VP- (V IS))))(UTT (ADVBL (WORD TO) (WORD THE) (ADV LEFT)))(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV OF)) (CONJ AND)
+         (ADVBL (ADVBL (ADV (WORD A) (WORD LITTLE)))
+          (ADVBL (ADV (WORD IN) (WORD FRONT))
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N CUBE)))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple object in the middle of the grey platform."
+(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N OBJECT)))
+          (ADVBL (ADV IN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N MIDDLE)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ GREY)) (N1 (N PLATFORM)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A purple sphere is located on the center of the gray ground, next to the left side of the green box."
+(NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))(V IS)(UTT
+       (UTT
+        (ADJP
+         (VP- (VP- (V LOCATED))
+          (ADVBL (ADV ON)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N CENTER)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ GRAY)) (N1 (N GROUND)))))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (S
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LEFT))
+            (N1 (V SIDE)
+             (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GREEN))))))))
+         (S (VP (VP- (V BOX))))))
+       (PUNC PUNC-PERIOD)))
+("Purple colored sphere is in the middle of the gray ground and left side of green colored box"
+(UTT
+       (S
+        (NP (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ COLORED)) (N1 (N SPHERE)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N MIDDLE)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GRAY)))))))
+           (VP- (V (V GROUND))))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (NP
+         (N1
+          (N1 (ADJP (ADJ LEFT))
+           (N1 (V SIDE) (PP (PREP OF) (ADJP (ADJ GREEN)))))
+          (ADJP (ADJ COLORED))))))(UTT (S (VP (VP- (V BOX))))))
+("Teal box next to purple sphere located on grey square."
+(UTT
+       (NP
+        (N1 (N1 (ADJP (ADJ TEAL)) (N1 (N BOX)))
+         (ADVBL (ADV (WORD NEXT) (WORD TO))
+          (NP
+           (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))
+            (ADJP (ADJ LOCATED))))))))(UTT (ADJP (ADJ ON)))(UTT (ADJP (ADJ GREY)))(UTT (UTT (ADVBL (ADV SQUARE))) (PUNC PUNC-PERIOD)))
+("Purple sphere was added just to left of the prism"
+(UTT
+       (S (NP (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V ADDED)))
+           (ADVBL (ADVBL (ADV JUST))
+            (ADVBL (ADV TO)
+             (NP
+              (N1 (N LEFT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PRISM))))))))))))))
+("the purple sphere was added down and to the left of the green cube. this new position is near the center of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V ADDED)))
+           (ADVBL (ADVBL (ADV DOWN)) (CONJ AND)
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N GREEN)))))))))))))(NP (N1 (N CUBE)))(PUNC PUNC-PERIOD)(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ NEW)) (N1 (N POSITION))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N CENTER))
+               (ADVBL (ADV OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is now a magenta colored spherical object that is a little bit southwest of the prism"
+(VP (VP- (ADVBL (ADV THERE)) (VP- (V IS))))(UTT (ADVBL (ADV NOW))
+       (UTT
+        (NP (SPEC (DET (ART A)))
+         (N1
+          (N1 (ADJP (ADJ MAGENTA))
+           (N1 (ADJP (ADJ COLORED))
+            (N1 (ADJP (ADJ SPHERICAL)) (N1 (N OBJECT)))))
+          (CP (PRO THAT)
+           (VP
+            (VP- (V IS)
+             (PRED
+              (ADJP (ADVBL (ADV (WORD A) (WORD LITTLE) (WORD BIT)))
+               (ADJP (ADJ SOUTHWEST)))))))))))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N PRISM)))))
+("Purple spherical structure. It is located to the left of the old object and appears to be south of it too."
+(UTT
+       (UTT
+        (NP
+         (N1 (ADJP (ADJ PURPLE))
+          (N1 (ADJP (ADJ SPHERICAL)) (N1 (N STRUCTURE))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (PRO IT))
+        (VP
+         (VP-
+          (VP- (AUX (V IS))
+           (VP- (VP- (V LOCATED))
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ OLD)) (N1 (N OBJECT))))))))))
+          (CONJ AND)
+          (VP- (V APPEARS)
+           (CP (INFINITIVAL-TO TO)
+            (VP
+             (VP- (V BE)
+              (PRED (ADVBL (ADV (WORD SOUTH) (WORD OF)) (NP (PRO IT))))))))))))(UTT (UTT (ADVBL (ADV TOO))) (PUNC PUNC-PERIOD)))
+("The purple sphere was added down and to the left of the blue cube.  The purple sphere is near the center of the plane."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V ADDED)))
+           (ADVBL (ADVBL (ADV DOWN)) (CONJ AND)
+            (ADVBL (ADV TO)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N LEFT)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BLUE)))))))))))))(NP (N1 (N CUBE)))(PUNC PUNC-PERIOD)(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV NEAR)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N1 (N CENTER))
+               (ADVBL (ADV OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PLANE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a purple ball located center of the grey shape."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ PURPLE))
+             (N1 (ADJP (VP- (V (V BALL))))
+              (N1 (ADJP (VP- (V LOCATED)))
+               (N1 (N CENTER)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The object added is a polygon pretending to be a purple sphere. It also has a shadow, and is to the left of the teal object, also atop the long grey shape."
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N OBJECT))))(UTT (ADJP (VP- (V (V ADDED)))))(VP
+       (VP-
+        (VP- (V IS)
+         (NP (SPEC (DET (ART A))) (N1 (N1 (N POLYGON)) (N1 (N PRETENDING)))))
+        (ADVBL (ADV TO)
+         (VP
+          (VP- (V BE)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))))))))(PUNC PUNC-PERIOD)(UTT (NP (PRO IT)))(VP
+       (VP- (ADVBL (ADV ALSO))
+        (VP- (V HAS) (NP (SPEC (DET (ART A))) (N1 (N SHADOW))))))(PUNC PUNC-COMMA)(ADVBL (ADV AND))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N LEFT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ TEAL)) (N1 (N OBJECT)))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT (ADVBL (ADV ALSO))
+        (UTT
+         (ADVBL (ADV ATOP)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ LONG)) (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple sphere is close to me and to the left of the blue rectangle"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP
+         (VP- (VP- (V IS) (PRED (ADJP (ADJ CLOSE))))
+          (ADVBL (ADVBL (ADV TO) (NP (PRO ME))) (CONJ AND)
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ BLUE)) (N1 (N RECTANGLE))))))))))))))
+("The violet ball is on the left side of the green cube."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ VIOLET)) (N1 (N BALL))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ LEFT))
+               (N1 (V SIDE)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (ADJP (ADJ GREEN)) (N1 (N CUBE))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The purple spherish thing is in front of and to the left of the blue cube."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERISH))) (N1 (N THING))))
+        (VP (VP- (V IS) (PRED (ADVBL (ADV (WORD IN) (WORD FRONT))))))))(ADVBL (ADV OF))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ BLUE)) (N1 (N CUBE)))))))))))
+       (PUNC PUNC-PERIOD)))
+("The new image is the same as the old except there is a purple ball that is to the lower and to the left of the blue object."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ NEW)) (N1 (N IMAGE))))
+        (VP
+         (VP- (V IS)
+          (PRED (ADJP (ADJ (WORD THE) (WORD SAME)) (PP (PREP AS))))))))(ART THE)(UTT (ADJP (ADJ OLD)))(CONJ EXCEPT)(UTT
+       (S (NP (PRO THERE))
+        (VP (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N PURPLE)))))))(UTT (S (VP (VP- (V BALL) (NP (PRO THAT))))))(V IS)(UTT
+       (UTT
+        (ADVBL (ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N LOWER))))
+         (CONJ AND)
+         (ADVBL (ADV TO)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N LEFT)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ BLUE)) (N1 (N OBJECT))))))))))
+       (PUNC PUNC-PERIOD)))
+("A purple sphere was place towards the center of the plane, southwest of the prism."
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE))))
+        (VP (VP- (V WAS) (NP (N1 (N PLACE)))))))(UTT (ADVBL (ADV TOWARDS) (NP (SPEC (DET (ART THE))) (N1 (N CENTER)))))(ADVBL (ADV OF))(UTT
+       (UTT
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (ADJP (ADJ PLANE)) (N1 (N SOUTHWEST)))
+          (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N PRISM)))))))
+       (PUNC PUNC-PERIOD)))
+("The sphere is next to the rectangular cube if you look at it diagonally."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART THE))) (N1 (N SPHERE)))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (PRED
+             (ADVBL (ADV (WORD NEXT) (WORD TO))
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N CUBE)))))))
+           (ADVBL (ADV IF)
+            (S (NP (PRO YOU))
+             (VP
+              (VP- (VP- (V LOOK) (PP (PREP AT) (NP (PRO IT))))
+               (ADVBL (ADV DIAGONALLY))))))))))
+       (PUNC PUNC-PERIOD)))
+("A purple spherical object was added to picture slightly southwest of the teal object."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ PURPLE)) (N1 (ADJP (ADJ SPHERICAL)) (N1 (N OBJECT)))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (V (V ADDED))
+            (PP (PREP TO)
+             (NP
+              (N1
+               (N1 (N1 (N PICTURE))
+                (ADVBL (ADVBL (ADV SLIGHTLY)) (ADVBL (ADV SOUTHWEST))))
+               (ADVBL (ADV OF)
+                (NP (SPEC (DET (ART THE)))
+                 (N1 (ADJP (ADJ TEAL)) (N1 (N OBJECT)))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A magenta sphere and a teal retangular box is placed close to the center on the gray mat. There is a light source coming from 5 o'clock direction. The sphere is larger than the box. I can see longtitude and laditiute lines on the sphere."
+)
+("In the middle of the plane is a pink ball"
+(UTT
+       (S
+        (ADVBL (ADV IN)
+         (NP (SPEC (DET (ART THE))) (N1 (V MIDDLE) (PP (PREP OF)))))
+        (S (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))
+         (VP
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PINK)) (N1 (N BALL))))))))))
+("This purple cube-like object is in the middle of the picture and is apparently larger than the cyan box."
+(UTT
+       (S
+        (S
+         (NP (SPEC (DET (ART THIS)))
+          (N1
+           (N1 (ADJP (ADJ PURPLE))
+            (N1 (N1 (N CUBE)) (WORD PUNC-MINUS) (N1 (N LIKE))))
+           (N1 (N OBJECT))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV IN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N MIDDLE)
+               (PP (PREP OF)
+                (NP (SPEC (DET (ART THE))) (N1 (N PICTURE)))))))))))
+        (CONJ AND) (VP (VP- (VP- (V IS)) (ADVBL (ADV APPARENTLY))))))(UTT
+       (UTT
+        (ADJP (ADJ LARGER)
+         (PP (PREP THAN)
+          (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ CYAN)) (N1 (N BOX)))))))
+       (PUNC PUNC-PERIOD)))
+("There is a purple sphere to the left of the teal brick."
+(UTT
+       (UTT
+        (S (NP (PRO THERE))
+         (VP
+          (VP-
+           (VP- (V IS)
+            (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ TEAL)) (N1 (N BRICK))))))))))))
+       (PUNC PUNC-PERIOD)))
+("A large pink sphere sits to the left of the box."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ PINK)) (N1 (N SPHERE)))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N LEFT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BOX)))))))))))
+       (PUNC PUNC-PERIOD)))
+("there is a purple sphere to the left of the pink block"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP-
+          (VP- (V IS)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ PURPLE)) (N1 (N SPHERE)))))
+          (ADVBL (ADV TO)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N LEFT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ PINK)) (N1 (N BLOCK)))))))))))))
+("the ball is magenta, and sits left of the box, near the center of the plane"
+(UTT
+       (S
+        (S (NP (SPEC (DET (ART THE))) (N1 (N BALL)))
+         (VP (VP- (V IS) (PRED (ADJP (ADJ MAGENTA))))))
+        (CONJ AND) (VP (VP- (V SITS)))))(UTT
+       (UTT
+        (NP
+         (N1 (N LEFT)
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BOX)))))))
+       (PUNC PUNC-COMMA))(UTT
+       (ADVBL (ADV NEAR)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N CENTER))
+          (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))))))
+)

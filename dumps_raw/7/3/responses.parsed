@@ -1,0 +1,246 @@
+(
+("A bigger green brick standing on its edge has been placed in front of the small red brick and obscures it"
+)
+("The green at the original red place"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N GREEN))
+         (ADVBL (ADV AT)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (ADJP (ADJ ORIGINAL)) (N1 (ADJP (ADJ RED)) (N1 (N PLACE))))))))))
+("taller green box added directly in front of the small red box."
+(UTT (ADJP (ADJ TALLER)))(ADJP
+       (VP-
+        (N1 (ADJP (ADJ GREEN))
+         (N1 (ADJP (VP- (V (V BOX))))
+          (N1
+           (ADJP
+            (VP- (VP- (V (V ADDED)))
+             (ADVBL (ADVBL (ADV DIRECTLY))
+              (ADVBL (ADV (WORD IN) (WORD FRONT))
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N SMALL))))))))
+           (N1 (N RED)))))
+        (V (V BOX))))(PUNC PUNC-PERIOD))
+("Larger square-like prism placed in front of red object, preventing any visibility"
+(UTT
+       (ADJP
+        (VP-
+         (N1 (ADJP (ADJ LARGER))
+          (N1 (N1 (N1 (N SQUARE)) (WORD PUNC-MINUS) (N1 (N LIKE)))
+           (N1 (N PRISM))))
+         (V (V PLACED)))))(UTT
+       (UTT
+        (S
+         (VP
+          (VP-
+           (ADVBL (ADV (WORD IN) (WORD FRONT)) (PP (PREP OF) (ADJP (ADJ RED))))
+           (VP- (V OBJECT))))))
+       (PUNC PUNC-COMMA))(UTT
+       (NP
+        (VP (VP- (V PREVENTING) (NP (SPEC (QUAN ANY)) (N1 (N VISIBILITY))))))))
+("Dark green and is covering up the red structure completely."
+(UTT (ADJP (VP- (N1 (N DARK)) (V (V GREEN)))))(UTT
+       (UTT (ADVBL (ADV AND))
+        (UTT
+         (S (V IS) (NP (N1 (N1 (N COVERING)) (ADVBL (ADV UP))))
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (N RED))
+            (CP
+             (VP (VP- (VP- (V (V STRUCTURE))) (ADVBL (ADV COMPLETELY))))))))))
+       (PUNC PUNC-PERIOD)))
+("The larger green square is standing up near the center of the top portion of the plane.  The green square is to the right of the smaller green square.  The green square obscures the red rectangle completely from view."
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LARGER)) (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE)))))
+        (VP (VP- (AUX (V IS)) (VP- (V STANDING) (PART UP))))))(ADJP (ADJ NEAR))(ART THE)(ADJP (ADJ CENTER))(PREP OF)(ART THE)(ADJP (ADJ TOP))(ADJP (VP- (V (V PORTION))))(PREP OF)(ART THE)(ADJP (ADJ PLANE))(PUNC PUNC-PERIOD)(ART THE)(ADJP (ADJ GREEN))(ADJP (ADJ SQUARE))(V IS)(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ SMALLER))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N GREEN))
+         (ADVBL (ADV SQUARE)
+          (NP
+           (VP
+            (VP-
+             (VP- (V OBSCURES)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE)))))
+             (ADVBL (ADV COMPLETELY)))))))))(PREP FROM)(V VIEW)(PUNC PUNC-PERIOD))
+("the red rectangle has been replaced by a larger green square"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE))))
+        (VP
+         (VP- (AUX (V HAS))
+          (VP- (AUX (V BEEN))
+           (VP- (V (V REPLACED))
+            (PP (PREP BY)
+             (NP (SPEC (DET (ART A)))
+              (N1 (ADJP (ADJ LARGER))
+               (N1 (ADJP (ADJ GREEN)) (N1 (N SQUARE)))))))))))))
+("OH NO! A taller, wider, more cracker-like version of the other green box is now sitting right in front of the brick such that I can no longer see it."
+(UTT (UTTWORD OH))(UTT (UTT (UTTWORD NO)) (PUNC PUNC-EXCLAMATION-MARK))(ART A)(N1 (ADJP (ADJ TALLER))
+       (N1 (ADJP (ADJ WIDER))
+        (N1 (ADJP (ADJ (LESS-MORE (WORD MORE)) (ADJ CRACKER)))
+         (N1 (ADJP (ADJ LIKE)) (N1 (N VERSION))))))(PREP OF)(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ OTHER)) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (ADVBL (ADV NOW))
+           (VP- (VP- (V SITTING))
+            (ADVBL (ADVBL (ADV RIGHT))
+             (ADVBL (ADV (WORD IN) (WORD FRONT))
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BRICK))))))))))))(ADJ SUCH)(NP (PRO THAT))(UTT
+       (S (NP (PRO I))
+        (VP
+         (VP- (AUX (V CAN))
+          (VP- (ADVBL (ADV (WORD NO) (WORD LONGER))) (VP- (V SEE)))))))(NP (PRO IT))(PUNC PUNC-PERIOD))
+("The large green box is in front of the red box"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ LARGE)) (N1 (ADJP (ADJ GREEN)) (N1 (N BOX)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV (WORD IN) (WORD FRONT))
+            (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED)))))
+           (VP- (V (V BOX)))))))))
+("A larger 3D green square is to the right of the smaller green object."
+(ART A)(UTT (ADJP (ADJ LARGER)))(ADJP (NUMBER THREE) (N D))(UTT (ADJP (ADJ GREEN)))(VP (VP- (ADVBL (ADV SQUARE)) (VP- (V IS))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N RIGHT)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ SMALLER))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))))))))
+       (PUNC PUNC-PERIOD)))
+("The red object was replaced with a second green rectangular shaped object but is bigger than the first one."
+(NP (SPEC (DET (ART THE))) (N1 (N RED)))(UTT (S (VP (VP- (V OBJECT)))))(UTT
+       (S (V WAS)
+        (NP
+         (N1
+          (ADJP
+           (VP- (V (V REPLACED))
+            (PP (PREP WITH) (NP (SPEC (DET (ART A))) (N1 (N SECOND))))))
+          (N1 (N GREEN))))
+        (PRED (ADJP (ADJ RECTANGULAR)))))(ADJP (VP- (V (V SHAPED))))(UTT (S (VP (VP- (V OBJECT)))))(ADVBL (ADV BUT))(VP
+       (VP- (V IS)
+        (PRED
+         (ADJP (ADJ BIGGER)
+          (PP (PREP THAN) (NP (DATE (ART THE) (ORDINAL FIRST))))))))(UTT (NP (NUMBER ONE)))(PUNC PUNC-PERIOD))
+("larger thin green 3D square"
+(UTT
+       (NP
+        (N1 (ADJP (ADJ LARGER))
+         (N1 (ADJP (ADJ THIN))
+          (N1 (ADJP (ADJ GREEN))
+           (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N SQUARE)))))))))
+("A magenta can is on the left side of the gray area. A red cigarette box lies at 2 o'clock direction from the magenta can. A green cookie box is right behind the magenta can. and a green cereal box is right next to the cookie box."
+(NP (SPEC (DET (ART A))) (N1 (N MAGENTA)))(AUX (V CAN))(VP (VP- (V IS) (PRED (ADJP (ADJ ON)))))(NP (SPEC (DET (ART THE))) (N1 (N LEFT)))(ADJP (ADJ SIDE))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GRAY)))(N AREA)(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART A))) (N1 (N RED)))(N CIGARETTE)(UTT (S (VP (VP- (V BOX)))))(NP (N1 (N LIES)))(ADVBL (ADV AT) (NP (NUMBER TWO)))(CV O^CLOCK)(N DIRECTION)(PREP FROM)(NP (SPEC (DET (ART THE))) (N1 (N MAGENTA)))(AUX (V CAN))(PUNC PUNC-PERIOD)(NP (SPEC (DET (ART A))) (N1 (N GREEN)))(N COOKIE)(UTT
+       (S (NP (VP (VP- (V BOX))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V RIGHT))
+           (ADVBL (ADV BEHIND)
+            (NP (SPEC (DET (ART THE))) (N1 (N MAGENTA)))))))))(AUX (V CAN))(PUNC PUNC-PERIOD)(ADVBL (ADV AND))(NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ CEREAL)) (N1 (N BOX)))))(V IS)(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V RIGHT)
+           (NP
+            (VP
+             (VP-
+              (ADVBL (ADV (WORD NEXT) (WORD TO))
+               (NP (SPEC (DET (ART THE))) (N1 (N COOKIE))))
+              (VP- (V BOX)))))))))
+       (PUNC PUNC-PERIOD)))
+(""
+)
+("Directly in front of the red rectangular prisim is a green cube."
+(UTT
+       (S
+        (ADVBL (ADVBL (ADV DIRECTLY))
+         (ADVBL (ADV (WORD IN) (WORD FRONT))
+          (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N RED))))))
+        (S (NP (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISIM))))
+         (VP (VP- (V IS) (NP (SPEC (DET (ART A))) (N1 (N GREEN))))))))(UTT (NP (N1 (N CUBE))))(PUNC PUNC-PERIOD))
+("This green object appears to be a larger replication of the previously placed green object, but it covers or hides the red object."
+(NP (SPEC (DET (ART THIS))) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT))))(VP
+       (VP- (V APPEARS)
+        (CP (INFINITIVAL-TO TO)
+         (VP
+          (VP- (V BE)
+           (NP (SPEC (DET (ART A)))
+            (N1 (ADJP (ADJ LARGER)) (N1 (N REPLICATION)))))))))(UTT
+       (UTT
+        (ADVBL (ADV OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (VP- (ADVBL (ADV PREVIOUSLY)) (VP- (V (V PLACED)))))
+           (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT)))))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(NP (PRO IT))(NP (N1 (N COVERS)))(ADVBL (ADV OR))(NP (N1 (N HIDES)))(ART THE)(N1 (ADJP (ADJ RED)) (N1 (N OBJECT)))(PUNC PUNC-PERIOD))
+("The red brick changed into a green brick"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ RED)) (N1 (N BRICK))))
+        (VP
+         (VP- (VP- (V CHANGED))
+          (ADVBL (ADV INTO)
+           (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N BRICK))))))))))
+("A bigger green rectangular block now sits in front of the previously visisble red rectangle."
+(UTT
+       (NP (SPEC (DET (ART A)))
+        (N1
+         (N1 (ADJP (ADJ BIGGER))
+          (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BLOCK)))))
+         (ADVBL (ADV NOW)))))(VP (VP- (VP- (V SITS)) (ADVBL (ADV (WORD IN) (WORD FRONT)))))(ADVBL (ADV OF))(ART THE)(UTT (ADVBL (ADV PREVIOUSLY)))(UTT (NP (N1 (N VISISBLE))))(UTT (UTT (NP (N1 (ADJP (ADJ RED)) (N1 (N RECTANGLE)))))
+       (PUNC PUNC-PERIOD)))
+("there is a large brown sqare in front of the brown block that was laying down"
+(UTT
+       (S (NP (PRO THERE))
+        (VP
+         (VP- (V (V IS)) (NP (SPEC (DET (ART A))) (N1 (N LARGE)))
+          (PRED (ADJP (ADJ BROWN)))))))(UTT
+       (S (NP (N1 (N SQARE)))
+        (VP
+         (VP-
+          (ADVBL (ADV (WORD IN) (WORD FRONT))
+           (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N BROWN)))))
+          (VP- (V BLOCK) (NP (PRO THAT)))))))(VP (VP- (V WAS) (NP (N1 (V LAYING)))))(UTT (ADJP (ADJ DOWN))))
+("A tall green rectangular prism has either replaced the short red rectangular prism or was placed just in front of it."
+(S
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ TALL))
+         (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))
+       (VP (VP- (V HAS))))(VP (CONJ EITHER)
+       (VP
+        (VP- (V REPLACED)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SHORT))
+           (N1 (ADJP (ADJ RED))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N PRISM))))))))
+       (WORD OR) (VP (VP- (AUX (V WAS)) (VP- (V (V PLACED))))))(ADVBL (ADVBL (ADV JUST)) (ADVBL (ADV IN)))(UTT (ADJP (ADJ FRONT)))(PREP OF)(NP (PRO IT))(PUNC PUNC-PERIOD))
+("the box is a larger version of the other green box, and sits where the brick used to be"
+(S
+       (S (NP (SPEC (DET (ART THE))) (N1 (N BOX)))
+        (VP
+         (VP- (V IS)
+          (NP (SPEC (DET (ART A)))
+           (N1 (ADJP (ADJ LARGER))
+            (N1 (N VERSION)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (ADJP (ADJ OTHER))
+                (N1 (ADJP (ADJ GREEN)) (N1 (N BOX))))))))))))
+       (CONJ AND) (VP (VP- (V SITS))))(UTT (ADVBL (ADV WHERE)))(NP (SPEC (DET (ART THE))) (N1 (N BRICK)))(UTT (ADJP (VP- (V (V USED)))))(CP (INFINITIVAL-TO TO) (VP (VP- (V BE)))))
+)

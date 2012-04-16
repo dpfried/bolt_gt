@@ -17,7 +17,7 @@ def dump_aggregate_responses(base_dir=nil, parse_path="/home/dfried/bolt/parse_t
       scene.responses.each do |resp|
         system("echo '(' >> #{resp_file}")
         system("echo '\"'#{resp.answer}'\"' >> #{resp_file}")
-        system("echo #{resp.answer} | #{parse_path} >> #{resp_file}")
+        system("echo \"#{resp.answer}\" | #{parse_path} >> #{resp_file}")
         system("echo ')' >> #{resp_file}")
       end
       system("echo ')' >> #{resp_file}")

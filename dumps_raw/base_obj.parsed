@@ -1,0 +1,64 @@
+(
+("the table"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N TABLE)))))
+("the grey platform"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N PLATFORM))))))
+("the gray ground"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N GROUND))))))
+("the slanted grey square"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (ADJP (ADJ SLANTED)) (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE)))))))
+("the surface"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N SURFACE)))))
+("the plane"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))
+("the grey object"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N OBJECT))))))
+("the platform"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PLATFORM)))))
+("the plane"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))
+("the grey shape"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N SHAPE))))))
+("the grey cube or grey pentagon or hexagon"
+(UTT
+       (NP (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N CUBE))))
+        (CONJ OR) (NP (N1 (ADJP (ADJ GREY)) (N1 (N PENTAGON))))))(UTT (ADVBL (ADV OR)) (UTT (NP (N1 (N HEXAGON))))))
+("the plane"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))
+("the grey platform"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREY)) (N1 (N PLATFORM))))))
+("the grey surface"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N1 (N GREY)) (ADJP (ADJ SURFACE))))))
+("the gray object"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N OBJECT))))))
+("a gray plane"
+(UTT (NP (SPEC (DET (ART A))) (N1 (N1 (N GRAY)) (ADJP (ADJ PLANE))))))
+("the given platform"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N1 (N GIVEN)) (N1 (N PLATFORM))))))
+("the gray base appears to be a 3D five-sided object."
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GRAY)) (N1 (N BASE))))
+        (VP
+         (VP- (V APPEARS)
+          (CP (INFINITIVAL-TO TO)
+           (VP (VP- (V BE) (PRED (NP (ART A) (NUMBER THREE)) (ADJ D)))))))))(S (NP (NUMBER FIVE)) (VP (VP- (V SIDED))))(UTT (UTT (S (VP (VP- (V OBJECT))))) (PUNC PUNC-PERIOD)))
+("a thick, gray, pentagon mat."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (VP- (ADVBL (ADV THICK)) (VP- (V (V GRAY)))))
+           (N1 (N PENTAGON))))
+         (VP (VP- (V MAT)))))
+       (PUNC PUNC-PERIOD)))
+("the plane"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PLANE)))))
+("the photo"
+(UTT (NP (SPEC (DET (ART THE))) (N1 (N PHOTO)))))
+("the gray surface"
+(UTT (S (NP (SPEC (DET (ART THE))) (N1 (N GRAY))) (VP (VP- (V SURFACE))))))
+("the gray surface"
+(UTT (S (NP (SPEC (DET (ART THE))) (N1 (N GRAY))) (VP (VP- (V SURFACE))))))
+)

@@ -1,5 +1,5 @@
 def dump_responses_raw(base_dir=nil, parse_path="/home/dfried/bolt/parse_trees/parse.py")
-  base_dir ||= File.join(Dir.pwd, "dumps_raw")
+  base_dir ||= File.join(Dir.pwd, "dumps_marco")
   Dir.mkdir(base_dir) unless File.directory? base_dir 
   Sequence.all.each do |sequence|
     seq_dir = File.join(base_dir, sequence.id.to_s)

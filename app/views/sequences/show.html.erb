@@ -2,12 +2,14 @@
 
 <table>
   <tr>
+    <th>Index</th>
     <th>Scene</th>
     <th>Responses</th>
   </tr>
   <% sorted_scenes = @sequence.scenes.sort {|a,b| a.id <=> b.id } %>
   <% sorted_scenes.each_with_index do |scene, i| %>
     <tr>
+      <td> <%= i.to_s %></td>
       <td>
         <%= image_tag scene.image_url(:thumb).to_s %>
       </td>

@@ -8,7 +8,7 @@ def dump_responses_raw(base_dir=nil, parse_path="/home/dfried/bolt/parse_trees/p
       scn_dir = File.join(seq_dir, n.to_s)
       Dir.mkdir(scn_dir) unless File.directory? scn_dir 
       # schematic
-      schematic_file = File.join(scn_dir, "schematic")
+      schematic_file = File.join(scn_dir, "data.json")
       File.open(schematic_file, 'w') {|f| f.write(scene.schematic)} unless File.file? schematic_file
       # dump responses
       resp_file = File.join(scn_dir, "responses")

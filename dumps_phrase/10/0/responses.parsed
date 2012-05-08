@@ -1,0 +1,28 @@
+(
+("The blue at left-up conner
+"
+(UTT
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N1 (N BLUE)) (ADVBL (ADV AT) (NP (N1 (N LEFT)))))
+         (ADVBL (ADV UP) (NP (N1 (N CONNER))))))))
+("blue box in the upper left of the slanted grey square.
+"
+(UTT
+       (UTT
+        (S
+         (VP
+          (VP- (V BLUE)
+           (NP
+            (VP
+             (VP- (VP- (V BOX))
+              (ADVBL (ADV IN)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ UPPER))
+                 (N1 (N LEFT)
+                  (PP (PREP OF)
+                   (NP (SPEC (DET (ART THE)))
+                    (N1 (ADJP (ADJ SLANTED))
+                     (N1 (ADJP (ADJ GREY)) (N1 (N SQUARE)))))))))))))))))
+       (PUNC PUNC-PERIOD)))
+("blue recangular prism added towards the back left corner of the surface
+"

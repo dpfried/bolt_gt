@@ -1,0 +1,268 @@
+(
+("The green cylinder is next to the other green cylinder."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD NEXT) (WORD TO))
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (ADJ OTHER))
+               (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))))))))
+       (PUNC PUNC-PERIOD)))
+("Another green cylinder, laying on its side, is a little behind and to the right of the first one."
+(UTT
+       (NP (SPEC (QUAN ANOTHER))
+        (N1 (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))) (N1 (N LAYING)))))(UTT (ADJP (ADJ ON)))(UTT
+       (S (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))
+        (VP
+         (VP- (V IS)
+          (PRED
+           (ADJP (ADVBL (ADV (WORD A) (WORD LITTLE))) (ADJP (ADJ BEHIND))))))))(UTT (ADVBL (ADV AND))
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N RIGHT))
+           (ADVBL (ADV OF) (NP (DATE (ART THE) (ORDINAL FIRST)))))))))(UTT (UTT (NP (NUMBER ONE))) (PUNC PUNC-PERIOD)))
+("The smaller green object is next to the middle one."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N OBJECT)))))
+         (VP
+          (VP- (V IS)
+           (PRED
+            (ADVBL (ADV (WORD NEXT) (WORD TO))
+             (NP (ART THE) (NAME (N MIDDLE) (RNUMBER (NUMBER ONE))))))))))
+       (PUNC PUNC-PERIOD)))
+("A smaller green octagon is located near the center of the gray ground, which is right above the larger green octagon."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N OCTAGON)))))
+        (VP (VP- (AUX (V IS)) (VP- (V LOCATED))))))(UTT (ADJP (ADJ NEAR)))(NP (SPEC (DET (ART THE))) (N1 (N CENTER)))(PREP OF)(NP (SPEC (DET (ART THE))) (N1 (N GRAY)))(ADJP (VP- (V (V GROUND))))(PUNC PUNC-COMMA)(ART WHICH)(UTT
+       (UTT
+        (S (V IS) (NP (VP (VP- (V RIGHT))))
+         (PRED
+          (ADVBL (ADV ABOVE)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ LARGER))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N OCTAGON)))))))))
+       (PUNC PUNC-PERIOD)))
+("The smaller green cylinder is contacting the grey slanted square with the rounded edge."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SMALLER)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (V CONTACTING)
+            (NP (SPEC (DET (ART THE)))
+             (N1
+              (N1 (ADJP (ADJ GREY)) (N1 (ADJP (ADJ SLANTED)) (N1 (N SQUARE))))
+              (ADVBL (ADV WITH)
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ ROUNDED)) (N1 (N EDGE))))))))))))
+       (PUNC PUNC-PERIOD)))
+("The smaller green octogon prism was added to the right and slightly farther than the original green octogon."
+(NP (SPEC (DET (ART THE)))
+       (N1 (N1 (ADJP (ADJ SMALLER)) (N1 (N GREEN))) (N1 (N OCTOGON))))(NP (N1 (N PRISM)))(VP (VP- (AUX (V WAS)) (VP- (V (V ADDED)))))(UTT
+       (UTT
+        (ADJP
+         (ADVBL (ADVBL (WORD TO) (WORD THE) (ADV RIGHT)) (CONJ AND)
+          (ADVBL (ADV SLIGHTLY)))
+         (ADJP (ADJ FARTHER)
+          (PP (PREP THAN)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (N1 (ADJP (ADJ ORIGINAL)) (N1 (N GREEN)))
+             (N1 (N OCTOGON))))))))
+       (PUNC PUNC-PERIOD)))
+("The new structure is cylindrical too but on its side"
+(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ NEW)) (N1 (N STRUCTURE))))
+        (VP (VP- (V IS) (PRED (ADJP (ADJ CYLINDRICAL)))))))(UTT (ADVBL (ADVBL (ADV TOO)) (ADVBL (ADV BUT)))
+       (UTT
+        (ADVBL (ADV ON) (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))))))
+("The smaller green cylinder was added up and to the right of the larger green cylinder.  The smaller green cylinder is almost touching the larger green cylinder.  The smaller green cylinder is positioned on its side."
+)
+("There is a green cylinder laying on its side just above and to the right of the center of the grey shape."
+)
+("The octagonal cylinder added sits on its side, as opposed to the base, just to the northwest of the green ashtray. You could not fit another one of the green cylinder inbetween them."
+)
+("The sideways green cylinder is to the right of the upright green cylinder"
+(UTT
+       (S
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ SIDEWAYS)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER)))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP-
+           (ADVBL (ADV TO)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (N RIGHT)
+              (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N UPRIGHT)))))))
+           (VP- (V (V GREEN))))))))(N CYLINDER))
+("The smaller green 3D octagon is on its side, behind and to the right of the larger upright green 3D octagon."
+)
+("There has been a smaller octagon of the same color as the first one added and placed to the upper right of the first octagon."
+(ADVBL (ADV THERE))(AUX (V HAS))(V BEEN)(ART A)(ADJP (ADJ SMALLER))(NP
+       (N1 (N1 (N OCTAGON))
+        (ADVBL (ADV OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ SAME)) (N1 (N COLOR))
+           (PP (PREP AS) (NP (DATE (ART THE) (ORDINAL FIRST)))))))))(ADJP (NUMBER ONE))(VP (VP- (VP- (V (V ADDED))) (CONJ AND) (VP- (V (V PLACED)))))(UTT
+       (UTT
+        (ADVBL (ADV TO)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (ADJP (ADJ UPPER)) (N1 (N RIGHT)))
+           (ADVBL (ADV OF)
+            (NP (SPEC (DET (ART THE)) (ORDINAL FIRST)) (N1 (N OCTAGON))))))))
+       (PUNC PUNC-PERIOD)))
+("A second green octagonal prism was placed on its side near the center of the gray plane, northeast of the original green prism."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)) (ORDINAL SECOND))
+         (N1 (ADJP (ADJ GREEN)) (N1 (ADJP (ADJ OCTAGONAL)) (N1 (N PRISM)))))
+        (VP
+         (VP- (AUX (V WAS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+             (N1 (N1 (N SIDE))
+              (ADVBL (ADV NEAR)
+               (NP (SPEC (DET (ART THE))) (N1 (N CENTER))))))))))))(PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N GRAY))))(UTT (UTT (S (VP (VP- (V PLANE))))) (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (NP
+         (N1 (N1 (N NORTHEAST))
+          (ADVBL (ADV OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ ORIGINAL))
+             (N1 (ADJP (ADJ GREEN)) (N1 (N PRISM)))))))))
+       (PUNC PUNC-PERIOD)))
+("They added a hexagon shape on its side facing its head/top/base toward the previous hexagon shape"
+(UTT
+       (S (NP (PRO THEY))
+        (VP
+         (VP- (V ADDED)
+          (NP (SPEC (DET (ART A))) (N1 (N1 (N HEXAGON)) (N1 (N SHAPE))))
+          (PP (PREP ON)
+           (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE))))))))(UTT
+       (NP
+        (VP
+         (VP- (V FACING)
+          (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N HEAD)))))))(PUNC PUNC-SLASH)(UTT (S (VP (VP- (V TOP)))))(PUNC PUNC-SLASH)(UTT (ADJP (ADJ BASE)))(UTT
+       (ADVBL (ADV TOWARD)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (ADJP (ADJ PREVIOUS)) (N1 (N1 (N HEXAGON)) (N1 (N SHAPE))))))))
+("Another green cylinderical 3D shape was placed between the two previous shapes."
+(UTT
+       (NP (SPEC (QUAN ANOTHER)) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDERICAL)))))(UTT
+       (UTT
+        (S (NP (N1 (ADJP (NUMBER THREE) (N D)) (N1 (N SHAPE))))
+         (VP
+          (VP- (AUX (V WAS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV BETWEEN)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (ADJP (NUMBER TWO))
+               (N1 (ADJP (ADJ PREVIOUS)) (N1 (N SHAPES)))))))))))
+       (PUNC PUNC-PERIOD)))
+("A small, olive-colored, rectangular box is placed towards the furthest corner of a huge, pentagon, gray mat. A forest green, octagon prism, and a smaller one is placed at the center of the mat. The smaller prism is placed sidewase."
+(UTT
+       (S
+        (NP (SPEC (DET (ART A)))
+         (N1 (ADJP (ADJ SMALL))
+          (N1 (ADJP (ADJ OLIVE))
+           (N1 (ADJP (ADJ COLORED))
+            (N1 (ADJP (ADJ RECTANGULAR)) (N1 (N BOX)))))))
+        (VP
+         (VP- (AUX (V IS))
+          (VP- (VP- (V (V PLACED)))
+           (ADVBL (ADV TOWARDS)
+            (NP (SPEC (DET (ART THE)))
+             (N1 (ADJP (ADJ FURTHEST)) (N1 (N CORNER))))))))))(PREP OF)(ART A)(UTT (UTT (ADJP (ADJ HUGE))) (PUNC PUNC-COMMA))(NP (N1 (N PENTAGON)))(PUNC PUNC-COMMA)(UTT (ADJP (ADJ GRAY)))(UTT (UTT (ADJP (ADJ MAT))) (PUNC PUNC-PERIOD))(NP (SPEC (DET (ART A)))
+       (N1 (ADJP (VP- (V (V FOREST))))
+        (N1 (ADJP (ADJ GREEN)) (N1 (N1 (N OCTAGON)) (N1 (N PRISM))))))(PUNC PUNC-COMMA)(ADVBL (ADV AND))(ART A)(UTT (ADJP (ADJ SMALLER)))(UTT
+       (UTT
+        (S (NP (NUMBER ONE))
+         (VP
+          (VP- (AUX (V IS))
+           (VP- (VP- (V (V PLACED)))
+            (ADVBL (ADV AT)
+             (NP (SPEC (DET (ART THE)))
+              (N1 (N CENTER)
+               (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N MAT))))))))))))
+       (PUNC PUNC-PERIOD))(UTT
+       (S (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ SMALLER)) (N1 (N PRISM))))
+        (VP (VP- (AUX (V IS)) (VP- (V (V PLACED)))))))(NP (N1 (N SIDEWASE)))(PUNC PUNC-PERIOD))
+("Directly to the right of and behind the green cylinder is another green cylinder on its side."
+)
+("This added object appears to be similar to the second object, a green octahedron, but flipped on its side and apparently smaller than the second object but larger than the first object."
+(UTT
+       (UTT
+        (S
+         (NP (SPEC (DET (ART THIS)))
+          (N1 (ADJP (VP- (V (V ADDED)))) (N1 (N OBJECT))))
+         (VP
+          (VP- (V APPEARS)
+           (CP (INFINITIVAL-TO TO)
+            (VP
+             (VP- (V BE)
+              (PRED
+               (ADJP (ADJ SIMILAR)
+                (PP (PREP TO)
+                 (NP (SPEC (DET (ART THE)) (ORDINAL SECOND))
+                  (N1 (N OBJECT)))))))))))))
+       (PUNC PUNC-COMMA))(UTT
+       (UTT
+        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N OCTAHEDRON)))))
+       (PUNC PUNC-COMMA))(ADVBL (ADV BUT))(UTT (ADJP (VP- (V (V FLIPPED)))))(UTT (ADJP (ADJ ON)))(NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE)))(UTT (ADVBL (ADV AND)) (UTT (ADVBL (ADV APPARENTLY))))(UTT
+       (ADJP (ADJ SMALLER)
+        (PP (PREP THAN)
+         (NP (SPEC (DET (ART THE)) (ORDINAL SECOND)) (N1 (N OBJECT))))))(UTT
+       (UTT (ADVBL (ADV BUT))
+        (UTT
+         (ADJP (ADJ LARGER)
+          (PP (PREP THAN)
+           (NP (SPEC (DET (ART THE)) (ORDINAL FIRST)) (N1 (N OBJECT)))))))
+       (PUNC PUNC-PERIOD)))
+("Now there are two green cylinders next to one another"
+(UTT
+       (S (ADVBL (ADV NOW))
+        (S (NP (PRO THERE))
+         (VP
+          (VP- (V ARE)
+           (NP
+            (N1
+             (N1 (ADJP (NUMBER TWO))
+              (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDERS))))
+             (ADVBL (ADV (WORD NEXT) (WORD TO))
+              (NP (PRO (WORD ONE) (WORD ANOTHER))))))))))))
+("A green cylinder sits on its side next to the fat cylinder."
+(UTT
+       (UTT
+        (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))
+         (VP
+          (VP- (VP- (V SITS))
+           (ADVBL (ADV ON)
+            (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+             (N1 (N1 (N SIDE))
+              (ADVBL (ADV (WORD NEXT) (WORD TO))
+               (NP (SPEC (DET (ART THE)))
+                (N1 (ADJP (ADJ FAT)) (N1 (N CYLINDER))))))))))))
+       (PUNC PUNC-PERIOD)))
+("a green cylinder is laying on its side to the right of the brown cylinder"
+(UTT
+       (S (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ GREEN)) (N1 (N CYLINDER))))
+        (VP (VP- (V IS) (NP (N1 (V LAYING)))))))(UTT (ADJP (ADJ ON)))(UTT (NP (SPEC (DET (POSSESSOR (PRO ITS)))) (N1 (N SIDE))))(UTT
+       (ADVBL (ADV TO)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N RIGHT)
+          (PP (PREP OF)
+           (NP (SPEC (DET (ART THE)))
+            (N1 (ADJP (ADJ BROWN)) (N1 (N CYLINDER))))))))))
+)
